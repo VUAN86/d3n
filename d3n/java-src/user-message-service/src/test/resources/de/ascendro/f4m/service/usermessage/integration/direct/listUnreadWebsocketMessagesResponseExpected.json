@@ -1,0 +1,14 @@
+{
+	"message": "userMessage/listUnreadWebsocketMessagesResponse",
+	"content": {
+		"messages" : [
+			{ 
+				"messageId" : "mockedDirectMessageId",
+				"message" : "Direct message test content",
+				"type" : "TEXT"
+			 }
+		]
+	},
+	"ack":[48],
+	"error":null
+}

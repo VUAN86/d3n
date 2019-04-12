@@ -1,0 +1,10 @@
+{
+	"message":"payment/convertBetweenCurrenciesResponse",
+	"error": {
+		"type":"client",
+		"message":"ERR_NO_EXCHANGE_RATE"
+	},
+	"ack":[189],
+	"content":null,
+	"seq":null
+}

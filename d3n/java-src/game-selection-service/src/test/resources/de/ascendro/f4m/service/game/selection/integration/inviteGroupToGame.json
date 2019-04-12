@@ -1,0 +1,10 @@
+{
+    "message": "gameSelection/inviteGroupToGame",
+    "seq": 300,
+    "content": {
+    	"groupId": "<<groupId>>",
+    	"multiplayerGameInstanceId": "<<multiplayerGameInstanceId>>",
+    	"customGameConfig": "<<multiplayerGameParameters>>"
+    },
+	"ack": null
+}

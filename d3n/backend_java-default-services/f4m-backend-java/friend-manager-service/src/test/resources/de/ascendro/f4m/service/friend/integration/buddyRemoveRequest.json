@@ -1,0 +1,8 @@
+{
+	"message": "friend/buddyRemove",
+	"seq": 123,	
+	"content": {
+		"userIds": "<<userIds>>"
+	},
+	"ack": null
+}

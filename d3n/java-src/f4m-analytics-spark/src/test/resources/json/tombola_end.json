@@ -1,0 +1,16 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.TombolaEndEvent",
+    "userId": "1489146325556da980b00-b9d0-41a1-b3f5-95c4da33a561",
+    "tenantId": null,
+    "appId": "6",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "tombolaId": 7
+      }
+    }
+  }
+}

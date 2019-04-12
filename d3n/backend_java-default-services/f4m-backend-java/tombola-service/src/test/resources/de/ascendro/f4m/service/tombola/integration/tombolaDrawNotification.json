@@ -1,0 +1,13 @@
+{
+    "message": "event/notifySubscriber",
+    "seq": 200,
+    "content":{
+    	"subscription": 100,
+     	"topic": "{topic}",
+     	"notification-content": {
+     		"tombolaId": "{tombolaId}",
+			"tenantId": "{tenantId}"
+     	}
+ 	},
+ 	"ack": null
+}

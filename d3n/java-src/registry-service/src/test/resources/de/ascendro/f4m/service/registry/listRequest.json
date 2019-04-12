@@ -1,0 +1,8 @@
+{
+	"message": "serviceRegistry/list",
+	"content": {
+		"serviceName": "TestService"
+	},
+	"seq": 125,
+	"ack": null
+}

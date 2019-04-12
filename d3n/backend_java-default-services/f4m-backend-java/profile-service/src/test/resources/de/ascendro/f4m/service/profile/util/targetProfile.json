@@ -1,0 +1,21 @@
+{
+	"userId": "8888",
+	"roles": ["FULLY_REGISTERED"],
+	"handicap": 3.5,
+	"person": {
+		"firstName": "Name",
+		"lastName": "Surname"
+	},
+	"address": {
+		"street": "Test street0"
+	},
+	"emails": [{
+		"email": "original@origin.com",
+		"verificationStatus": "notVerified"
+	}],
+	"google": "G-TEST_TOKEN1",
+	"devices": [{
+		"deviceType": "TYP55",
+		"screenHeight": 124688
+	}]
+}

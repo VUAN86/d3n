@@ -1,0 +1,9 @@
+{
+	"message": "friend/<<request>>",
+	"seq": 123,	
+	"content": {
+		"invitationText": "<<invitationText>>",
+		"contactIds": "<<contactIds>>"
+	},
+	"ack": null
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Services</title>
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>Environment Status <small><span class="label label-danger">NOK</span> <span class="label label-success">OK</span></small></h1>
+        </div>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <span class="glyphicon glyphicon-plus"></span> Testservicename instances:
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">URI: <i>wss://localhost:1111</i></li>
+                            <li class="list-group-item">Status: <span class="label label-danger">NOK</span> Reasons: HEARTBEAT, DB_spark_NOK</li>
+                            <li class="list-group-item">Uptime: <b>1234</b></li>
+                            <li class="list-group-item">CPU usage: <b>222</b></li>
+                            <li class="list-group-item">Memory usage:</li>
+                            <li class="list-group-item">Count GW connections: <span class="badge">3</span></li>
+                            <li class="list-group-item">Count inbound connections: <span class="badge badge-warning">5</span></li>
+                            <li class="list-group-item">Count outbound connections: <span class="badge badge-primary">4</span></li>
+                            <li class="list-group-item">Count sessions: <span class="badge badge-danger">20</span></li>
+                            <li class="list-group-item">Last Heartbeat: <i>1970-05-09T17:30:33.000Z</i></li>
+                            <li class="list-group-item">Databases: <i>{"mysql":"OK","aerospike":"NS","elastic":"NA","spark":"NOK"}</i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <span class="glyphicon glyphicon-plus"></span> Testservicename2 instances:
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        <div class="panel-body-item">
+                            <h4>Instance 1</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">URI: <i>wss://localhost:222</i></li>
+                                <li class="list-group-item">Status: <span class="label label-danger">NOK</span> Reasons: HEARTBEAT, DB_spark_NOK</li>
+                                <li class="list-group-item">Uptime: <b>1234</b></li>
+                                <li class="list-group-item">CPU usage: <b>222</b></li>
+                                <li class="list-group-item">Memory usage:</li>
+                                <li class="list-group-item">Count GW connections: <span class="badge">3</span></li>
+                                <li class="list-group-item">Count inbound connections: <span class="badge badge-warning">5</span></li>
+                                <li class="list-group-item">Count outbound connections: <span class="badge badge-primary">4</span></li>
+                                <li class="list-group-item">Count sessions: <span class="badge badge-danger">20</span></li>
+                                <li class="list-group-item">Last Heartbeat: <i>1970-05-09T17:30:33.000Z</i></li>
+                                <li class="list-group-item">Databases: <i>{"mysql":"OK","aerospike":"NS","elastic":"NA","spark":"NOK"}</i></li>
+                            </ul>
+                        </div>
+
+                        <div class="panel-body-item">
+                            <h4>Instance 2</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">URI: <i>wss://localhost:333</i></li>
+                                <li class="list-group-item">Status: <span class="label label-success">OK</span> Reasons: HEARTBEAT, DB_spark_NOK</li>
+                                <li class="list-group-item">Uptime: <b>1234</b></li>
+                                <li class="list-group-item">CPU usage: <b>222</b></li>
+                                <li class="list-group-item">Memory usage:</li>
+                                <li class="list-group-item">Count GW connections: <span class="badge">3</span></li>
+                                <li class="list-group-item">Count inbound connections: <span class="badge badge-warning">5</span></li>
+                                <li class="list-group-item">Count outbound connections: <span class="badge badge-primary">4</span></li>
+                                <li class="list-group-item">Count sessions: <span class="badge badge-danger">20</span></li>
+                                <li class="list-group-item">Last Heartbeat: <i>1970-05-09T17:30:33.000Z</i></li>
+                                <li class="list-group-item">Databases: <i>{"mysql":"OK","aerospike":"NS","elastic":"NA","spark":"NOK"}</i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Collapsible Group Item #3
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

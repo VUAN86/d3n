@@ -1,0 +1,41 @@
+{
+	"winningComponentId": "<<winningComponentId>>",
+	"imageId": "<<imageId>>",
+	"title": "title",
+	"rules": "rules",
+	"info": "info",
+	"tenants": [ "60551c1e-a718-444-80f5-76304dec7eb7" ],
+	"winningOptions": [
+		{
+			"winningOptionId": "winopt1",
+			"prizeIndex": 0,
+			"type": "SUPER",
+			"imageId": "img1",
+			"prizeId": "super_id1"
+		},
+		{
+			"winningOptionId": "winopt2",
+			"prizeIndex": 1,
+			"type": "MONEY",
+			"amount": 15.23,
+			"imageId": "img2",
+			"probability": 10
+		},
+		{
+			"winningOptionId": "winopt3",
+			"prizeIndex": 2,
+			"type": "VOUCHER",
+			"imageId": "img3",
+			"prizeId": "voucher_id1",
+			"probability": 30
+		},
+		{
+			"winningOptionId": "winopt4",
+			"prizeIndex": 3,
+			"type": "CREDITS",
+			"amount": 18,
+			"imageId": "img4",
+			"probability": 60
+		}
+	]
+}

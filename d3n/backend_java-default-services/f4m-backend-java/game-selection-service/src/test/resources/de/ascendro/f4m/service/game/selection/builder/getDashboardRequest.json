@@ -1,0 +1,14 @@
+{
+    "message": "gameSelection/getDashboard",
+    "seq": 100,
+    "content": {
+    	"QUIZ24": "<<quiz>>",
+    	"DUEL": "<<duel>>",
+    	"TOURNAMENT": "<<tournament>>",
+    	"USER_TOURNAMENT": "<<userTournament>>",
+    	"LIVE_TOURNAMENT": "<<liveTournament>>",
+    	"USER_LIVE_TOURNAMENT": "<<userLiveTournament>>",
+    	"QUIZ_BATTLE": "<<quizBattle>>"
+    },
+	"ack": null
+}

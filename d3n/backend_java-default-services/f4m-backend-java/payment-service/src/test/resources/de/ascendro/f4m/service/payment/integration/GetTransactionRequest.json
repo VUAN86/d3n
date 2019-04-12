@@ -1,0 +1,9 @@
+{
+	"message":"payment/getTransaction",
+	"seq": 53,	
+	"content": {
+		"tenantId": "expectedTenantId",
+		"transactionId": "expectedTransactionId"
+	},
+	"ack": null
+}

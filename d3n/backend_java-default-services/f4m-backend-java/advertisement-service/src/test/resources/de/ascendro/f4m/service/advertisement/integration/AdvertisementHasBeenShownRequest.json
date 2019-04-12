@@ -1,0 +1,8 @@
+{
+  "message":"advertisement/advertisementHasBeenShown",
+  "seq": 1,
+  "content": {
+    "advertisementBlobKey": "blobKey"
+  },
+  "ack": null
+}

@@ -1,0 +1,7 @@
+{
+  "message":"advertisement/advertisementHasBeenShown",
+  "seq": 1,
+  "content": {
+  },
+  "ack": null
+}

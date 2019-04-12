@@ -1,0 +1,21 @@
+project.group = 'de.ascendro.f4m.service.result.engine'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Result Engine Service',
+                'Implementation-Version': version,
+                'Main-Class': 'de.ascendro.f4m.service.result.engine.ResultEngineServiceStartup'
+    }
+}
+
+dependencies {
+    compile project(":f4m-default-service")
+    compile project(":result-engine-service-api")
+    compile project(":f4m-aerospike-lib")
+    compile project(":f4m-analytics-lib")
+    compile project(":friend-manager-service-api")
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.6.1'
+    testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+}

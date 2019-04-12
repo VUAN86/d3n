@@ -1,0 +1,9 @@
+{
+  "message":"achievement/achievementList",
+  "seq": 1,
+  "content": {
+    "limit": <<limit>>,
+    "offset": <<offset>>
+  },
+  "ack": null
+}

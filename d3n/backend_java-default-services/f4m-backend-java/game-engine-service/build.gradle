@@ -1,0 +1,29 @@
+project.group = 'de.ascendro.f4m.service.game.engine'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Game Engine Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.game.engine.GameEngineServiceStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service")
+	compile project(":f4m-aerospike-lib")
+	
+	compile project(":game-engine-service-api")
+	compile project(":result-engine-service-api")
+	compile project(":event-service-api")
+	compile project(":game-selection-service-api")
+	compile project(":payment-service-api")
+	compile project(":winning-service-api")
+	compile project(":voucher-service-api")
+	compile project(":f4m-analytics-lib")
+	compile project(":f4m-game-lib")
+	compile project(":f4m-advertisement-lib")
+	
+	testCompile project(":f4m-test-lib")
+	testCompile project(":f4m-aerospike-test-lib")
+}

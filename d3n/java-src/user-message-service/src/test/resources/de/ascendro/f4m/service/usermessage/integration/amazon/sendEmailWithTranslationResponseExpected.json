@@ -1,0 +1,8 @@
+{
+	"message": "userMessage/sendEmailResponse",
+	"content": {
+		"messageId" : "mockedMessageId"
+	},
+	"ack":[42],
+	"error":null
+}

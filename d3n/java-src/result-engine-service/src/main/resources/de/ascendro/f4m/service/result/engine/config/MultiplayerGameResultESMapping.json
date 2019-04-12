@@ -1,0 +1,30 @@
+{
+	"properties": {
+		"mgiId": {
+            "type": "string",
+            "index": "not_analyzed"
+		},
+		"userId": {
+            "type": "string",
+            "index": "not_analyzed"
+		},
+        "place": {
+        	"type": "integer"
+        },
+        "handicapRangeId": {
+            "type": "integer"
+        },
+        "handicapFrom": {
+            "type": "integer"
+        },
+        "handicapTo": {
+            "type": "integer"
+        },
+        "correctAnswers": {
+            "type": "integer"
+        },
+        "gamePointsWithBonus": {
+            "type": "double"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"message": "userMessage/sendWebsocketMessageToAllUserDevicesResponse",
+	"content": {
+		"messageId" : "mockedDirectMessageId"
+	},
+	"ack":[49],
+	"error":null
+}

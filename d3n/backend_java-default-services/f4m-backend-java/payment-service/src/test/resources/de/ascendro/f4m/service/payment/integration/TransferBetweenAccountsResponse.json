@@ -1,0 +1,9 @@
+{
+	"message":"payment/transferBetweenAccountsResponse",
+	"seq": 203,
+	"content": {
+		"transactionId": "transaction_id_value"
+	},
+	"ack":[42],
+	"error":null
+}

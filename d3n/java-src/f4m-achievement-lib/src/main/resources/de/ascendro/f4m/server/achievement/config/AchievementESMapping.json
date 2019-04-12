@@ -1,0 +1,20 @@
+{
+	"properties": {
+		"userId": {
+            "type": "string",
+            "index": "not_analyzed"
+        },
+		"numOfGameBadges": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+		"numOfCommunityBadges": {
+            "type": "integer",
+            "index": "not_analyzed"
+        },
+		"startedOn": {
+            "type": "date",
+            "index": "not_analyzed"
+        }
+    }
+}

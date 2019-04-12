@@ -1,0 +1,22 @@
+{
+	"message":"payment/closeJackpot",
+	"seq": 612,	
+	"content": {
+		"tenantId": "tenantId",
+		"multiplayerGameInstanceId": "multiplayer_game_instance_id",
+		"paymentDetails": {
+			"additionalInfo" : "Short and very optional description"
+		},
+		"payouts": [
+			{
+				"profileId" : "profileId1", 
+				"amount" : 12.34
+			},
+			{
+				"profileId" : "profileId2", 
+				"amount" : 43.21
+			}
+		]
+	},
+	"ack": null
+}

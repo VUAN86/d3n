@@ -1,0 +1,17 @@
+{
+	"message":"payment/transferJackpot",
+	"seq": 96,	
+	"content": {
+		"tenantId": "tenant",
+		"multiplayerGameInstanceId": "multiplayerGameInstanceIdentifier",
+		"fromProfileId": "fromProfile",
+		"amount": 12.34,
+		"paymentDetails": {
+			"appId" : "appId",
+			"gameId" : null,
+			"winningComponentId" : null,
+			"additionalInfo" : "no"
+		}
+	},
+	"ack": null
+}

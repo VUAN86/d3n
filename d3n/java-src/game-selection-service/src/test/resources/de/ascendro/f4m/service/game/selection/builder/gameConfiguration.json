@@ -1,0 +1,31 @@
+{
+	"title": "<<title>>",
+	"type": "<<type>>",
+	"applications": "<<applications>>",
+	"assignedPools": "<<assignedPools>>",
+	"assignedPoolsColors": "<<assignedPoolsColors>>",
+	"assignedPoolsIcons": "<<assignedPoolsIcons>>",
+	"isFree": "<<isFree>>",
+	"numberOfQuestions": "<<numberOfQuestions>>",
+	"userCanOverridePools": "<<userCanOverridePools>>",
+	"startDateTime": "<<startDateTime>>",
+	"endDateTime": "<<endDateTime>>",
+	"entryFeeDecidedByPlayer": "<<entryFeeDecidedByPlayer>>",
+	"entryFeeAmount": "<<entryFeeAmount>>",
+	"entryFeeCurrency": "<<entryFeeCurrency>>",
+	"entryFeeType": "<<entryFeeType>>",
+	"entryFeeSettings": "<<entryFeeSettings>>",
+	"entryFeeValues": "<<entryFeeValues>>",
+	"timeToAcceptInvites": "<<timeToAcceptInvites>>",
+	"typeConfiguration": {
+		"gameTournament" : {
+			"emailNotification": 1,
+			"playerGameReadiness":"<<playerReadinessTournament>>"
+		},
+		"gameDuel": {
+			"emailNotification":0,
+			"playerGameReadiness":"<<playerReadinessDuel>>"
+		}
+	},
+	"gameId": "<<gameId>>"
+}

@@ -1,0 +1,22 @@
+{
+	"message":"payment/getExchangeRatesResponse",
+	"seq": 203,
+	"content": {
+	   "exchangeRates": [
+			{
+				"fromCurrency" : "EUR",
+				"toCurrency" : "CREDIT",
+				"fromAmount" : 2,
+				"toAmount" : 10.00
+			}, 
+			{
+				"fromCurrency" : "EUR",
+				"toCurrency" : "CREDIT",
+				"fromAmount" : 3,
+				"toAmount" : 20.00
+			}
+		]
+	},
+	"ack":[95],
+	"error":null
+}

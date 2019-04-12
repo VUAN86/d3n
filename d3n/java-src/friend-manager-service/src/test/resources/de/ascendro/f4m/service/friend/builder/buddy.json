@@ -1,0 +1,10 @@
+{
+	"buddyOwnerId": "<<buddyOwnerId>>"
+	,"buddyUserId": "<<buddyUserId>>"
+	,"relationTypes": "<<relationTypes>>"
+	,"interactionCount": "<<interactionCount>>"
+	,"lastPlayedGameInstanceId": "<<lastPlayedGameInstanceId>>"
+	,"lastInteractionTimestamp": "<<lastInteractionTimestamp>>"
+	,"buddyTenantIds": "<<buddyTenantIds>>"
+	,"favorite": "<<favorite>>"
+}

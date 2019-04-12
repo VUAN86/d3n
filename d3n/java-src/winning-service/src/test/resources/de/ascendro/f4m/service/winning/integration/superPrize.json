@@ -1,0 +1,7 @@
+{
+	"superPrizeId": "<<superPrizeId>>",
+	"winning": <<winning>>,
+	"insuranceUrl": "<<insuranceUrl>>",
+	"randomRangeFrom": <<randomRangeFrom>>,
+	"randomRangeTo": <<randomRangeTo>>
+}

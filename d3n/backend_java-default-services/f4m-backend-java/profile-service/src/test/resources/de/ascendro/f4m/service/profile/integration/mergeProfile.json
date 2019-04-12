@@ -1,0 +1,9 @@
+{
+	"message":"profile/mergeProfile",
+	"seq": 202,	
+	"content": {
+		"source":"<<sourceUserId>>",
+		"target":"<<targetUserId>>"
+	},
+	"ack": null
+}

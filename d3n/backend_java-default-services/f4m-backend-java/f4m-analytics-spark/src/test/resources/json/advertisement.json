@@ -1,0 +1,19 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.PaymentEvent",
+    "userId": "1488257582925e1b585e6-eaa3-438b-b209-bc580cfcf969",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "52.58.235.105",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "gameId": 14,
+        "adBlobKey": "provider_12_advertisement_1.json",
+        "firstAppUsage": true,
+        "firstGameUsage": true
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+module.exports = {
+    CLIENT_SESSION_ID: 'client-session-id',
+
+    // Tenant
+    TENANT_1_ID: 1,
+    TENANT_2_ID: 2,
+    TENANT_NO_DEPENDENCIES_ID: 3,
+    TENANT_TEST_ID: 4,
+
+    // Media.Media
+    MEDIA_1_ID: '1111111-1111-1111-1111-111111111111',
+    MEDIA_2_ID: '2222222-2222-2222-2222-222222222222',
+    MEDIA_3_ID: '3333333-3333-3333-3333-333333333333',
+    MEDIA_4_ID: '4444444-4444-4444-4444-444444444444',
+    MEDIA_NO_DEPENDENCIES_ID: '8888888-8888-8888-8888-8888888888',
+    MEDIA_TEST_ID: '9999999-9999-9999-9999-999999999999',
+
+    //Profile.User
+    LOCAL_USER_ID: '1111111-1111-1111-1111-111111111111',
+    TEST_USER_ID: '9999999-9999-9999-9999-999999999999',
+
+    // Pool
+    POOL_1_ID: 1,
+    POOL_2_ID: 2,
+    POOL_3_ID: 3,
+    POOL_NO_DEPENDENCIES_ID: 7,
+    POOL_TEST_ID: 9,
+
+    //Question.Question
+    QUESTION_1_ID: 1,
+    QUESTION_2_ID: 2,
+
+    //Media.Tag
+    TAG_1_TAG: 'AAAAAAA-1111-1111-1111-000000000000',
+    TAG_2_TAG: 'BBBBBBB-2222-2222-2222-000000000000',
+    TAG_TEST_TAG: 'FFFFFFF-9999-9999-9999-000000000000',
+
+    //Workorder.WorkorderBillingModel
+    WORKORDER_BILLING_MODEL_1_ID: 1,
+
+    //Workorder.Workorder
+    WORKORDER_1_ID: 1,
+    WORKORDER_2_ID: 2,
+    WORKORDER_NO_DEPENDENCIES_ID: 3,
+    WORKORDER_TEST_ID: 4,
+
+    // QuestionTemplate.QuestionTemplate
+    QUESTION_TEMPLATE_NEW_ID: 1,
+
+    //Question.Language
+    LANGUAGE_EN_ID: 1,
+
+    //Question.RegionalSetting
+    REGIONAL_SETTING_1_ID: 1,
+
+    // Group entities are stored in Aerospike
+    GROUP_1_ID: "1111111-group-1111-111111111"
+};

@@ -1,0 +1,47 @@
+project.group = 'de.ascendro.f4m.service.analytics'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Analytics Service',
+                'Implementation-Version': version
+    }
+}
+
+dependencies {
+    compile project(":f4m-analytics-lib")
+
+    compile project(":f4m-default-service")
+    compile project(":user-message-service-api")
+    compile project(":payment-service-api")
+    compile project(":winning-service")
+    compile project(":tombola-service")
+    compile project(":f4m-analytics-lib")
+    compile project(":f4m-elastic-lib")
+    compile project(":f4m-achievement-lib")
+
+    testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+
+    def activemqVersion = '5.14.3'
+    compile group: 'org.apache.activemq', name: 'activemq-client', version: activemqVersion
+    compile group: 'org.apache.activemq', name: 'activemq-broker', version: activemqVersion
+    compile group: 'org.apache.activemq', name: 'activemq-mqtt', version: activemqVersion
+    compile group: 'org.apache.activemq', name: 'activemq-kahadb-store', version: activemqVersion
+
+    testCompile group: 'ch.vorburger.mariaDB4j', name: 'mariaDB4j', version: '2.2.2'
+
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.40'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}

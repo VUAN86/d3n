@@ -1,0 +1,93 @@
+{
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:tombola:1": {
+    "tombolaId": "1",
+    "name": "best tombola",
+    "drawDate": "2017-01-11T01:01:01Z",
+    "totalTicketsBought": 120,
+    "totalPrizesWon": 1,
+    "bundles": [
+      {
+        "amount": 10,
+        "price": 100,
+        "currency": "MONEY",
+        "imageId": "abc",
+        "purchaseDate": "2016-01-11T01:01:01Z"
+      },
+      {
+        "amount": 100,
+        "price": 1000,
+        "currency": "MONEY",
+        "imageId": "abcd",
+        "purchaseDate": "2016-01-11T01:01:02Z"
+      },
+      {
+        "amount": 10,
+        "price": 100,
+        "currency": "MONEY",
+        "imageId": "abcd",
+        "purchaseDate": "2016-01-11T01:01:02Z"
+      }
+    ],
+    "prizes": [
+      {
+        "prizeId": "1",
+        "ticketId": 23,
+        "ticketCode": "123123",
+        "name": "First Prize",
+        "type": "BONUS",
+        "amount": 1000,
+        "imageId": "abc"
+      }
+    ]
+  },
+  "profile:a1fdfd8b-174c-4a80-9d2e-94cde52386d5:tombola:1": {
+    "tombolaId": "1",
+    "name": "best tombola",
+    "drawDate": "2017-01-11T01:01:01Z",
+    "totalTicketsBought": 240,
+    "totalPrizesWon": 2,
+    "bundles": [
+      {
+        "amount": 100,
+        "price": 1000,
+        "currency": "MONEY",
+        "imageId": "abc",
+        "purchaseDate": "2016-01-11T01:01:01Z"
+      },
+      {
+        "amount": 100,
+        "price": 1000,
+        "currency": "MONEY",
+        "imageId": "abcd",
+        "purchaseDate": "2016-01-11T01:01:02Z"
+      },
+      {
+        "amount": 40,
+        "price": 400,
+        "currency": "MONEY",
+        "imageId": "abcd",
+        "purchaseDate": "2016-01-11T01:01:02Z"
+      }
+    ],
+    "prizes": [
+      {
+        "prizeId": "2",
+        "ticketId": 23,
+        "ticketCode": "123123",
+        "name": "First Prize",
+        "type": "BONUS",
+        "amount": 1000,
+        "imageId": "abc"
+      },
+      {
+        "prizeId": "3",
+        "ticketId": 7,
+        "ticketCode": "321321",
+        "name": "Third Prize",
+        "type": "VOUCHER",
+        "imageId": "abcd",
+        "voucherId": "voucherid123"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "message": "gameSelection/respondToInvitation",
+    "seq": "<<seq>>",
+    "content": {
+    	"multiplayerGameInstanceId": "<<multiplayerGameInstanceId>>",
+    	"accept": "<<accept>>"
+    },
+	"ack": null
+}

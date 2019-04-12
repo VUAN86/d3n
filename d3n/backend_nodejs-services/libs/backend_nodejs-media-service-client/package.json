@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-media-service-client",
+  "version": "0.0.1",
+  "description": "Node.JS client for media service",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "../../node_modules/.bin/istanbul cover --report cobertura --report lcov ../../node_modules/mocha/bin/_mocha app/test/unit/index.js -- --reporter mocha-sonar-generic-test-coverage --reporter-options mochaFile=./unit/test-results.xml",
+    "test-no-reporting": "../../node_modules/.bin/mocha app/test/unit/index.js"
+  },
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,9 @@
+{
+	"message": "friend/buddyAdd",
+	"seq": 123,	
+	"content": {
+		"userIds": "<<userIds>>"
+		,"favorite": "<<favorite>>"
+	},
+	"ack": null
+}

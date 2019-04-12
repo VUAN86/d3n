@@ -1,0 +1,11 @@
+{
+  "message": "tombola/tombolaDrawingList",
+  "seq": 202,
+  "content": {
+    "dateFrom": "2017-01-13T01:01:01Z",
+    "dateTo": "2017-01-15T03:01:01Z",
+    "limit": <<limit>>,
+    "offset": <<offset>>
+  },
+  "ack": null
+}

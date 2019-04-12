@@ -1,0 +1,12 @@
+{
+    "message": "gameSelection/invitedList",
+    "seq": 400,
+    "content": {
+    	"multiplayerGameInstanceId": "<<multiplayerGameInstanceId>>",
+		"limit": "<<limit>>",
+		"offset": "<<offset>>",
+		"orderBy": ["<<orderBy>>"],
+		"searchBy": "<<searchBy>>"
+	},
+	"ack": null
+}

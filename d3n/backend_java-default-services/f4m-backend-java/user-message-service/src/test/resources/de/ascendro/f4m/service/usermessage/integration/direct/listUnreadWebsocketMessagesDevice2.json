@@ -1,0 +1,9 @@
+{
+	"message" : "userMessage/listUnreadWebsocketMessages",
+	"seq": 48,
+	"content" : {
+		"userId" : "17",
+		"deviceUUID" : "device_id_2"
+	},
+	"ack": null
+}

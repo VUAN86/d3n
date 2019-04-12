@@ -1,0 +1,10 @@
+{
+	"message":"payment/getUserAccountHistoryResponse",
+	"error": {
+		"type":"validation",
+		"message":"ERR_VALIDATION_FAILED"
+	},
+	"ack":[76],
+	"content": null,
+	"seq": null
+}

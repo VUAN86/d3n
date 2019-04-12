@@ -1,0 +1,10 @@
+{
+	"prizeId": "<<prizeId>>",
+	"prizeNumber": "<<prizeNumber>>",
+	"type": "<<type>>",
+	"amount": "<<amount>>",
+	"possibility": "<<possibility>>",
+	"title": "<<title>>",
+	"description": "<<description>>",
+	"image": "<<image>>"
+}

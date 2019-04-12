@@ -1,0 +1,8 @@
+{
+	"message": "userMessage/sendUserPushResponse",
+	"content":{
+		"notificationIds" : ["mockedNotificationId"]
+	},
+	"ack":[47],
+	"error":null
+}

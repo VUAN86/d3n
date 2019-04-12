@@ -1,0 +1,23 @@
+project.group = 'de.ascendro.f4m.service'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'F4M Default Service API',
+                   'Implementation-Version': version
+    }
+}
+
+dependencies {
+
+//	compile project(":f4m-default-service")
+
+	compile group: 'com.google.code.gson', name: 'gson', version: '2.6.2'
+	
+	compile group: 'org.everit.json', name: 'org.everit.json.schema', version: '1.4.0'
+	
+	compile group: 'org.apache.httpcomponents', name: 'httpcore', version: '4.4.5' //intended only for HTTP Code definitions
+	
+	compile group: 'de.ascendro.f4m.service', name: 'f4m-backend-api-schemas', version: '0.0.1-SNAPSHOT'
+
+}

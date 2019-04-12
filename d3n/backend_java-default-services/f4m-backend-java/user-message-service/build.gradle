@@ -1,0 +1,24 @@
+project.group = 'de.ascendro.f4m.service.usermessage'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'User Message Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.usermessage.UserMessageServiceStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service")
+	compile project(":user-message-service-api")
+	compile project(":profile-service-api")
+	compile project(":f4m-aerospike-lib")
+	compile project(":f4m-onesignal-lib")
+	compile group: 'com.amazonaws', name: 'aws-java-sdk-core', version: '1.11.25'
+	compile group: 'com.amazonaws', name: 'aws-java-sdk-sns', version: '1.11.25'
+	compile group: 'com.amazonaws', name: 'aws-java-sdk-ses', version: '1.11.25'
+	compile group: 'com.currencyfair', name: 'onesignal', version: '1.0.9'
+	testCompile project(":f4m-test-lib")
+	testCompile project(":f4m-aerospike-test-lib")
+}

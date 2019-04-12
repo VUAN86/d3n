@@ -1,0 +1,224 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"version": "0.0.1",
+		"title": "Winning Service API",
+		"description": "Specification of the WinningServiceAPI"
+	},
+	"schemes": [
+		"wss"
+	],
+	"consumes": [
+		"application/json"
+	],
+	"produces": [
+		"application/json"
+	],
+	"paths": {
+		"/test/ping": {
+			"put": {
+				"tags": [
+					"test"
+				],
+				"description": "Test ping message\n",
+				"parameters": [
+					{
+						"name": "body",
+						"in": "body",
+						"schema": {
+							"$ref": "#/definitions/ping"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"schema": {
+							"$ref": "#/definitions/pingResponse"
+						}
+					}
+				}
+			}
+		},
+		"/test/pingWithPermissions": {
+			"put": {
+				"tags": [
+					"test", "permissions"
+				],
+				"description": "Test ping message with permissions\n",
+				"parameters": [
+					{
+						"name": "body",
+						"in": "body",
+						"schema": {
+							"$ref": "#/definitions/pingWithPermissions"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "Successful response",
+						"schema": {
+							"$ref": "#/definitions/pingResponse"
+						}
+					}
+				},
+                "x-permissions": [
+                    "TENANT_DATA_WRITE",
+                    "INTERNAL_DATA_WRITE"
+                ]
+			}
+		}
+	},
+	"definitions": {
+		"websocketMessage": {
+			"type": "object",
+			"properties": {
+				"message": {
+					"type": "string",
+					"description": "Component 'message' for Message contains the Message Namespace and Name, which is used to distinguish between messages. Similar to the Request-URI inside a HTTP-Header ().\n"
+				},
+				"content": {
+					"type": [
+						"null",
+						"object"
+					],
+					"description": "Contains user defined content"
+				},
+				"timestamp": {
+					"type": "integer",
+					"format": "int32",
+					"description": "The 'timestamp' component contains the current time in milliseconds"
+				},
+				"seq": {
+					"type": [
+						"integer",
+						"null"
+					],
+					"format": "int32",
+					"description": "Sequence Number added = requesting acknowledgement to this message"
+				},
+				"ack": {
+					"type": [
+						"null",
+						"array"
+					],
+					"items": {
+						"type": "integer",
+						"format": "int32"
+					},
+					"description": "Acknowledgements of previously received messages"
+				},
+				"error": {
+					"$ref": "#/definitions/error"
+				}
+			},
+			"discriminator": "message",
+			"required": [
+				"message",
+				"seq",
+				"ack",
+				"content"
+			]
+		},
+		"error": {
+			"type": [
+				"object",
+				"null"
+			],
+			"description": "Error component in case of an error",
+			"properties": {
+				"type": {
+					"type": "string",
+					"enum": [
+						"server",
+						"client",
+						"auth",
+						"validation"
+					]
+				},
+				"message": {
+					"type": "string",
+					"description": "Readable error message for debugging purposes. E.g. ERR_NO_SUCH_METHOD_FOUND"
+				}
+			}
+		},
+		"ping": {
+			"allOf": [
+				{
+					"$ref": "#/definitions/websocketMessage"
+				},
+				{
+					"type": "object",
+					"properties": {
+						"message": {
+							"type": "string",
+							"default": "test/ping"
+						},
+						"content": {
+							"type": "object",
+							"properties": {
+								"ping": {
+									"type": "string",
+									"description": "Ping text"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		"pingResponse": {
+			"allOf": [
+				{
+					"$ref": "#/definitions/websocketMessage"
+				},
+				{
+					"type": "object",
+					"properties": {
+						"message": {
+							"type": "string",
+							"enum": [
+								"test/pingResponse"
+							]
+						},
+						"content": {
+							"type": "object",
+							"properties": {
+								"pong": {
+									"type": "string",
+									"description": "Ping response"
+								}
+							}
+						}
+					}
+				}
+			]
+		},
+		"pingWithPermissions": {
+			"allOf": [
+				{
+					"$ref": "#/definitions/websocketMessage"
+				},
+				{
+					"type": "object",
+					"properties": {
+						"message": {
+							"type": "string",
+							"default": "test/pingWithPermissions"
+						},
+						"content": {
+							"type": "object",
+							"properties": {
+								"ping": {
+									"type": "string",
+									"description": "Ping with permissions text"
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+	}
+}

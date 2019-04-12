@@ -1,0 +1,14 @@
+{
+  "userAchievement:1:a0fdfd8b-174c-4a80-9d2e-94cde52386d5" : {
+    "userId":"a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+    "achievementId":"1",
+    "tenantId":"60551c1e-a718-444-80f5-76304dec7eb7",
+    "limitDate": "2018-01-07T10:00:00Z",
+	"badgesWonStatus": {
+			"6453-8cd1-44a3" : true,
+			"6453-8cd1-44bc": true
+	},
+	"startDate": "2018-01-01T10:00:00Z",
+	"completedOn": "2018-01-10T10:00:00Z"
+  }
+}

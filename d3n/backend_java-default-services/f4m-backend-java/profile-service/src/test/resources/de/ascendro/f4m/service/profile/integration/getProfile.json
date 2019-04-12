@@ -1,0 +1,8 @@
+{
+	"message":"profile/getProfile",
+	"seq": 202,	
+	"content": {
+		"userId": "<<userId>>"		
+	},
+	"ack": null
+}

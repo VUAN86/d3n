@@ -1,0 +1,27 @@
+{
+	"message":"friend/contactImportPhonebook",
+	"seq": 1,	
+	"content": {
+		"contacts": [
+			{
+				"firstName": "firstName",
+				"lastName": "lastName",
+				"phoneNumbers": ["211235", "34525"],
+				"emails": ["oo@oo.lv", "ss@ss.lv"]
+			},
+			{
+				"firstName": "",
+				"lastName": "",
+				"phoneNumbers": ["2135234", "234534525"],
+				"emails": ["o2354o@oo.lv", "s3245s@ss.lv"]
+			},
+			{
+				"firstName": "<<firstName>>",
+				"lastName": "<<lastName>>",
+				"phoneNumbers": <<phoneNumbers>>,
+				"emails": <<emails>>
+			}
+		]
+	},
+	"ack": null
+}

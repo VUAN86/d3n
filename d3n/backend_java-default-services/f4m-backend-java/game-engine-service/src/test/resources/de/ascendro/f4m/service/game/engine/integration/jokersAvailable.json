@@ -1,0 +1,9 @@
+{   
+   "message": "gameEngine/jokersAvailable",
+    "seq": 201,
+    "content":{
+         "gameInstanceId": "<<gameInstanceId>>",
+         "question": 1
+    },
+	"ack": null
+}

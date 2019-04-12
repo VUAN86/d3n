@@ -1,0 +1,16 @@
+{
+	"message":"winning/userWinningComponentList",
+	"seq": 123,
+	"content": {
+		"limit": "<<limit>>",
+		"offset": "<<offset>>",
+		"orderBy": [
+			{
+				"field": "amount",
+				"direction": "asc"
+			}
+		],
+		"searchBy": {}
+	},
+	"ack": null
+}

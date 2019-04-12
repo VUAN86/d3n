@@ -1,0 +1,8 @@
+{
+	"message": "resultEngine/getMultiplayerResults",
+	"seq": 1,
+	"content": {
+		"gameInstanceId": "gi1"
+	},
+	"ack": null
+}

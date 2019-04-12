@@ -1,0 +1,54 @@
+{{- include "files/java.tmpl" . }}
+artifact: "java_service_build"
+from: {{ .baseimage }}
+   
+git:
+- add: /
+  to: {{ .java_dir }}
+  excludePaths:
+  - HELM/
+  - .dappfiles/
+  - .gitlab-ci.yml
+  - dappfile.yaml
+  stageDependencies:
+    beforeSetup: "**/*"
+
+- url: {{ .repo_schemas_name }}
+  add: {{ .repo_schemas_dir }}
+  branch: {{ .repo_schemas_branch }}
+  to: {{ .schemas_dir }}
+  stageDependencies:
+    install: "**/*"
+
+
+ansible:
+   beforeInstall:
+   - apk:
+       name: "{{`{{ item }}`}}"
+       update_cache: no
+     with_items:
+        - bash
+        - git
+   install:
+   - name: chmod gradlew schemas
+     file: dest={{ .schemas_dir }}/gradlew mode=a+x
+   - name: gradlew java install
+     shell: ./gradlew install
+     args:
+       chdir: {{ .schemas_dir }}
+   
+
+   beforeSetup:     
+   - name: chmod gradlew backend
+     file: dest={{ .java_dir }}/gradlew mode=a+x 
+  
+   - name: gradlew java_backend
+     shell: |
+       git init
+       ./gradlew jar
+     args:
+       chdir: {{ .java_dir }}  
+
+
+---
+{{- include "dimg/promocode-service.tmpl" . }}

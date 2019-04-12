@@ -1,0 +1,11 @@
+{
+	"message":"payment/getUserAccountHistory",
+	"seq": 76,	
+	"content": {
+		"currency": "MONEY",
+		"limit": 6,
+		"startDate": "asdf",
+		"endDate": "2016-12-01T00:00:00"
+	},
+	"ack": null
+}

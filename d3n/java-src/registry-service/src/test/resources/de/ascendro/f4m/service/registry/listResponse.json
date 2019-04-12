@@ -1,0 +1,17 @@
+{
+	"message": "serviceRegistry/listResponse",
+	"content": {
+		"services": [
+			{
+				"serviceName": "TestService",
+				"uri": "wss://1.2.3.4:5678",
+				"serviceNamespaces": [
+					"namespace1",
+					"namespace2"
+				]
+			}
+		]
+	},
+	"ack":[125],
+	"error":null
+}

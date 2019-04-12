@@ -1,0 +1,21 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.PromoCodeEvent",
+    "userId": "5346332260280106bbb98-e88c-428a-aa35-aa17bef3fs4",
+    "tenantId": "t1",
+    "appId": "2",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "promoCode": "XCLC9B",
+        "promoCodeCampaignId": 4,
+        "promoCodeUsed": true,
+        "bonusPointsPaid": 0,
+        "creditsPaid": 500,
+        "moneyPaid": 1.5
+      }
+    }
+  }
+}

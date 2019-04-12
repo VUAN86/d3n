@@ -1,0 +1,12 @@
+{
+    "message": "gameSelection/inviteUsersToGame",
+    "seq": 300,
+    "content": {
+    	"usersIds": "<<usersIds>>",
+    	"pausedUsersIds": "<<pausedUsersIds>>",
+    	"multiplayerGameInstanceId": "<<multiplayerGameInstanceId>>",
+    	"customGameConfig": "<<multiplayerGameParameters>>"
+    },
+	"ack": null,
+	"clientId": "300"
+}

@@ -1,0 +1,10 @@
+{
+	"message": "resultEngine/respondToUserInteraction",
+	"seq": 1,
+	"content": {
+		"gameInstanceId": "gi1",
+		"userInteractionType": "buyWinningComponent",
+		"response": true
+	},
+	"ack": null
+}

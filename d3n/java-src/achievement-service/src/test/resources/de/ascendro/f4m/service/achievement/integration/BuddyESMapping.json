@@ -1,0 +1,27 @@
+{
+	"properties": {
+		"buddyUserId": {
+            "type": "string",
+            "fields": {
+                "raw": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+		},
+		"buddySearchName": {
+            "type": "string", 
+            "analyzer": "autocomplete",
+            "search_analyzer": "standard",
+            "fields": {
+                "raw": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        },
+        "favorite": {
+        	"type": "boolean"
+        }
+    }
+}

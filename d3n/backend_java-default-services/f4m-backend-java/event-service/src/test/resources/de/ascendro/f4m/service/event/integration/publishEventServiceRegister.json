@@ -1,0 +1,12 @@
+{
+    "message": "event/publish",
+    "seq": 200,
+    "content":{
+     	"topic":"serviceRegistry/register",
+     	"notification-content": {
+     		"serviceName": "event",
+     		"uri":"wss://fake:8555"
+     	}
+ 	},
+ 	"ack": null
+}

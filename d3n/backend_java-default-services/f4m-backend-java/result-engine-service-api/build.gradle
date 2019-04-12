@@ -1,0 +1,21 @@
+project.group = 'de.ascendro.f4m.service.result.engine'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Result Engine Service API',
+                'Implementation-Version': version
+    }
+}
+
+dependencies {
+    compile project(":f4m-default-service")
+	compile project(":game-engine-service-api")
+	compile project(":profile-service-api")
+	compile project(":user-message-service-api")
+	compile project(":voucher-service-api")
+	compile project(":payment-service-api")
+	compile project(":f4m-game-lib")
+
+    testCompile project(":f4m-test-lib")
+}

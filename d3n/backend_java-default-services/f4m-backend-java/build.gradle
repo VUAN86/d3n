@@ -1,0 +1,171 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'org.owasp:dependency-check-gradle:1.4.5.1'
+  }
+}
+
+plugins {
+  id "org.ajoberstar.grgit" version "1.6.0"
+}
+
+import java.text.SimpleDateFormat
+import java.text.DateFormat
+
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+subprojects {
+	apply plugin: 'maven'
+	apply plugin: 'java'
+	apply plugin: 'eclipse'
+	apply plugin: 'jacoco'
+	apply plugin: 'org.owasp.dependencycheck' //run 'gradle dependencyCheck' to check for vulnerable versions of jars used in project
+
+	version = '0.0.1-SNAPSHOT'
+	project.buildDir = 'target'
+	dependencyCheck.outputDirectory = project.buildDir
+	//dependencyCheck.failBuildOnCVSS = 9.0 //makes OWASP dependency check to fail because of MySQL vulnerability
+
+	compileJava {
+		sourceCompatibility = 1.8
+		targetCompatibility = 1.8
+		options.encoding = 'UTF-8'
+	}
+
+	/*
+	 * There are three options, how a subproject (that is - a separate service) can be built:
+	 * 1) 'gradlew build' assembles and tests the subproject and also projects, on whom the service depends (e.g. f4m-default-service)
+	 * 2) 'gradlew -a build' assembles and tests the subproject using dependencies from a local build (i.e. target folders of dependent projects)
+	 * 3) 'gradle -DdependenciesFromRepository=true build' assembles and tests the subproject using dependencies from a local repository
+	 * 		as defined here
+	 */
+	if (System.getProperty("dependenciesFromRepository", "false").equals("true")) {
+		configurations.all {
+			resolutionStrategy {
+				dependencySubstitution {
+					substitute project(":f4m-default-service") with module("de.ascendro.f4m.service:f4m-default-service:0.0.1-SNAPSHOT")
+				}
+			}
+		}
+	}
+
+	dependencies {
+		compile 'commons-io:commons-io:2.4'
+		compile 'org.apache.commons:commons-lang3:3.5'
+		compile 'commons-codec:commons-codec:1.10'
+
+		def guiceVersion = '4.0'
+		compile group: 'com.google.inject.extensions', name: 'guice-servlet', version: guiceVersion
+		compile group: 'com.google.inject', name: 'guice', version: guiceVersion
+		compile group: 'com.google.inject.extensions', name: 'guice-assistedinject', version: guiceVersion
+		compile group: 'com.google.inject.extensions', name: 'guice-multibindings', version: guiceVersion
+		compile group: 'com.mycila.guice.extensions', name: 'mycila-guice-jsr250', version: '3.6.ga'
+
+		def log4jVersion = '2.6.2'
+		compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: log4jVersion
+		compile group: 'org.apache.logging.log4j', name: 'log4j-web', version: log4jVersion
+		compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: log4jVersion
+		compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: log4jVersion
+		
+		def jacksonVersion = '2.6.5'
+		compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+
+		/*
+		* requirement for jetty, loaded explicitly to avoid possible conflicts
+		* */
+		compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+
+		testCompile group: 'junit', name: 'junit', version: '4.12'
+		testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+		testCompile 'org.mockito:mockito-core:2.+'
+	}
+
+	// show standard out and standard error of the test JVM(s) on the console 
+	test.testLogging.showStandardStreams = true
+	
+	tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+
+	task wrapper(type: Wrapper) {  gradleVersion = '2.13'  }
+	
+	task libs(type: Copy) {
+	    from configurations.runtime
+	    into 'target/libs/lib'
+	}
+	
+	jar.dependsOn libs
+
+	//Create Eclipse project resource filter, so that 'target' folders are not visible in Eclipse
+	eclipse {
+		project {
+			file {
+				withXml { 
+					xmlProvider ->
+						Node project = xmlProvider.asNode()
+						if (project.filteredResources.size() == 0) {
+							Node filter = project.appendNode('filteredResources').appendNode('filter')
+							filter.appendNode('id', 1467890468497)
+							filter.appendNode('name', '')
+							filter.appendNode('type', 10)
+							Node matcher = filter.appendNode('matcher')
+							matcher.appendNode('id', 'org.eclipse.ui.ide.multiFilter')
+							matcher.appendNode('arguments', '1.0-name-matches-false-false-target')
+						}
+				}
+			}
+		 }
+	}
+
+	repositories { 
+		mavenLocal()
+		mavenCentral()
+	}
+
+	buildscript {  
+		repositories {
+			mavenLocal()
+			mavenCentral() 
+		}  
+	}
+
+	task generateVersionProperties << {
+		def git = org.ajoberstar.grgit.Grgit.open(project.rootDir.parent)
+		def commit = git.head()
+
+		File resourcesDir = new File(project.getBuildDir(), 'resources/main')
+		File propertiesFile = new File(resourcesDir, 'version.properties')
+
+		if(!propertiesFile.exists()) {
+			resourcesDir.mkdirs()
+			propertiesFile.createNewFile()
+		}
+
+		propertiesFile.text = """\
+			git.commit.abbreviatedId=${commit.abbreviatedId}
+			git.commit.id=${commit.id}
+			git.commit.time=${commit.getDate().format('dd.MM.yyyy HH:mm:ss')}
+			build.time=${new Date().format('dd.MM.yyyy HH:mm:ss')}
+		""".stripIndent()
+	}
+	processResources.dependsOn generateVersionProperties
+	
+	test {
+		// set a system property for the log4j2 properties file
+		systemProperty 'log4j.configurationFile', workingDir.parent + '/f4m-default-service/src/test/resources/log4j2-test.xml'
+		// properties for remote protocol logging functionality
+		systemProperty 'f4m.protocolLogging', false
+        systemProperty 'f4m.logServer', '127.0.0.1'
+        systemProperty 'f4m.logServerPort', 6111
+	}
+	
+	//use following script to draw dependency tree between all subprojects (Git Bash):
+	//./gradlew allDeps --configuration testRuntime | grep -i project | grep -v '(*)' > f4m_dependencies.txt
+	task allDeps(type: DependencyReportTask) {}
+	
+	task unitTest(type: Test) {
+		exclude 'de/ascendro/f4m/service/workflow/**'
+		exclude 'de/ascendro/f4m/service/friend/integration/ContactTest.class'
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"message":"voucher/getVoucherById",
+	"seq": 1,	
+	"content": {
+		"voucherId": "<<voucherId>>"
+	},
+	"ack": null
+}

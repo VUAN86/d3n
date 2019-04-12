@@ -1,0 +1,15 @@
+{
+	"message": "serviceRegistry/getResponse",
+	"content": {
+		"service": {
+			"serviceName": "TestService",
+			"serviceNamespaces": [
+				"namespace1",
+				"namespace2"
+			],
+			"uri":null
+		}
+	},
+	"ack":[124],
+	"error":null
+}

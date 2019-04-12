@@ -1,0 +1,15 @@
+{
+	"userWinningComponentId": "<<userWinningComponentId>>",
+	"gameInstanceId": "<<gameInstanceId>>",
+	"gameId": "<<gameId>>",
+	"status": "<<status>>",
+	"sourceGameType": "<<sourceGameType>>",
+	"winningComponentId": "<<winningComponentId>>",
+	"type": "<<type>>",
+	"amount": "<<amount>>",
+	"currency": "<<currency>>",
+	"imageId": "<<imageId>>",
+	"title": "title",
+	"rules": "rules",
+	"info": "info"
+}

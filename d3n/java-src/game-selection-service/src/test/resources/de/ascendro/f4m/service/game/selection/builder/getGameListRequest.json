@@ -1,0 +1,21 @@
+{
+    "message": "gameSelection/getGameList",
+    "seq": 100,
+    "content": {
+    	"type": "<<type>>",
+    	"pool": "<<pool>>",
+    	"handicapFrom": "<<handicapFrom>>",
+    	"handicapTo": "<<handicapTo>>",
+    	"isFree": "<<isFree>>",
+    	"isOfflineGame": "<<isOfflineGame>>",
+    	"byInvitation": "<<byInvitation>>",
+    	"byFriendCreated": "<<byFriendCreated>>",
+    	"byFriendPlayed": "<<byFriendPlayed>>",
+    	"numberOfQuestionsFrom": "<<numberOfQuestionsFrom>>",
+    	"numberOfQuestionsTo": "<<numberOfQuestionsTo>>",
+    	"hasSpecialPrize": "<<hasSpecialPrize>>",
+    	"isSpecialGame": "<<isSpecialGame>>",
+    	"fullText": "<<fullText>>"
+    },
+	"ack": null
+}

@@ -1,0 +1,8 @@
+{
+  "clientInfo": {
+  	"profile":{
+	    "userId": "userId-1",
+	    "roles": ["ANONYMOUS", "REGISTERED"]
+    }
+  }
+}

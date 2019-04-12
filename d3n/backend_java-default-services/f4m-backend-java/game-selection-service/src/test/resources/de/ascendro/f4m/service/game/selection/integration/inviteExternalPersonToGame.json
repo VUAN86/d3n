@@ -1,0 +1,10 @@
+{
+    "message": "gameSelection/inviteExternalPersonToGame",
+    "seq": 300,
+    "content": {
+    	"email": "test@email.com",
+    	"multiplayerGameInstanceId": "<<multiplayerGameInstanceId>>",
+    	"customGameConfig": "<<multiplayerGameParameters>>"
+    },
+	"ack": null
+}

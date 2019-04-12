@@ -1,0 +1,36 @@
+{
+  "profile:1:tombola:1": {
+    "tombolaId": "1",
+    "name": "best tombola",
+    "drawDate": "2017-01-11T01:01:01Z",
+    "totalTicketsBought": 153,
+    "totalPrizesWon": 1,
+    "bundles": [
+      {
+        "amount": 10,
+        "price": 100,
+        "currency": "MONEY",
+        "imageId": "abc",
+        "purchaseDate": "2016-01-11T01:01:01Z"
+      },
+      {
+        "amount": 100,
+        "price": 900,
+        "currency": "MONEY",
+        "imageId": "abcd",
+        "purchaseDate": "2016-01-11T01:01:02Z"
+      }
+    ],
+    "prizes": [
+      {
+        "prizeId": "1",
+        "ticketId": 23,
+        "ticketCode": "123123",
+        "name": "First Prize",
+        "type": "BONUS",
+        "amount": 1000,
+        "imageId": "abc"
+      }
+    ]
+  }
+}

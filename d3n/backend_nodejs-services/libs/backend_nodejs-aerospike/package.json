@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-aerospike",
+  "version": "0.0.1",
+  "description": "Node.JS Aerospike Library",
+  "main": "index.js",
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "scripts": {
+    "install": "node_modules/.bin/npmpd",
+    "test": "../../node_modules/.bin/istanbul cover --report cobertura --report lcov ../../node_modules/mocha/bin/_mocha app/test/unit/index.js -- --reporter mocha-sonar-generic-test-coverage --reporter-options mochaFile=./unit/test-results.xml",
+    "test-no-reporting": "../../node_modules/.bin/mocha app/test/unit/test-no-reporting.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,17 @@
+{
+	"message":"payment/getExternalPayment",
+	"seq": 14,	
+	"content": {
+		"transactionId": "transactionIdValue"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "initProfileId",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "initTenantId"
+		}
+	}
+}

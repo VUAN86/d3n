@@ -1,0 +1,15 @@
+{
+  "tenant":{
+    "id":"60551c1e-a718-444-80f5-76304dec7eb7",
+    "name":"F4M Tenant",
+    "address":"address",
+    "city":"city",
+    "country":"Germany"
+  },
+  "friendsForMedia":{
+    "name":"F4M Tenant",
+    "address":"address",
+    "city":"city",
+    "country":"Germany"
+  }
+}

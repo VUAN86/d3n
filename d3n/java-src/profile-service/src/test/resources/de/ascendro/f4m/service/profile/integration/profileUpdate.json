@@ -1,0 +1,21 @@
+{
+	"message":"profile/profileUpdate",
+	"seq": 201,	
+	"content": {
+		"profile":{
+		    "settings": {
+		      "game": {
+		        "currency": "MONEY",
+		        "numberOfQuestions": 1
+		      },
+		      "push": {
+		        "pushNotificationsNews": true
+		      }
+		    },
+			"address": {
+				"postalCode": "Another postal code"
+			}
+		}
+	},
+	"ack": null
+}

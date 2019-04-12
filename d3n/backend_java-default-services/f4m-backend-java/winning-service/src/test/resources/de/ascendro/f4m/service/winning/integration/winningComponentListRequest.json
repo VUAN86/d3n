@@ -1,0 +1,21 @@
+{
+	"message":"winning/winningComponentList",
+	"seq": 123,
+	"content": {
+		"gameInstanceId": "<<gameInstanceId>>",
+		"limit": 10,
+		"offset": 0
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile": {
+			"userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+			"roles": ["any_role"]
+		},
+		"appConfig": {
+			"tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+			"appId": "test_app"
+		},
+		"ip": "1.1.1.1"
+	}
+}

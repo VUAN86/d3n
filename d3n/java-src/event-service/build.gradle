@@ -1,0 +1,21 @@
+project.group = 'de.ascendro.f4m.service.event'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Event Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.event.EventServiceStartup'
+    }
+}
+
+dependencies {
+	compile project(":f4m-default-service")
+	compile project(":event-service-api")
+	testCompile project(":f4m-test-lib")
+	
+	def activemqVersion = '5.14.0'
+	compile group: 'org.apache.activemq', name: 'activemq-client', version: activemqVersion
+	compile group: 'org.apache.activemq', name: 'activemq-broker', version: activemqVersion	
+	compile group: 'org.apache.activemq', name: 'activemq-kahadb-store', version: activemqVersion
+}

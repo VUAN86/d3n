@@ -1,0 +1,11 @@
+{
+    "message": "gameSelection/updatePlayedGame",
+    "seq": 100,
+    "content": {
+    	"userId": "<<userId>>",
+    	"mgiId": "<<mgiId>>",
+    	"playedGameInfo": "<<playedGameInfo>>",
+    	"tenantId": "<<tenantId>>"
+    },
+	"ack": null
+}

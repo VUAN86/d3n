@@ -1,0 +1,14 @@
+{
+	"message":"payment/loadOrWithdrawWithoutCoverage",
+	"seq": 30,	
+	"content": {
+		"tenantId": "tenant",
+		"profileId": "toProfile",
+		"currency": "BONUS",
+		"amount": 1.01,
+		"paymentDetails": {
+			"additionalInfo" : "The description"
+		}
+	},
+	"ack": null
+}

@@ -1,0 +1,11 @@
+{
+	"message":"profile/createProfile",
+	"seq": 201,	
+	"content": {
+		"phone": "25678956",
+		"email": "test@mail.com",
+		"facebook": "FB_TEST_TOKEN",
+		"google": "G_TEST_TOKEN"	
+	},
+	"ack": null
+}

@@ -1,0 +1,20 @@
+{
+	"message": "userMessage/sendSms",
+    "seq": 43,
+	"content": {
+		"userId" : "17",
+		"phone": "not_a_real_phone_number",
+		"message": "test message content",
+		"language": null
+	},
+	"clientInfo": {
+		"appConfig":{
+			"appId": "appId-1",
+            "tenantId": "tenant-1"
+		},
+	    "profile":{
+	    	"roles": ["any_role"]
+	    }
+	},
+	"ack": null
+}

@@ -1,0 +1,18 @@
+{
+	"message":"payment/getIdentificationResponse",
+	"seq": 203,
+	"content": {
+	    "id": "88",
+	    "firstName": "John",
+	    "name": "Smit",
+	    "street": "Brivibas",
+	    "zip": "1010",
+	    "city": "Riga",
+	    "country": "LV",
+	    "dateOfBirth": "1999-09-27",
+	    "placeOfBirth": "New York",
+	    "type": "LIGHT"
+	},
+	"ack":[95],
+	"error":null
+}

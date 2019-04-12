@@ -1,0 +1,16 @@
+{
+	"message":"profile/getAppConfiguration",
+	"seq": 5695,	
+	"content":{
+		"appId": "GAME-APP-8268573934",
+		"deviceUUID": "ID1",
+		"IMEI": "123123",
+		"device": {
+			"deviceType": "TYP1",
+			"screenHeight": 1246
+		},
+		"oneSignalDeviceId": "ONESIGNALDEVICEID",
+		"tenantId":"60551c1e-a718-444-80f5-76304dec7eb7"
+	},
+	"ack": null
+}

@@ -1,0 +1,9 @@
+{
+	"message":"profile/findByIdentifier",
+	"seq": 202,	
+	"content": {
+		"identifierType": "FACEBOOK",
+		"identifier": "FB_TEST_TOKEN"
+	},
+	"ack": null
+}

@@ -1,0 +1,131 @@
+<!-- views/index.ejs -->
+<!doctype html>
+<html>
+  <head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <!-- load bootstrap css -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <!-- load fontawesome -->
+    <style>
+      body 		{ padding-top:80px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="jumbotron text-center">
+        <h1>
+          <span class="fa fa-lock"></span> Node Authentication
+        </h1>
+
+        <!-- show any messages that come back with authentication -->
+		<% if (message && message.length > 0 && message[0].startsWith('ERR_')) { %>
+			<div class="alert alert-danger"><%= message %></div>
+		<% } else if (message && message.length > 0 && !message[0].startsWith('ERR_')) { %>
+			<div class="alert alert-success"><%= message %></div>
+		<% } %>
+
+        <br/><p>Register and authenticate with:</p><br/>
+        <div class="row">
+          <div class="col-md-4">
+            <% if (!(local && local.userid)) { %>
+				<a href="/login" class="btn btn-default btn-lg btn-fill" role="button">
+				  <span class="fa fa-user"></span> Local Login
+				</a>
+            <% } else { %>
+				<a href="/login" class="btn btn-default btn-lg btn-fill disabled" role="button">
+				  <span class="fa fa-user"></span> Local Login
+				</a>
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (!(facebook && facebook.userid)) { %>
+				<a href="/auth/facebook" class="btn btn-primary btn-lg btn-fill" role="button">
+				  <span class="fa fa-facebook"></span> Facebook
+				</a>
+            <% } else { %>
+				<a href="/auth/facebook" class="btn btn-primary btn-lg btn-fill disabled" role="button">
+				  <span class="fa fa-facebook"></span> Facebook
+				</a>
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (!(google && google.userid)) { %>
+				<a href="/auth/google" class="btn btn-success btn-lg btn-fill" role="button">
+				  <span class="fa fa-google-plus"></span> Google
+				</a>
+            <% } else { %>
+				<a href="/auth/google" class="btn btn-success btn-lg btn-fill disabled" role="button">
+				  <span class="fa fa-google-plus"></span> Google
+				</a>
+            <% } %>
+          </div>
+        </div>
+        
+        <br/><p>User is authenticated?</p><br/>
+        <div class="row">
+          <div class="col-md-4">
+            <% if (local && local.userid) { %>
+			  <%= local.authTill %>
+              <a href="/auth/refresh/local" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-user"></span> Refresh
+              </a>
+            <% } else { %>
+			  No
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (facebook && facebook.userid) { %>
+			  <%= facebook.authTill %>
+              <a href="/auth/refresh/facebook" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-facebook"></span> Refresh
+              </a>
+            <% } else { %>
+			  No
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (google && google.userid) { %>
+			  <%= google.authTill %>
+              <a href="/auth/refresh/google" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-google-plus"></span> Refresh
+              </a>
+            <% } else { %>
+			  No
+            <% } %>
+          </div>
+        </div>
+        
+        <br/><p>Additional actions</p><br/>
+        <div class="row">
+          <div class="col-md-4">
+            <% if (local && local.userid) { %>
+              <a href="/changePassword" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-user"></span> Change Password
+              </a>
+              <a href="/profile" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-user"></span> Profile
+              </a>
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (facebook && facebook.userid) { %>
+              <a href="/profile" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-facebook"></span> Profile
+              </a>
+            <% } %>
+          </div>
+          <div class="col-md-4">
+            <% if (google && google.userid) { %>
+              <a href="/profile" class="btn btn-default btn-lg btn-fill" role="button">
+                <span class="fa fa-google-plus"></span> Profile
+              </a>
+            <% } %>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

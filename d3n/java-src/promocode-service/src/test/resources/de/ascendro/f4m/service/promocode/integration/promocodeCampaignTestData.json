@@ -1,0 +1,10 @@
+{
+  "promocodeCampaign:1": {
+    "id": "1",
+    "name": "MEGAPROMO",
+    "description": "MegaPromo Campaign",
+    "startDate": "2017-01-01T10:00:00Z",
+    "endDate": "2017-03-01T10:00:00Z",
+    "appIds" : ["60551c1e-a718-333-80f5-76304dec7eb7","app_id_2"]
+  }
+}

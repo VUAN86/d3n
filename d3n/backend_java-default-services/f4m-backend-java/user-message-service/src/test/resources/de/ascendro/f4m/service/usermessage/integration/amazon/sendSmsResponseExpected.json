@@ -1,0 +1,8 @@
+{
+	"message": "userMessage/sendSmsResponse",
+	"content": {
+		"messageId" : "mockedSmsMessageId"
+	},
+	"ack":[43],
+	"error":null
+}

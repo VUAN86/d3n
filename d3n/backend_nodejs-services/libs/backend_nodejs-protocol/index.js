@@ -1,0 +1,1 @@
+module.exports =  require('./app/classes/ProtocolMessage.js');

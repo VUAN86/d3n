@@ -1,0 +1,16 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.GameEndEvent",
+    "userId": "14878556985250bd5b2e5-f8a7-4e9b-a510-68dd5e228ffa",
+    "tenantId": "t1",
+    "appId": "2",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "gameId": 11
+      }
+    }
+  }
+}

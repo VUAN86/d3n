@@ -1,0 +1,22 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.ShopInvoiceEvent",
+    "userId": "2488556682925e1b585e6-eaa3-438b-b209-bc580c23gaa9",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "52.58.235.105",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "articleId": "article_1234",
+        "articleNumber": "art_no_566",
+        "articleTitle": "Google Pixel",
+        "originalPurchaseCost": 500.00,
+        "paymentMoneyAmount": 450.00,
+        "paymentBonusAmount": 10000.00,
+        "paymentCreditAmount": 300.00
+      }
+    }
+  }
+}

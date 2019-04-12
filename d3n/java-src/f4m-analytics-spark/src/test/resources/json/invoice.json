@@ -1,0 +1,22 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.InvoiceEvent",
+    "userId": "2488556682925e1b585e6-eaa3-438b-b209-bc580c23gaa9",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "52.58.235.105",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "paymentType": "ENTRY_FEE",
+        "paymentAmount": 10.56,
+        "gameType": "DUEL",
+        "currency": "MONEY",
+        "currencyTo": "CREDIT",
+        "exchangeRate": 1.2,
+        "paymentAmountTo": 2.2
+      }
+    }
+  }
+}

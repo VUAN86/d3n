@@ -1,0 +1,18 @@
+{
+	"message":"payment/getAccountBalance",
+	"seq": 91,	
+	"content": {
+		"profileId": "searchProfile",
+		"currency": "MONEY"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "userProfile",
+			"roles": ["ADMIN"]
+		},
+		"appConfig":{
+			"tenantId": "searchTenant"
+		}
+	}
+}

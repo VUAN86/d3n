@@ -1,0 +1,22 @@
+{
+	"message" : "userMessage/sendUserPush",
+	"seq": 47,
+	"content" : {
+		"userId" : "17",
+		"appIds" : ["60551c1e-a718-333-80f5-76304dec7eb7"],
+		"message" : "payment.system.payment.success.push",
+		"parameters" : [
+			"123456", "17", "EUR"
+		], 
+		"type" : "PAYMENT_SUCCESS",
+		"payload" : {
+			"transactionId" : "123456",
+			"amount" : 17,
+			"currency" : "EUR"
+		},
+		"timeout" : 1234567890123465,
+		"language" : "auto",
+		"scheduledDateTime" : "2019-01-01T01:01:01Z"
+	},
+	"ack": null
+}

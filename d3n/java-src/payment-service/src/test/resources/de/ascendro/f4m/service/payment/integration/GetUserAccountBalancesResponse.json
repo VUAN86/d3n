@@ -1,0 +1,22 @@
+{
+	"message":"payment/getUserAccountBalancesResponse",
+	"seq": 1515313,
+	"content": {
+		"balances": [
+			{
+				"amount": 12.34,
+				"currency": "MONEY"
+			},
+			{
+				"amount": 200,
+				"currency": "BONUS"
+			},
+			{
+				"amount": 0,
+				"currency": "CREDIT"
+			}
+		]
+	},
+	"ack":[91],
+	"error":null
+}

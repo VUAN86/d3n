@@ -1,0 +1,23 @@
+project.group = 'de.ascendro.f4m.service.voucher'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Voucher Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.template.VoucherServiceStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service")
+	compile project(":profile-service-api")
+	compile project(":payment-service-api")
+	compile project(":voucher-service-api")
+	compile project(":event-service-api")
+	compile project(":f4m-aerospike-lib")
+	compile project(":winning-service")
+	
+	testCompile project(":f4m-test-lib")
+	testCompile project(":f4m-aerospike-test-lib")
+}

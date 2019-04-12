@@ -1,0 +1,91 @@
+Datenschutzerklärung 
+Mobile App friends4media
+
+Wir nehmen Datenschutz ernst
+
+Der Schutz Ihrer Privatsphäre bei der Verarbeitung persönlicher Daten ist für uns ein wichtiges Anliegen. Wenn Sie unsere Webseite besuchen, speichern unsere Webserver standardmäßig die IP Ihres Internet Service Provider, die Webseite, von der aus Sie uns besuchen, die Webseiten, die Sie bei uns besuchen sowie das Datum und die Dauer des Besuches. Diese Informationen sind für die technische Übertragung der Webseiten und den sicheren Serverbetrieb zwingend erforderlich. Eine personalisierte Auswertung dieser Daten erfolgt nicht.
+
+Sofern Sie uns Daten per Kontakt-Formular senden, werden diese Daten im Zuge der Datensicherung auf unseren Servern gespeichert. Ihre Daten werden von uns ausschließlich zur Bearbeitung Ihres Anliegens verwendet. Ihre Daten werden streng vertraulich behandelt. Eine Weitergabe an Dritte erfolgt nicht.
+
+Verantwortliche Stelle im Sinne des Gesetzes ist die die 
+friends4media GmbH
+Waffnergasse 8
+93047 Regensburg
+Deutschland
+Tel. 0941-630 876-0
+
+Personenbezogene Daten
+
+Personenbezogene Daten sind Daten über Ihre Person. Diese beinhalten Ihren Namen, Ihre Adresse und Ihre Email Adresse. Sie müssen auch keine personenbezogenen Daten preisgeben um unsere Internetseite besuchen zu können. In einigen Fällen benötigen wir Ihren Namen und Adresse sowie weitere Informationen um Ihnen die gewünschte Dienstleistung anbieten zu können. 
+
+Das Gleiche gilt für den Fall, dass wir Sie auf Wunsch mit Informationsmaterial beliefern bzw. wenn wir Ihre Anfragen beantworten. In diesen Fällen werden wir Sie immer darauf hinweisen. Außerdem speichern wir nur die Daten, die Sie uns automatisch oder freiwillig übermittelt haben.
+
+Wenn Sie einen unserer Services nutzen, sammeln wir in der Regel nur die Daten die notwendig sind um Ihnen unseren Service bieten zu können. Möglicherweise fragen wir Sie nach weiteren Informationen, die aber freiwilliger Natur sind. Wann immer wir personenbezogene Daten verarbeiten, tun wir dies um Ihnen unseren Service anbieten zu können oder um unsere kommerziellen Ziele zu verfolgen.
+
+Verwendung der Mobile App
+
+Wir stellen Ihnen neben unserem Online-Angebot eine mobile App zur Verfügung, die Sie auf Ihr mobiles Endgerät herunterladen können. Dabei stehen Ihnen die hier beschriebenen Rechte zu.
+
+Beim Herunterladen der App werden die dafür notwendigen Informationen an den App-Store übertragen. Diese sind insbesondere Nutzername, E-Mail Adresse und Kundennummer Ihres Accounts, Zeitpunkt des Downloads, Zahlungsinformationen und die individuelle Gerätekennziffer. Auf diese Datenerhebung haben wir keinen Einfluss und sind nicht dafür verantwortlich. Wir verarbeiten diese bereitgestellten Daten, soweit dies für das Herunterladen der App auf Ihr Smartphone notwendig ist. Sie werden darüber hinaus nicht weiter gespeichert.
+
+Bei der Nutzung der App erheben wir zur Ermöglichung der Funktionen der App folgende weiteren personenbezogenen Daten: 
+- Vor- und Nachname
+- Nickname (im Falle, dass dieser Ihren Echtnamen darstellt)
+- Geburtstag
+- Geschlecht
+- PLZ
+- Land
+- Stadt
+- Adresse
+- Telefon Nummer
+- E-Mail
+- Foto
+- IMEI (Android)
+- IP Adresse (Web Client)
+- Advertisement ID (Apple)
+
+Des Weiteren können nach Permissions-Abfrage und Zustimmung des Spielers auch folgende Daten aus dem Facebook-Account oder Telefon-Buch eingelesen werden: Bild, Name, Email, FB Token.
+
+Wir nutzen derzeit keinen Cookies und alle Session Informationen sind in einem Server-Client-Side Token gehandelt.
+ 
+Der Spieler wird gegenüber anderen Spieler mit folgenden Infos dargestellt: 
+- Nickname oder Vorname / Nachname (durch den Nutzer einstellbar)
+- Bild oder Avatar
+- Location (City / ZIP / Country)
+
+Daten werden im System nur mit dem Payment Provider und unserem Support System und Call-Center (Helpshift / 5CA) ausgetauscht. Andere Dritten sind derzeit nicht in Abwicklungsprozesse eingebunden und erhalten auch keinen dedizierten Zugriff. Jedoch kann sich dies im Zuge der Gewinn-Ausschüttung oder anderen Aktivitäten ändern. Jedoch würden diese Dritte in einer vertraglichen Struktur mit F4M stehen.
+ 
+Weitere Daten in Bezug auf Big Data / Reporting etc. werden anonymisiert und aggregiert und stellen daher keinen Bezug mehr auf den einzelnen Spieler dar.
+
+Für Werbezwecke nutzen wir den sog. „Advertising Identifier“ (IDFA). Dieser ist eine einzigartige, jedoch nicht personalisierte und nicht dauerhafte Identifizierungsnummer für ein bestimmtes Endgerä, der durch iOS bereitgestellt wird. Die mit diesem erhobenen Daten werden nicht mit sonstigen gerätebezogenen Informationen verknüpft. Diesen IDFA verwenden wir, um Ihnen personalisierte Werbung bereitzustellen und Ihre Nutzung auswerten zu können. Wenn Sie in den iOS-Einstellungen unter „Datenschutz“ --> „Werbung“ die Option „kein Ad-Tracking“ aktivieren, können wir nurnoch folgende Maßnahmen vornehmen: Messung Ihrer Interaktion mit Bannern durch Zählung der Anzahl der Anzeigen eines Banners ohne Klick darauf („frequency capping“), Klickrate, Feststellung einzigartiger Nutzung („unique user“) sowie Sicherheitsmaßnahmen, Betrugsbekämpfung und Fehlerbeseitigung. Sie können in den Geräteeinstellungen jederzeit den IDFA löschen („Ad-ID zurücksetzen“), dann wird ein neuer IDFA erstellt, der nicht mit den früher erhobenen Daten zusammengeführt wird. Wir weisen Sie darauf hin, dass Sie eventuell nicht alle Funktionen unserer App nutzen können, wenn Sie die Nutzung des IDFA beschränken.
+
+Sicherheit
+
+Wir haben technische und administrative Sicherheitsvorkehrungen getroffen um Ihre personenbezogenen Daten gegen Verlust, Zerstörung, Manipulation und unautorisierten Zugriff zu schützen. All unsere Mitarbeiter sowie für uns tätige Dienstleister sind auf die gültigen Datenschutzgesetze verpflichtet.
+
+Die Nutzerdaten werden in einer Amazon Cloud auf einem Aerospike NoSQL server gespeichert. Dieser kann Regionalbezogen (GEO-Fencing) Teile der Daten ausblenden. Damit stellen wir sicher dass personenbezogene Daten an die Player Location oder EU Location gebunden bleiben.
+
+Wann immer wir personenbezogene Daten sammeln und verarbeiten werden diese verschlüsselt bevor sie übertragen werden. Das heißt, dass Ihre Daten nicht von Dritten missbraucht werden können. Unsere Sicherheitsvorkehrungen unterliegen dabei einem ständigen Verbesserungsprozess und unsere Datenschutzerklärungen werden ständig überarbeitet. Bitte stellen Sie sicher, dass Ihnen die aktuellste Version vorliegt.
+
+Änderungen unserer Datenschutzerklärungen
+
+Wir behalten uns das Recht vor, unsere Datenschutzerklärungen zu ändern falls dies aufgrund neuer Technologien notwendig sein sollte. Bitte stellen Sie sicher, dass Ihnen die aktuellste Version vorliegt. Werden an dieser Datenschutzerklärung grundlegende Änderungen vorgenommen, geben wir diese Änderungen auf unserer Website bekannt.
+
+Recht auf Information/Widerspruch
+
+Bitte kontaktieren Sie uns jederzeit, wenn Sie sich informieren möchten welche personenbezogenen Daten wir über Sie speichern. Außerdem können Sie jederzeit Ihre Erlaubnis an uns, Ihre personenbezogene Daten zu erheben und zu verarbeiten, zurückziehen. In beiden Fällen wenden Sie sich bitte direkt an uns.
+
+Alle Interessenten und Besucher unserer Internetseite erreichen uns in Datenschutzfragen unter:
+
+
+Herrn Christian Volkmer
+Projekt 29 GmbH & Co. KG
+Trothengasse 5
+93047 Regensburg
+
+Tel.:  0941 29 86 93 0
+Fax:  0941 29 86 93 16
+E-Mail: anfragen@projekt29.de
+www.projekt29.de
+
+

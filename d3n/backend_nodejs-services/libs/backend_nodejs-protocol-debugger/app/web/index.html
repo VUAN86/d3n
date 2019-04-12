@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" ng-app="protocolDebuggerApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F4M Protocol Debugger</title>
+    <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.min.css" />
+    <link href="libraries/vis/dist/vis.css" rel="stylesheet" type="text/css" />
+    <link href="libraries/alertify/alertify.core.css" rel="stylesheet" type="text/css" />
+    <link href="libraries/alertify/alertify.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <script src="libraries/jquery-3.1.0.min.js"></script>
+
+    <script src="libraries/angular.min.js"></script>
+    <script src="libraries/angular-route.min.js"></script>
+    <script src="libraries/angular-animate.min.js"></script>
+
+    <script type="text/javascript" src="libraries/vis/dist/vis.js"></script>
+    <script type="text/javascript" src="libraries/vis.animateTraffic.js"></script>
+    <script type="text/javascript" src="libraries/alertify/alertify.min.js"></script>
+
+    <script src="javascript/app.module.js"></script>
+    <script src="javascript/app.config.js"></script>
+
+    <script src="javascript/app-configuration/app-configuration.module.js"></script>
+    <script src="javascript/app-configuration/app-configuration.component.js"></script>
+
+    <script src="javascript/app-debugger/app-debugger.module.js"></script>
+    <script src="javascript/app-debugger/app-debugger.component.js"></script>
+    <script src="javascript/app-debugger/app-debugger-control-bar.directive.js"></script>
+    <script src="javascript/app-debugger/app-debugger-network.directive.js"></script>
+    <script src="javascript/app-debugger/app-debugger-timeline.directive.js"></script>
+
+    <script src="javascript/app-debugger/app-debugger-modal.service.js"></script>
+    <script src="javascript/app-debugger/app-debugger-file-feeder.service.js"></script>
+    <script src="javascript/app-debugger/app-debugger-websocket-feeder.service.js"></script>
+    <script src="javascript/app-debugger/app-debugger-event-feeder.service.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#!/configuration">F4M Protocol Debugger</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div ng-view class="view-frame"></div>
+
+    <hr>
+    <footer>
+        <p>© 2016 friends4media GmbH</p>
+    </footer>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"message": "auth/getPublicKeyResponse",
+	"content": {
+		"publicKey" : "PDxLRVk+Pg=="
+	},
+	"clientId": "testClientId",
+	"seq": 1,
+	"ack": []
+}

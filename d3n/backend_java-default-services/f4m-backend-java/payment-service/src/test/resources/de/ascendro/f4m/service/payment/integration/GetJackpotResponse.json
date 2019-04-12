@@ -1,0 +1,11 @@
+{
+	"message":"payment/getJackpotResponse",
+	"seq": 102,
+	"content": {
+		"balance": 10.00,
+		"state": "OPEN",
+		"currency": "MONEY"
+	},
+	"ack":[101],
+	"error":null
+}

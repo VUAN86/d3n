@@ -1,0 +1,8 @@
+{
+	"message":"payment/closeJackpotResponse",
+	"seq": 613,	
+	"content": {
+	},
+	"ack":[612],
+	"error":null
+}

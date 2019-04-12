@@ -1,0 +1,204 @@
+{
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-01": {
+    "1": {
+      "tombolaId": "1",
+      "name": "tombola 1",
+      "drawDate": "2017-01-01T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    }
+  },
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-02": {
+    "2": {
+      "tombolaId": "2",
+      "name": "tombola 2",
+      "drawDate": "2017-02-01T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "3": {
+      "tombolaId": "3",
+      "name": "tombola 3",
+      "drawDate": "2017-02-02T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "4": {
+      "tombolaId": "4",
+      "name": "tombola 4",
+      "drawDate": "2017-02-03T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "5": {
+      "tombolaId": "5",
+      "name": "tombola 5",
+      "drawDate": "2017-02-04T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    }
+  },
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-04": {
+    "6": {
+      "tombolaId": "6",
+      "name": "tombola 6",
+      "drawDate": "2017-04-01T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    }
+  },
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-05": {
+    "7": {
+      "tombolaId": "7",
+      "name": "tombola 7",
+      "drawDate": "2017-05-01T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "8": {
+      "tombolaId": "8",
+      "name": "tombola 8",
+      "drawDate": "2017-05-02T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "9": {
+      "tombolaId": "9",
+      "name": "tombola 9",
+      "drawDate": "2017-05-03T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "10": {
+      "tombolaId": "10",
+      "name": "tombola 10",
+      "drawDate": "2017-05-04T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    },
+    "11": {
+      "tombolaId": "11",
+      "name": "tombola 11",
+      "drawDate": "2017-05-05T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    }
+  },
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-06": {
+    "12": {
+      "tombolaId": "12",
+      "name": "tombola 12",
+      "drawDate": "2017-06-01T01:01:01Z",
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ]
+    }
+  }
+}

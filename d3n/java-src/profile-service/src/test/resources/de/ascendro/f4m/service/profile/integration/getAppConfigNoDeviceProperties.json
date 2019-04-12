@@ -1,0 +1,10 @@
+{
+	"message":"profile/getAppConfiguration",
+	"seq": 5698,	
+	"content":{
+		"appId": "GAME-APP-8268573934",
+		"deviceUUID": "ID1",
+		"tenantId":"60551c1e-a718-444-80f5-76304dec7eb7"
+	},
+	"ack": null
+}

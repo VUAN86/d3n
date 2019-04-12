@@ -1,0 +1,57 @@
+{
+  "tombola:1": {
+    "id": "1",
+    "name": "Mega Tombola",
+    "description": "Another mega tombola lol",
+    "winningRules": "There are no rules!",
+    "imageId": "abc123",
+    "startDate": "2016-01-11T01:01:01Z",
+    "endDate": "2099-01-12T01:01:01Z",
+    "status": "ACTIVE",
+    "payoutTarget": "TARGET_DATE",
+    "targetDate": "2099-01-12T01:01:01Z",
+    "percentOfTicketsAmount": 80,
+    "applicationsIds": [
+      "asd1233",
+      "dsf23"
+    ],
+    "regionalSettingsIds": [
+      "adsf",
+      "asd3",
+      "dsf"
+    ],
+    "totalTicketsAmount": 123456,
+    "bundles": [
+      {
+        "amount": 10,
+        "price": 100,
+        "currency": "MONEY",
+        "imageId": "abc"
+      },
+      {
+        "amount": 100,
+        "price": 900,
+        "currency": "MONEY",
+        "imageId": "abcd"
+      }
+    ],
+    "prizes": [
+      {
+        "id": "1",
+        "name": "First Prize",
+        "type": "BONUS",
+        "amount": 1000,
+        "imageId": "abc",
+        "draws": 2
+      },
+      {
+        "id": "consolation",
+        "name": "Consolation Prize",
+        "type": "VOUCHER",
+        "imageId": "abcd",
+        "voucherId": "voucherid123",
+        "draws": 1
+      }
+    ]
+  }
+}

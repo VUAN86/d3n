@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- There are two log4j2-test.xml files, which both should be kept identical:  -->
+<!-- /f4m-default-service/src/test/resources/log4j2-test.xml is used during f4m-default-service test phase -->
+<!-- /f4m-test-lib/src/main/resources/log4j2-test.xml is used during tests for all other services -->
+<!-- In environments with no distinction between main and test classpaths (like Eclipse) any of both files can be picked up. -->
+<Configuration status="ERROR" name="DefaultTestConfig">
+	<Properties>
+		<Property name="isThreadContextMapInheritable">true</Property>
+	</Properties>
+	<Appenders>
+		<Console name="STDOUT">
+			<PatternLayout pattern="%d %p [%t-%c] %m %X%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="de.ascendro.f4m" level="DEBUG" />
+		<Logger name="de.ascendro.f4m.service.cache.CacheCleanUpTask" level="WARN" />
+		<Logger name="de.ascendro.f4m.service.util.register.ServiceRegistryClientImpl" level="WARN" />
+		<Logger name="de.ascendro.f4m.server.AerospikeDaoImpl" level="WARN" />
+		<Logger name="org.eclipse" level="WARN" />
+		<Logger name="feign" level="DEBUG" />
+		<Root level="INFO">
+			<AppenderRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+</Configuration>

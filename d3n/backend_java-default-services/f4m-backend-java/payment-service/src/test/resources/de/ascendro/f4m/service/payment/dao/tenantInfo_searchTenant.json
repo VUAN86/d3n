@@ -1,0 +1,9 @@
+{
+	"tenantId": "searchTenant",
+	"paymentSystemRestUrl": "www.payment.xxx/rest",
+	"paymentSystemWebUrl": "www.payment.xxx/web",
+	"apiId": "username",
+	"mainCurrency" : "EUR",
+	"exchangeRates": [
+	]
+}

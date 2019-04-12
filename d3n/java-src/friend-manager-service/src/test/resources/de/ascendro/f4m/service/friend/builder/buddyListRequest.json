@@ -1,0 +1,16 @@
+{
+	"message": "friend/buddyList",
+	"seq": 123,	
+	"content": {
+		"userId": "<<userId>>"
+		,"searchTerm": "<<searchTerm>>"
+		,"orderType": "<<orderType>>"
+		,"includedRelationTypes": "<<includedRelationTypes>>"
+		,"excludedRelationTypes": "<<excludedRelationTypes>>"
+		,"includeProfileInfo": "<<includeProfileInfo>>"
+		,"favorite": "<<favorite>>"
+		,"limit": "<<limit>>"
+		,"offset": "<<offset>>"
+	},
+	"ack": null
+}

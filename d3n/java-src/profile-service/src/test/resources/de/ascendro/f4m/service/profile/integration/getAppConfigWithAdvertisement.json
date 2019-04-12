@@ -1,0 +1,23 @@
+{
+  "tenant":{
+    "id":"60551c1e-a718-444-80f5-76304dec7eb7",
+    "name":"F4M Tenant",
+    "address":"address",
+    "city":"city",
+    "country":"Germany"
+  },
+  "friendsForMedia":{
+    "name":"F4M Tenant",
+    "address":"address",
+    "city":"city",
+    "country":"Germany"
+  },
+  "application": {
+    "id": "GAME-APP-8268573934",
+    "advertisementInformation": {
+      "defaultAdvertisementImageId": "ADV_IMAGE_ID",
+      "numberOfPreloadedAdvertisements": 8,
+      "advertisementProviderId": 123
+    }
+  }
+}

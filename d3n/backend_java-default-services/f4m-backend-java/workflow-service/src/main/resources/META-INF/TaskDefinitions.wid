@@ -1,0 +1,9 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+[
+  // the service task work item
+  [
+    "name" : "Service Task",
+    "displayName" : "Service Task",
+    "icon" : "service-task.png"
+  ]
+]

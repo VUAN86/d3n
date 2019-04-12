@@ -1,0 +1,19 @@
+project.group = 'de.ascendro.f4m.f4m-aerospike-test-lib'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'F4M Aerospike testing library',
+		'Implementation-Version': version
+	}
+}
+
+dependencies {
+	compile project(":f4m-aerospike-lib")
+
+	compile group: 'junit', name: 'junit', version: '4.12'
+
+	compile group: 'com.github.srini156', name: 'mock-aerospike-java', version: '0.0.5'
+
+	testCompile project(":f4m-test-lib")
+}

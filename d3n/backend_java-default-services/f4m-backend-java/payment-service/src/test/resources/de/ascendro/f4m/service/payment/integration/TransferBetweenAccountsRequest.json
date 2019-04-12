@@ -1,0 +1,18 @@
+{
+	"message":"payment/transferBetweenAccounts",
+	"seq": 42,	
+	"content": {
+		"tenantId": "tenant",
+		"fromProfileId": "fromProfile",
+		"toProfileId": "toProfile",
+		"currency": "MONEY",
+		"amount": 12.34,
+		"paymentDetails": {
+			"appId" : "appId",
+			"gameId" : null,
+			"winningComponentId" : null,
+			"additionalInfo" : "no"
+		}
+	},
+	"ack": null
+}

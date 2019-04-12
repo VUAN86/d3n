@@ -1,0 +1,10 @@
+{
+	"message": "friend/contactInviteNew",
+	"seq": 123,	
+	"content": {
+		"invitee": "<<invitee>>"
+		,"invitationText": "<<invitationText>>"
+		,"groupId": "<<groupId>>"
+	},
+	"ack": null
+}

@@ -1,0 +1,10 @@
+{
+	"message":"payment/initIdentificationResponse",
+	"seq": 203,
+	"content": {
+		"forwardUrl": "www.payments.com/identification/index/12345",
+		"identificationId": "12345"
+	},
+	"ack":[16],
+	"error":null
+}

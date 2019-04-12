@@ -1,0 +1,8 @@
+{
+  "message":"achievement/userBadgeGet",
+  "seq": 1,
+  "content": {
+    "badgeId": "1"
+  },
+  "ack": null
+}

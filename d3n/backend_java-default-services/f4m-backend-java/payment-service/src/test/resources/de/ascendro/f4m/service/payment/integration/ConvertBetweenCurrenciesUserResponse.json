@@ -1,0 +1,9 @@
+{
+	"message":"payment/convertBetweenCurrenciesResponse",
+	"seq": 981,	
+	"content": {
+		"transactionId": "ResultTransactionId"
+	},
+	"ack":[189],
+	"error":null
+}

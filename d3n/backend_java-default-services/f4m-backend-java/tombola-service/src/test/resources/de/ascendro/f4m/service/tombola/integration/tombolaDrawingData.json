@@ -1,0 +1,58 @@
+{
+  "tombola:1": {
+  "tombolaId": "1",
+  "name": "Mega Tombola",
+  "drawDate": "2016-01-12T01:01:01Z",
+  "totalTicketsNumber": 153,
+  "imageId": "sasd",
+  "winners": [
+    {
+      "prizeId": "1",
+      "ticketId": 12,
+      "ticketCode": "123000",
+      "name": "First prize",
+      "type": "BONUS",
+      "amount": 1000,
+      "imageId": "abc",
+        "user": {
+        	"userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5"
+        }
+    },
+    {
+      "prizeId": "1",
+      "ticketId": 150,
+      "ticketCode": "123123",
+      "name": "First prize",
+      "type": "BONUS",
+      "amount": 1000,
+      "imageId": "abc",
+        "user": {
+        	"userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5"
+        }
+    },
+    {
+      "prizeId": "2",
+      "ticketId": 153,
+      "ticketCode": "123123",
+      "name": "Second prize",
+      "type": "VOUCHER",
+      "imageId": "abcd",
+      "voucherId": "voucherid123",
+        "user": {
+        	"userId": "a1fdfd8b-174c-4a80-9d2e-94cde52386d5"
+        }
+    },
+    {
+      "prizeId": "consolation",
+      "ticketId": 33,
+      "ticketCode": "4434343",
+      "name": "Consolation prize",
+      "type": "VOUCHER",
+      "imageId": "abcd",
+      "voucherId": "voucherid123",
+        "user": {
+        	"userId": "a1fdfd8b-174c-4a80-9d2e-94cde52386d5"
+        }
+    }]
+  }
+}

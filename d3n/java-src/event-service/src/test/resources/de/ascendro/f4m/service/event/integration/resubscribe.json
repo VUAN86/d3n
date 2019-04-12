@@ -1,0 +1,11 @@
+{   
+    "message": "event/resubscribe",
+    "seq": 100,
+    "content":{
+     	"subscriptions":[
+			{"subscription": <<resubscribe-1>>, "topic": "Game/ABC"},
+			{"subscription": <<resubscribe-2>>, "topic": "Game/DEC"}
+ 		]
+ 	},
+ 	"ack": null
+}

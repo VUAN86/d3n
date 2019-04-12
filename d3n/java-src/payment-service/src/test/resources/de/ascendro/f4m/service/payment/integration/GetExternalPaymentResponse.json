@@ -1,0 +1,16 @@
+{
+	"message":"payment/getExternalPaymentResponse",
+	"seq": 15,	
+	"content": {
+		"amount": 32.1,
+		"description": "Short description",
+		"paymentToken": "C3F10AD7CE4CC89213B0AFECEA296938.sbg-vm- fe02",
+		"type": "DEBIT",
+		"state": "PROCESSED",
+		"created": "2008-09-27T22:09:01Z",
+		"processed": "2008-09-27T22:59:58Z",
+		"transactionId": "transactionIdReturn"
+	},
+	"ack":[14],
+	"error":null
+}

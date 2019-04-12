@@ -1,0 +1,10 @@
+{
+  "message": "tombola/tombolaBuyerList",
+  "seq": 202,
+  "content": {
+    "tombolaId": "1",
+    "limit": <<limit>>,
+    "offset": <<offset>>
+  },
+  "ack": null
+}

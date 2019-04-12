@@ -1,0 +1,18 @@
+{
+  "voucher:11": {
+    "id": "11",
+    "title": "50% off voucher",
+    "shortTitle": "short Title lol",
+    "company": "company lol",
+    "description": "50% off all purchases",
+    "isQRCode": false,
+    "isSpecialPrize": false,
+    "bonuspointsCosts": 50,
+    "expirationDate": "2016-12-31T23:59:59Z",
+    "miniImageId": null,
+    "normalImageId": null,
+    "bigImageId": null,
+    "redemptionURL": "www.voucher.me",
+    "isExchange": true
+  }
+}

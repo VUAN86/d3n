@@ -1,0 +1,21 @@
+project.group = 'de.ascendro.f4m.f4m-aerospike-lib'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'F4M Libraries for Aerospike',
+		'Implementation-Version': version
+	}
+}
+
+dependencies {
+	compile project(":f4m-default-service-api")
+	compile project(":profile-service-api")
+	compile project(":voucher-service-api")
+	compile project(":game-engine-service-api")
+	compile project(":winning-service-api")
+	testCompile project(":f4m-test-lib")
+	testCompile group: 'com.github.srini156', name: 'mock-aerospike-java', version: '0.0.5'
+
+	compile group: 'com.aerospike', name: 'aerospike-client', version: '3.3.4'
+}

@@ -1,0 +1,13 @@
+{
+	"message":"resultEngine/completedGameListForUser",
+	"seq": 1,	
+	"content": {
+		"userId": "<<userId>>",
+		"limit": "<<limit>>",
+		"offset": "<<offset>>",
+		"gameTypes": "<<gameTypes>>",
+		"dateFrom": "<<dateFrom>>",
+		"dateTo": "<<dateTo>>"
+	},
+	"ack": null
+}

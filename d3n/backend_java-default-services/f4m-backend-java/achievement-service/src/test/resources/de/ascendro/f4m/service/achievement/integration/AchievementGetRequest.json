@@ -1,0 +1,8 @@
+{
+  "message":"achievement/achievementGet",
+  "seq": 1,
+  "content": {
+    "achievementId": "1"
+  },
+  "ack": null
+}

@@ -1,0 +1,42 @@
+{
+  "badgeList:60551c1e-a718-444-80f5-76304dec7eb7:GAME": {
+    "BADGE1": {
+      "id": "BADGE1",
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+      "rules" : [
+      	{"rule" : "RULE_GAME_INVITED",
+      	 "level" : 100	
+      	}
+      ],
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "BADGE2": {
+      "id": "BADGE2",
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:02:01Z"
+    },
+    "BADGE3": {
+      "id": "BADGE3",
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:04:01Z"
+    },
+    "BADGE4": {
+      "id": "BADGE4",
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:03:01Z"
+    },
+    "BADGE5": {
+      "id": "BADGE5",
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:10:01Z"
+    }
+  }
+}

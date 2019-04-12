@@ -1,0 +1,51 @@
+<div class="row">
+    <div class="col-md-4">
+        <h2>Step 1</h2>
+        <p>
+            Start all services/clients you want to listening to with the following environment variables:
+        </p>
+        <ul>
+            <li>LOG_SERVER = '{{$ctrl.information.config.ip}}'</li>
+            <li>LOG_SERVER_PORT = {{$ctrl.information.config.port}}</li>
+            <li>PROTOCOL_LOGGING = true</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Step 2</h2>
+        <p>
+            Select log files to load:
+        </p>
+        <form>
+            <div class="checkbox" ng-repeat="file in $ctrl.information.files | filter:'.log' | orderBy:'name'">
+                <label>
+                    <input type="checkbox" ng-model="$ctrl.selectedFiles[file]" /> {{file}}
+                </label>
+            </div>
+        </form>
+        <p>
+            <button ng-click="$ctrl.loadFileList()" ng-disabled="$ctrl.download" class="btn btn-info" ng-class="{disabled: $ctrl.download}">
+                <span class="glyphicon glyphicon-refresh" ng-class="{spinning: $ctrl.download===true}"></span>
+                Refresh List
+            </button>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Step 3</h2>
+        <p>
+            Start debugger.
+        </p>
+        <form>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" ng-model="$ctrl.liveUpdates" /> Live Updates
+                </label>
+            </div>
+        </form>
+        <p>
+            <button ng-click="$ctrl.startDebugger()" ng-disabled="download" class="btn btn-success" ng-class="{disabled: $ctrl.download}">
+                <span class="glyphicon glyphicon-ok-sign"></span>
+                Start
+            </button>
+        </p>
+    </div>
+</div>

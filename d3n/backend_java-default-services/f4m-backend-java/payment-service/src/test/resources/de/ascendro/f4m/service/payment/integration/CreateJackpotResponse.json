@@ -1,0 +1,8 @@
+{
+	"message":"payment/createJackpotResponse",
+	"seq": 100,
+	"content": {
+	},
+	"ack":[99],
+	"error":null
+}

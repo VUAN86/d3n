@@ -1,0 +1,10 @@
+{
+  "country" : "DE",
+  "vats": [
+  {
+   "startDate": 1485907200,
+   "endDate": null, 
+   "percent": 15
+  }
+ ]
+}

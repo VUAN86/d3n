@@ -1,0 +1,27 @@
+{
+  "tombolaId": "3",
+  "name": "best tombola",
+  "drawDate": "2016-01-12T01:01:01Z",
+  "totalTicketsBought": 150,
+  "totalPrizesWon": 0,
+  "isPending": true,
+  "bundles": [
+    {
+      "amount": 50,
+      "price": 100,
+      "currency": "MONEY",
+      "imageId": "bundleImg",
+      "purchaseDate": "2016-01-11T01:01:01Z",
+      "firstTicketId": 100
+    },
+    {
+      "amount": 100,
+      "price": 100,
+      "currency": "MONEY",
+      "imageId": "bundleImg",
+      "purchaseDate": "2016-01-11T01:01:01Z",
+      "firstTicketId": 0
+    }
+  ],
+  "prizes": []
+}

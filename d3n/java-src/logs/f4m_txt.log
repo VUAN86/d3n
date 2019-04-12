@@ -1,0 +1,42 @@
+2019-04-10 16:34:30,603 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-10 16:34:30,743 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-10 16:34:31,294 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-10 16:34:31,592 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback47243332941625 {}
+2019-04-10 16:34:31,628 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-10 16:34:31,633 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 09:27:43,809 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 09:27:44,277 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 09:27:45,774 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 09:27:46,182 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback2753525188113 {}
+2019-04-11 09:27:46,196 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 09:27:46,203 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 10:02:08,247 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:02:08,641 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:02:09,345 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:02:09,765 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback4817056537483 {}
+2019-04-11 10:02:09,805 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 10:02:09,821 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 10:23:37,808 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:23:38,026 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:23:38,838 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:23:39,474 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback6106525094377 {}
+2019-04-11 10:23:39,495 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 10:23:39,507 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 10:27:08,851 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:27:09,036 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:27:09,888 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 10:27:10,356 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback6317570759175 {}
+2019-04-11 10:27:10,375 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 10:27:10,384 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 13:41:28,485 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 13:41:28,848 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 13:41:29,382 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 13:41:29,648 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback17976835697315 {}
+2019-04-11 13:41:29,663 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 13:41:29,670 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}
+2019-04-11 14:34:18,973 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 14:34:19,339 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 14:34:19,808 DEBUG [main-de.ascendro.f4m.service.config.F4MConfig] Skip F4M_CONF_PROPERTY[f4m.conf] - not set {}
+2019-04-11 14:34:20,156 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocodeCallback21147199158087 {}
+2019-04-11 14:34:20,170 DEBUG [main-de.ascendro.f4m.service.communicator.RabbitClient] Start waiting for messages: promocode {}
+2019-04-11 14:34:20,176 INFO [main-de.ascendro.f4m.service.ServiceStartup] Starting k8s service [promocode] {}

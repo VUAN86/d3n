@@ -1,0 +1,9 @@
+{
+	"message":"payment/getJackpot",
+	"seq": 101,	
+	"content": {
+		"tenantId": "tenantId",
+		"multiplayerGameInstanceId": "multiplayer_game_instance_id"
+	},
+	"ack": null
+}

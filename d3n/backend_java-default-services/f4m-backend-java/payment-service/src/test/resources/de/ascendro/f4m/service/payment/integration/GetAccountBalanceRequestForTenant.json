@@ -1,0 +1,9 @@
+{
+	"message":"payment/getAccountBalance",
+	"seq": 91,	
+	"content": {
+		"tenantId": "searchTenant",
+		"currency": "MONEY"
+	},
+	"ack": null
+}

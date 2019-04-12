@@ -1,0 +1,9 @@
+{
+    "message": "gameSelection/publicGameList",
+    "seq": 300,
+    "content": {
+    	"gameType": "<<gameType>>",
+		"limit": 100
+    },
+	"ack": null
+}

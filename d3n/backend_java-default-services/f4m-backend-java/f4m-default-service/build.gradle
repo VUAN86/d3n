@@ -1,0 +1,26 @@
+project.group = 'de.ascendro.f4m.service'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'F4M Default Service',
+                   'Implementation-Version': version
+    }
+}
+
+dependencies {
+	compile project(":f4m-default-service-api")
+	compile project(":registry-service-api")
+	compile project(":event-service-api")
+	compile project(":auth-service-api")
+	compile project(":gateway-service-api")
+	
+	compile group:'javax.websocket', name: 'javax.websocket-api', version: '1.0'
+	
+	def jettyVersion = '9.3.9.v20160517'
+	//compile group: 'org.eclipse.jetty.websocket', name: 'javax-websocket-server-impl', version: jettyVersion
+	compile (group: 'org.eclipse.jetty.websocket', name: 'javax-websocket-server-impl', version: jettyVersion) {
+		exclude module: 'jetty-plus'
+	   }
+	compile group: 'org.eclipse.jetty.websocket', name: 'javax-websocket-client-impl', version: jettyVersion
+}

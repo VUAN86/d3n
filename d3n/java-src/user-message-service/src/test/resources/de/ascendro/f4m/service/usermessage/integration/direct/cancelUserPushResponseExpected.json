@@ -1,0 +1,6 @@
+{
+	"message":"userMessage/cancelUserPushResponse",
+	"content":{},
+	"ack":[47],
+	"error":null
+}

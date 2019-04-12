@@ -1,0 +1,15 @@
+{
+  "promocode:MEGAPROMO": {
+    "code": "MEGAPROMO",
+    "numberOfUses": 2,
+    "expirationDate": "9999-04-01T10:00:00Z",
+    "usedOnDate": "2017-01-15T10:00:00Z",
+    "promocodeCampaignId": 1,
+    "moneyValue": 5.5,
+    "creditValue": 15,
+    "bonuspointsValue": 10
+  },
+  "promocode:MEGAPROMO:counter": {
+
+  }
+}

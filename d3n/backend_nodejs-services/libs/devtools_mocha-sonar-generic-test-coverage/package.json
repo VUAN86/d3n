@@ -1,0 +1,32 @@
+{
+  "description": "Mocha sonar generic tesst coverage integrator",
+  "homepage": "https://github.com/mageddo/mocha-sonar-generic-test-coverage#readme",
+  "keywords": [
+    "mocha",
+    "sonar",
+    "coverage",
+    "generic test"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Elvis de Freitas",
+      "email": "edigitalb@gmail.com"
+    }
+  ],
+  "name": "mocha-sonar-generic-test-coverage",
+  "dependencies": {
+  },
+  "version": "0.0.1",
+  "readme": "# Introduction\r\nThis is a mocha reporter project to integrate mocha unit tests to [sonar Generic Test coverage unit tests execution results](http://docs.sonarqube.org/display/PLUG/Generic+Test+Coverage#GenericTestCoverage-UnitTestsExecutionResultsReportFormat)\r\n\r\nThis reporter is only for unit test sucess/failures verification, to unit test line coverage take a look on [istanul reporter](https://www.npmjs.com/package/grunt-istanbul)\r\n\r\n# Installation\r\n\r\n\tnpm install mocha-json-report --save-dev\r\n\r\nOn pure mocha \r\n\r\n\tmocha --reporter mocha-sonar-generic-test-coverage testFolder\r\n\r\nOn **mocha-test** for use with grunt\r\n\r\n\tmochaTest: {\r\n\t\tcoverage: {\r\n\t\t\toptions: {\r\n\t\t\t\treporter: 'mocha-sonar-generic-test-coverage',\r\n\t\t\t\tquiet: true,\r\n\t\t\t\tcaptureFile: 'unit-tests.xml'\r\n\t\t\t},\r\n\t\t\tsrc: [\r\n\t\t\t\t'test.js'\r\n\t\t\t]\r\n\t\t}\r\n\t}\r\n\r\n# Output example \r\n\t<unitTest version=\"1\">\r\n\t\t<file path=\"src/main/java/com/example/MyClass.java\">\r\n\t\t\t<testCase name=\"test1\" duration=\"500\"/>\r\n\t\t\t<testCase name=\"test2\" duration=\"600\"/>\r\n\t\t\t<testCase name=\"test3\" duration=\"600\">\r\n\t\t\t\t<failure message=\"sort message\">long stacktrace</failure>\r\n\t\t\t</testCase>\r\n\t\t\t<testCase name=\"test4\" duration=\"600\">\r\n\t\t\t\t<error message=\"sort message\">long stacktrace</error>\r\n\t\t\t</testCase>\r\n\t\t\t<testCase name=\"test5\" duration=\"600\">\r\n\t\t\t\t<skipped message=\"sort message\">long stacktrace</skipped>\r\n\t\t\t</testCase>\r\n\t\t</file>\r\n\t</unitTest>\r\n\r\nSonar preview\r\n\r\n![](http://i.imgur.com/mlxAPI1.jpg)\r\n![](http://i.imgur.com/n9eCbt7.jpg)\r\n![](http://i.imgur.com/Bfw0amn.jpg)",
+  "readmeFilename": "README.md",
+  "gitHead": "57cc246e5fc8e5a5a775fbc27004e753823922eb",
+  "bugs": {
+    "url": "https://github.com/mageddo/mocha-sonar-generic-test-coverage/issues"
+  },
+  "_id": "mocha-sonar-generic-test-coverage@0.0.1",
+  "_shasum": "d931ea623d5b17a3b70f53269fe27903bee59b65",
+  "_from": "git+ssh://git@github.com/MichaelKling/mocha-sonar-generic-test-coverage.git",
+  "_resolved": "git+ssh://git@github.com/MichaelKling/mocha-sonar-generic-test-coverage.git#57cc246e5fc8e5a5a775fbc27004e753823922eb"
+}

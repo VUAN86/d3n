@@ -1,0 +1,8 @@
+{
+  "message":"advertisement/gameAdvertisementsGet",
+  "seq": 1,
+  "content": {
+    "providerId" : 0
+  },
+  "ack": null
+}

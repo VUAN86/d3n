@@ -1,0 +1,15 @@
+{
+	"message": "serviceRegistry/getResponse",
+	"content": {
+		"service": {
+			"serviceName": "event",
+			"uri": "wss://127.0.0.1:9876",
+			"serviceNamespaces": [
+				"event"
+			]
+		}
+	},
+	"error":null,
+	"seq":131,
+	"ack":[124]
+}

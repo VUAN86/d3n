@@ -1,0 +1,30 @@
+{
+  "userBadgeList:60551c1e-a718-444-80f5-76304dec7eb7:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:GAME": {
+    "userBadge:BADGE1:a0fdfd8b-174c-4a80-9d2e-94cde52386d5": {
+      "userId":"a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+      "badgeId": "BADGE1",
+      "tenantId":"60551c1e-a718-444-80f5-76304dec7eb7",
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "userBadge:BADGE2:a0fdfd8b-174c-4a80-9d2e-94cde52386d5": {
+      "userId":"a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+      "badgeId": "BADGE2",
+      "tenantId":"60551c1e-a718-444-80f5-76304dec7eb7",
+      "createdOn": "2017-01-01T01:02:01Z"
+    }
+  },
+  "userBadgeList:60551c1e-a718-444-80f5-76304dec7eb7:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:BATTLE:2017-01-01": {
+    "userBadge:BADGE11:a0fdfd8b-174c-4a80-9d2e-94cde52386d5": {
+      "userId":"a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+      "badgeId": "BADGE11",
+      "tenantId":"60551c1e-a718-444-80f5-76304dec7eb7",
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "userBadge:BADGE12:a0fdfd8b-174c-4a80-9d2e-94cde52386d5": {
+      "userId":"a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+      "badgeId": "BADGE12",
+      "tenantId":"60551c1e-a718-444-80f5-76304dec7eb7",
+      "createdOn": "2017-01-01T01:02:01Z"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+	"message": "resultEngine/calculateResults",
+	"seq": 1,
+	"content": {
+		"gameInstance": {
+			"id": "gi1",
+			"userId": "test_user1",
+			"mgiId": "mpgi1",
+			"userHandicap": 5.6,
+			"numberOfQuestions": 3,
+			"entryFeeAmount": 5,
+			"entryFeeCurrency": "MONEY",
+			"startDateTime":"2016-01-10T00:00:00Z",
+			"endDateTime":"2016-01-11T01:01:01Z",
+			"tenantId": "t1",
+			"appId": "a1",
+			"game": {
+				"gameId": "1",
+				"title": "Test Game 1",
+				"pictureId": "pic1",
+				"description": "Test Game Descr.",
+				"assignedPools": ["football", "tenis"],
+				"questionPools": ["football", "euroFootball", "footballHistory", "footballOlympics", "tenis"],
+				"type": "USER_TOURNAMENT",
+				"isFree": false,
+				"isOffline": false,
+				"tenantId": "t1",
+				"appId": "a1",
+				"resultConfiguration": {
+					"specialPrize": true,
+					"specialPrizeVoucherId": "1",
+					"specialPrizeCorrectAnswersPercent": 60,
+					"specialPrizeWinningRule": "everyPlayer",
+					"jackpotGame": true,
+					"tournamentPayoutStructure": [
+						80, 20
+					]
+				}
+			},
+			"questions": {
+				"0": {
+					"id": "1",
+					"answers": ["a", "b", "c", "d"],
+					"correctAnswers": ["a"],
+					"answerMaxTimes": [50000],
+					"stepCount": 1,
+					"complexity": 2
+				},
+				"1": {
+					"id": "2",
+					"answers": ["a", "b", "c", "d"],
+					"correctAnswers": ["a", "b"],
+					"answerMaxTimes": [50000, 50000],
+					"stepCount": 2,
+					"complexity": 4
+				},
+				"2": {
+					"id": "3",
+					"answers": ["a", "b", "c", "d"],
+					"correctAnswers": ["a"],
+					"answerMaxTimes": [50000],
+					"stepCount": 1,
+					"complexity": 3
+				}
+			},
+			"state": {
+				"status": "COMPLETED",
+				"answers": [
+					{
+						"question": 0,
+						"answers": ["a"],
+						"tClientMs": [4000],
+						"tServerMs": [4200],
+						"tPrDelMs": [300]
+					},
+					{
+						"question": 1,
+						"answers": ["a", "b"],
+						"tClientMs": [4000, 4000],
+						"tServerMs": [5000, 4200],
+						"tPrDelMs": [300, 300]
+					},
+					{
+						"question": 2,
+						"answers": ["c"],
+						"tClientMs": [4000],
+						"tServerMs": [4200],
+						"tPrDelMs": [300]
+					}
+				]
+			}
+		}
+	},
+	"ack": null
+}

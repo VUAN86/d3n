@@ -1,0 +1,15 @@
+project.group = 'de.ascendro.f4m.service.template'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Template Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.template.TemplateServiceStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service-api")
+	compile project(":payment-service-api")
+}

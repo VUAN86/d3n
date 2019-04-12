@@ -1,0 +1,21 @@
+{
+	"message":"payment/getUserAccountHistory",
+	"seq": 76,	
+	"content": {
+		"currency": "MONEY",
+		"limit": 6,
+		"startDate": "2016-11-24T00:00:00Z",
+		"endDate": "2016-12-01T00:00:00Z",
+		"typeFilter": "DEBIT"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "searchProfile",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "searchTenant"
+		}
+	}
+}

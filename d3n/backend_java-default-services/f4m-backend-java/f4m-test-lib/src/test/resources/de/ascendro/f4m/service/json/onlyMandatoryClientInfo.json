@@ -1,0 +1,12 @@
+{
+  "clientInfo": {
+  	"profile":{
+	    "userId": "userId-1",
+	    "roles": ["ANONYMOUS", "REGISTERED"]
+    },
+    "appConfig":{
+	    "tenantId": "tenantId-1"
+    },
+    "ip":"127.0.0.1"
+  }
+}

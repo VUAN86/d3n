@@ -1,0 +1,23 @@
+{
+  "voucher:11:0": {
+    "code": "ABC123",
+    "user": "123",
+    "isUsed": true,
+    "usedDate": "2001-01-01T10:00:00Z"
+  },
+  "voucher:11:1": {
+    "code": "ABC124"
+  },
+  "voucher:11:2": {
+    "code": "ABC125"
+  },
+  "voucher:11:3": {
+    "code": "ABC126"
+  },
+  "voucher:11:4": {
+    "code": "ABC127"
+  },
+  "voucher:11:5": {
+    "code": "ABC128"
+  }
+}

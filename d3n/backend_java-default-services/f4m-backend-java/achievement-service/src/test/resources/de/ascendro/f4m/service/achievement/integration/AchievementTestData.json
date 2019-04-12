@@ -1,0 +1,18 @@
+{
+  "achievement:1" : {
+    "id":"1",
+    "tenantId":"11",
+    "name": "super-achievement",
+    "status": "ACTIVE",
+    "image": "cool.jpg",
+    "timeLimit": true,
+    "timePeriod": "1week",
+    "reward": true,
+    "bonusPointsReward": 11,
+    "creditReward": 3,
+    "paymentMultiplier": 1.1,
+    "accessRules": ["PRO", "PREMIUM"],
+    "badges": ["best-month", "most-games-week"],
+    "messaging": ["EMAIL", "IN_APP_NOTIFICATION"]
+  }
+}

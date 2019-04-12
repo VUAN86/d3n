@@ -1,0 +1,26 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.MultiplayerGameEndEvent",
+    "userId": "14883009600931a988683-c318-477e-84e3-560d7e91edc7",
+    "tenantId": "t1",
+    "appId": "2",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "gameId": 11,
+        "placement": 1,
+        "gameInstanceId": "1489079199969a3897882-f7e0-41e6-a564-6422e99bb809",
+        "opponentId": "14878556985250bd5b2e5-f8a7-4e9b-a510-68dd5e228ffa",
+        "gameWon": true,
+        "gameLost": false,
+        "gameDraw": false,
+        "wonDuelGames": true,
+        "lostDuelGames": false,
+        "wonTournamentGames": false,
+        "lostTournamentGames": false
+      }
+    }
+  }
+}

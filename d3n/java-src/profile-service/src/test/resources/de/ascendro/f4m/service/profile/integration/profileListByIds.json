@@ -1,0 +1,8 @@
+{
+	"message": "profile/profileListByIds",
+	"seq": 202,
+	"content": {
+		"profilesIds": ["<<userId1>>", "<<userId2>>", "invalidId"]
+	},
+	"ack": null
+}

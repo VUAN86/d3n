@@ -1,0 +1,12 @@
+{   
+	"message": "gameEngine/answerQuestion",
+    "seq": 204,
+    "content":{
+		"gameInstanceId": "<<gameInstanceId>>",      
+		"question": "<<question>>",
+		"step": "<<step>>",
+		"answers": ["<<answers>>"],
+		"tClientMs": "<<tClientMs>>"
+	},
+	"ack": null
+}

@@ -1,0 +1,1 @@
+NodeJS Service Registry Client

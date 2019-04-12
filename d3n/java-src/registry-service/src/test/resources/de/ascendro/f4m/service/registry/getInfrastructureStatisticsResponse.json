@@ -1,0 +1,90 @@
+{
+	"message": "serviceRegistry/getInfrastructureStatisticsResponse",
+	"content": {
+		"statisticsList": [
+			{
+				"serviceName": "gameSelection",
+				"uri": "some-service.de:123456",
+				"uptime": 123456789012345,
+				"memoryUsage": 81024000000,
+				"cpuUsage": 123,
+				"countGatewayConnections": 2,
+				"countConnectionsToService": 3,
+				"countConnectionsFromService": 2,
+				"countSessionsToService": 150, 
+				"lastHeartbeatTimestamp": 1488470362372,
+				"missingDependentServices": [ "workflow" ],
+				"connectionsToDb": {
+					"mysql": "NA",
+					"aerospike": "OK",
+					"elastic": "NOK",
+					"spark": "NA"
+				},
+				"connectionsFromService": [
+					{
+						"serviceName": "serviceRegistry",
+						"address": "172.31.29.229",
+						"port": 8443
+					}, {
+						"serviceName": "userMessage",
+						"address": "172.31.29.229",
+						"port": 8444
+					}, {
+						"serviceName": "payment",
+						"address": "172.31.29.229",
+						"port": 8445
+					}
+				],
+				"connectionsToService": [
+					{
+						"serviceName": "gateway",
+						"address": "52.58.235.105",
+						"port": 39078
+					}, {
+						"serviceName": "gateway",
+						"address": "localhost",
+						"port": 54321
+					}
+				]
+			},
+			{
+				"serviceName": "serviceRegistry",
+				"uri": "wss://localhost:8443/",
+				"uptime": 123456.1,
+				"memoryUsage": 123456.2,
+				"cpuUsage": 123456.3,
+				"countGatewayConnections": 0,
+				"countConnectionsToService": 2,
+				"countConnectionsFromService": 1,
+				"missingDependentServices": [],
+				"connectionsToDb": {
+					"mysql": "NA",
+					"aerospike": "NA",
+					"elastic": "NA",
+					"spark": "NA"
+				},
+				"connectionsFromService": [
+					{
+						"serviceName": "event",
+						"address": "localhost",
+						"port": 8432
+					}
+				],
+				"connectionsToService": [
+					{
+						"serviceName": "1st_connection_placeholder",
+						"address": "127.0.0.1",
+						"port": 123456.4
+					}, {
+						"serviceName": "2nd_connection_placeholder",
+						"address": "127.0.0.1",
+						"port": 123456.5
+					}
+				]
+			}
+		]
+  	},
+	"seq": 422,
+	"ack": [421],
+	"error":null
+}

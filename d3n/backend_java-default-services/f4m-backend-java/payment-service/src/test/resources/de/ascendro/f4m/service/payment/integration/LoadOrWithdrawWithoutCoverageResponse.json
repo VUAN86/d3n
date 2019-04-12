@@ -1,0 +1,9 @@
+{
+	"message":"payment/loadOrWithdrawWithoutCoverageResponse",
+	"seq": 230,
+	"content": {
+		"transactionId": "transaction_id_value"
+	},
+	"ack":[30],
+	"error":null
+}

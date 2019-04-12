@@ -1,0 +1,24 @@
+{
+	"properties": {
+		"contactId": {
+            "type": "string",
+            "fields": {
+                "raw": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+		},
+		"contactSearchName": {
+            "type": "string", 
+            "analyzer": "autocomplete",
+            "search_analyzer": "standard",
+            "fields": {
+                "raw": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"message" : "userMessage/sendTopicPush",
+	"seq": 46,
+	"content" : {
+		"topic" : "topic_value",
+		"message" : "mobile push to all user''s devices {0}",
+		"parameters": [
+			"test"
+		],
+		"appIds": [
+			"appIdValue1", "appIdValue2"
+		]
+	},
+	"ack": null
+}

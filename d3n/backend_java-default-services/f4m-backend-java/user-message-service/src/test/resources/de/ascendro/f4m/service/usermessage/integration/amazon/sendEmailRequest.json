@@ -1,0 +1,21 @@
+{
+	"message" : "userMessage/sendEmail",
+    "seq": 42,
+	"content" : {
+		"address" : "test@email.com",
+		"userId" : "18",
+		"subject" : "test subject",
+		"message" : "test message content",
+		"language" : null
+	},
+	"clientInfo": {
+	    "appConfig":{
+		    "appId": "appId-1",
+		    "tenantId": "tenant-1"
+	    },
+	    "profile":{
+	    	"roles": ["any_role"]
+	    }
+	},
+	"ack": null
+}

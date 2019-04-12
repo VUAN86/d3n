@@ -1,0 +1,16 @@
+project.group = 'de.ascendro.f4m.f4m-advertisement-lib'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'F4M Library for Advertisement',
+                'Implementation-Version': version
+    }
+}
+
+dependencies {
+    compile project(":f4m-default-service")
+    compile project(":f4m-analytics-lib")
+    testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+}

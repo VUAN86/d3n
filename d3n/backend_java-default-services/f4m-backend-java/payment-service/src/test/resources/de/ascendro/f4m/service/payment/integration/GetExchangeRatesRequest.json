@@ -1,0 +1,16 @@
+{
+	"message":"payment/getExchangeRates",
+	"seq": 95,	
+	"content": {
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "searchProfile",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "searchTenant"
+		}
+	}
+}

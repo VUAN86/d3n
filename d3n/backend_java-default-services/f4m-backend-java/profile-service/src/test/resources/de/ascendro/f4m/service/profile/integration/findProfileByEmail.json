@@ -1,0 +1,9 @@
+{
+	"message":"profile/findByIdentifier",
+	"seq": 202,	
+	"content": {
+		"identifierType": "EMAIL",
+		"identifier": "MAIL1@mail1.com"
+	},
+	"ack": null
+}

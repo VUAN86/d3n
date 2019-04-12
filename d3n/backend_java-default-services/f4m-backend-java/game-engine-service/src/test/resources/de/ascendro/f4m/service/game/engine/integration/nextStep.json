@@ -1,0 +1,11 @@
+{   
+	"message": "gameEngine/nextStep",
+    "seq": 749,
+    "content":{
+		"gameInstanceId": "<<gameInstanceId>>",      
+		"question": "<<question>>",
+		"step": "<<step>>",
+		"tClientMs": "<<tClientMs>>"
+	},
+	"ack": null
+}

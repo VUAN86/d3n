@@ -1,0 +1,8 @@
+{
+    "message": "gameSelection/getGame",
+    "seq": 200,
+    "content": {
+    	"gameId": "<<gameId>>"
+    },
+	"ack": null
+}

@@ -1,0 +1,8 @@
+{
+	"message": "friend/groupUnblock",
+	"seq": 123,	
+	"content": {
+		"groupIds": "<<groupIds>>"
+	},
+	"ack": null
+}

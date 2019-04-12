@@ -1,0 +1,34 @@
+package de.ascendro.f4m.service.game.engine;
+
+import de.ascendro.f4m.service.json.model.type.MessageType;
+
+public enum GameEngineMessageTypes implements MessageType {
+
+	REGISTER, REGISTER_RESPONSE,
+	START_GAME, START_GAME_RESPONSE,
+	READY_TO_PLAY, READY_TO_PLAY_RESPONSE,
+	START_STEP,
+	ANSWER_QUESTION, ANSWER_QUESTION_RESPONSE,
+	NEXT_STEP,
+	END_GAME,
+	HEALTH_CHECK, HEALTH_CHECK_RESPONSE,
+	CANCEL_GAME, CANCEL_GAME_RESPONSE,
+	JOKERS_AVAILABLE, JOKERS_AVAILABLE_RESPONSE,
+	PURCHASE_HINT, PURCHASE_HINT_RESPONSE,
+	PURCHASE_SKIP, PURCHASE_SKIP_RESPONSE,
+	PURCHASE_FIFTY_FIFTY, PURCHASE_FIFTY_FIFTY_RESPONSE,
+	PURCHASE_IMMEDIATE_ANSWER, PURCHASE_IMMEDIATE_ANSWER_RESPONSE,
+	SHOW_ADVERTISEMENT;
+
+	public static final String SERVICE_NAME = "gameEngine";
+
+	@Override
+	public String getShortName() {
+		return convertEnumNameToMessageShortName(name());
+	}
+
+	@Override
+	public String getNamespace() {
+		return SERVICE_NAME;
+	}
+}

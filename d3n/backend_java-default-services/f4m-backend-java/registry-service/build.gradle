@@ -1,0 +1,16 @@
+project.group = 'de.ascendro.f4m.service.registry'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Registry Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.registry.ServiceRegistryStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service")
+	compile project(":registry-service-api")
+	testCompile project(":f4m-test-lib")
+}

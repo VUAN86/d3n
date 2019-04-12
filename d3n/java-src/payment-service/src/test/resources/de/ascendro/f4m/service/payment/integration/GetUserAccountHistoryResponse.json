@@ -1,0 +1,28 @@
+{
+	"message":"payment/getUserAccountHistoryResponse",
+	"seq": 201,
+	"content": {
+		"items": [
+			{
+				"id": "transactionId",
+				"fromCurrency": "MONEY",
+				"toCurrency": "BONUS",
+				"type": "TRANSFER",
+				"creationDate": "2017-01-11T14:37:59Z",
+				"tenantId": "tenant",
+				"fromProfileId": "fromProfile",
+				"toProfileId": "toProfile",
+				"amount": 12.34,
+				"paymentDetails": {
+					"appId" : "appId",
+					"additionalInfo" : "no"
+				}
+			}
+		],
+		"offset": 0,
+		"limit": 10,
+		"total": 1		
+	},
+	"ack":[76],
+	"error":null
+}

@@ -1,0 +1,19 @@
+{
+  "name": "f4m-backend-nodejs-auth-service",
+  "version": "0.0.1",
+  "description": "F4M Backend NodeJS OAuth2 Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --build",
+    "fake": "node index.js --build-fake",
+    "test": "../../node_modules/.bin/istanbul cover --report cobertura --report lcov ../../node_modules/mocha/bin/_mocha app/test/unit/index.js -- --reporter mocha-sonar-generic-test-coverage --reporter-options mochaFile=./unit/test-results.xml",
+    "test-no-reporting": "../../node_modules/.bin/mocha app/test/unit/test-no-reporting.js",
+    "integration-app": "node app/test/integration/index.js --help"
+  },
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

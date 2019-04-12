@@ -1,0 +1,10 @@
+{
+  "message":"achievement/userBadgeInstanceList",
+  "seq": 1,
+  "content": {
+    "limit": <<limit>>,
+    "offset": <<offset>>,
+    "badgeId": "1"
+  },
+  "ack": null
+}

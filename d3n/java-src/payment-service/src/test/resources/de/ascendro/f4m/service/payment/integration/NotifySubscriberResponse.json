@@ -1,0 +1,8 @@
+{
+	"message":"event/notifySubscriberResponse",
+	"content":{
+		"subscription":0
+	},
+	"ack":[200],
+	"error":null
+}

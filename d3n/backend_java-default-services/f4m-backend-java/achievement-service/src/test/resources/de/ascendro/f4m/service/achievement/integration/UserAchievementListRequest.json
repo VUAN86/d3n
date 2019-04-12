@@ -1,0 +1,10 @@
+{
+  "message":"achievement/userAchievementList",
+  "seq": 1,
+  "content": {
+    "limit": 3,
+    "offset": 1,
+    "status" : "WON"
+  },
+  "ack": null
+}

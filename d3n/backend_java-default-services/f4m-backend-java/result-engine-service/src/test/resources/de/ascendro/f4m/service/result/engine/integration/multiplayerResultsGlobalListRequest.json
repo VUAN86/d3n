@@ -1,0 +1,11 @@
+{
+	"message": "resultEngine/multiplayerResultsGlobalList",
+	"seq": 1,
+	"content": {
+		"gameInstanceId": "gi1",
+		"amongAllHandicapRanges": <<amongAllHandicapRanges>>,
+		"offset": 0,
+		"limit": 20
+	},
+	"ack": null
+}

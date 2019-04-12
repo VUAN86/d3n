@@ -1,0 +1,25 @@
+{
+	"userId": "<<userId>>",
+	"roles": ["COMMUNITY", "ANONYMOUS", "REGISTERED"],
+	"person": {
+		"firstName": "<<firstName>>",
+		"lastName": "<<lastName>>"
+	},
+	"address": {
+		"street": "Test street",
+		"streetNumber": "56A"
+	},
+	"emails": [{
+		"email": "mail1@mail1.com",
+		"verificationStatus": "verified"
+	},{
+		"email": "original@origin.com",
+		"verificationStatus": "notVerified"
+	}],
+	"facebook": "FB-TEST_TOKEN1",
+	"google": null,
+	"devices": [{
+		"deviceType": "TYP1",
+		"screenHeight": 1246
+	}]
+}

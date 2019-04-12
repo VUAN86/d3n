@@ -1,0 +1,8 @@
+{
+	"message":"workflow/abort",
+	"seq": 201,	
+	"content": {
+		"taskId":"1"
+	},
+	"ack": null
+}

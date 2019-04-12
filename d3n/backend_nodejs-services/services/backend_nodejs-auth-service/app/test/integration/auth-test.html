@@ -1,0 +1,102 @@
+<html>
+<head>
+  <script language="javascript" type="text/javascript">
+
+  var wsUri = "wss://localhost:9090/";
+  var output;
+
+  function init()
+  {
+    output = document.getElementById("output");
+    testWebSocket();
+  }
+
+  function testWebSocket()
+  {
+    websocket = new WebSocket(wsUri);
+    websocket.onopen = function(evt) { onOpen(evt) };
+    websocket.onclose = function(evt) { onClose(evt) };
+    websocket.onmessage = function(evt) { onMessage(evt) };
+    websocket.onerror = function(evt) { onError(evt) };
+  }
+
+  function onOpen(evt)
+  {
+    writeToScreen("CONNECTED");
+    
+    var token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNDc5MzIxMjcwNjM0OGViZmMzMmYtYjVkMy00MGU5LWJhZjEtYzczY2JhZjc3YTkyIiwicm9sZXMiOlsiUmVnaXN0ZXJlZCJdLCJpYXQiOjE0NzkzMjEzMDYsImV4cCI6MTc5MDM2MTMwNiwiaXNzIjoiRjRNIERldmVsb3BtZW50IGFuZCBUZXN0aW5nIn0.aOLWnr9ZxY8YOFb0qLa7M5Iic5E9ZPSyZCSow-8MmJNajAEM1Hx8JKA1I27qbv9pcCH17stX8hL73xjb4PaiHc4BHZZDfH684Bf_M-o73P9h8-u29BNerbZN_3hxm0a8w_JwSm8LoFi0GqP3_5rVmYc0AtdZRl3Cnir54KPJFQaxsuAUPPy5phjkSJnwE3DxK6P07yuZ9dLJCrdFlAdm8h59MZAqNyDkIufyIS8tm3JeF6R700V0wdF-jhUJX15uKmUTs1iCDXTfWx_DIBosnQmjQ2ZG-69_l1lnhWGU6FvoBTEmj8L1w2MlSoCGJq3ULT1jWq0KFaC5rzY3bBb-NA";
+    var userId = "147349018173244117a0d-3dc7-47ca-aa59-134c1048af34";
+    var email = "aleksandrs.vasiljevs.26@ascendro.de";
+    var phone = "123456789039";
+    var facebook = "EAAQmqsd7XOYBABV7rMqc0JZBa5P77Hkiz3nuXjjSWxvr0FLUh2Nklv8RQO91TZBd0OZCnOhJZBWvHU7oimIoxWgTd9ag49HYgBnAIONXLhyZCeDT21ZCZCAiwPSpJs3ZA4cJWE77ZAG9JWq9ZADknsW2UgXOJOJufUjcQZD";
+    var google = "ya29.Ci8rA8J9faHBxjW2VWk9RwiLquVEHyIyyRZ8MhQj-vRMNJhF47-707GMwIC0_bEdQQ";
+    var eccode = "123456";
+    var pccode = "654321";
+    var pass = "test";
+    var newpass = "testnew";
+    
+    doSend("{\"message\": \"auth/registerAnonymous\",\"content\": {},\"seq\": 125, \"ack\": [125], \"timestamp\":123456789}");
+    //doSend("{\"message\": \"auth/registerEmail\",\"content\": { \"email\": \"" + email + "\", \"password\": \"" + pass + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/registerPhone\",\"content\": { \"phone\": \"" + phone + "\", \"password\": \"" + pass + "\" },\"seq\": 127, \"ack\": [127], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/registerFacebook\",\"content\": { \"facebook\": \""+ facebook + "\" },\"seq\": 128, \"ack\": [128], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/registerGoogle\",\"content\": { \"google\": \"" + google + "\" },\"seq\": 129, \"ack\": [129], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/confirmEmail\",\"content\": { \"email\": \"" + email + "\", \"code\": \"" + eccode + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/confirmPhone\",\"content\": { \"phone\": \"" + phone + "\", \"code\": \"" + pccode + "\" },\"seq\": 127, \"ack\": [127], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/inviteUserByEmail\",\"content\": { \"email\": \"" + email + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/registerEmailNewCode\",\"content\": { \"email\": \"" + email + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/registerPhoneNewCode\",\"content\": { \"phone\": \"" + phone + "\" },\"seq\": 127, \"ack\": [127], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/recoverPasswordEmail\",\"content\": { \"email\": \"" + email + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/recoverPasswordPhone\",\"content\": { \"phone\": \"" + phone + "\" },\"seq\": 127, \"ack\": [127], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/authEmail\",\"content\": { \"email\": \"" + email + "\", \"password\": \"" + pass + "\" },\"seq\": 126, \"ack\": [126], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/authPhone\",\"content\": { \"phone\": \"" + phone + "\", \"password\": \"" + pass + "\" },\"seq\": 127, \"ack\": [127], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/authFacebook\",\"content\": { \"facebookToken\": \""+ facebook + "\" },\"seq\": 128, \"ack\": [128], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/authGoogle\",\"content\": { \"googleToken\": \"" + google + "\" },\"seq\": 129, \"ack\": [129], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/changePassword\",\"content\": { \"oldPassword\": \"" + pass + "\", \"newPassword\": \"" + newpass + "\" },\"seq\": 129, \"ack\": [129], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/refresh\",\"content\": {},\"seq\": 129, \"ack\": [129], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+    //doSend("{\"message\": \"auth/setUserRole\",\"content\": { \"userId\": \"" + userId + "\", \"rolesToAdd\": [\"TestRole\"], \"rolesToRemove\": [\"SampleRole\"] },\"seq\": 129, \"ack\": [129], \"timestamp\":123456789, \"token\": \"" + token + "\"}");
+  }
+
+  function onClose(evt)
+  {
+    writeToScreen("DISCONNECTED");
+  }
+
+  function onMessage(evt)
+  {
+    writeToScreen('<span style="color: blue;">RESPONSE: ' + evt.data+'</span>');
+  }
+
+  function onError(evt)
+  {
+    writeToScreen('<span style="color: red;">ERROR:</span> ' + evt.data);
+  }
+
+  function doSend(message)
+  {
+    writeToScreen("SENT: " + message);
+    websocket.send(message);
+  }
+
+  function writeToScreen(message)
+  {
+    var pre = document.createElement("p");
+    pre.style.wordWrap = "break-word";
+    pre.innerHTML = message;
+    output.appendChild(pre);
+  }
+
+  window.addEventListener("load", init, false);
+
+  </script>
+</head>
+
+ <body>
+   
+     
+  <h2>WebSocket Test</h2>
+
+  <div id="output"></div>
+          
+      
+   </body>
+</html>

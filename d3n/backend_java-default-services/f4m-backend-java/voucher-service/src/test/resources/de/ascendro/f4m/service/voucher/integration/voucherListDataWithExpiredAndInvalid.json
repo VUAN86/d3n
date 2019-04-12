@@ -1,0 +1,63 @@
+{
+  "tenantId:60551c1e-a718-444-80f5-76304dec7eb7": {
+    "voucher:2": {
+      "id": "2",
+      "title": "Mega Voucher",
+      "shortTitle": "mega short Title lol",
+      "company": "company lol",
+      "description": "a mega voucher",
+      "isQRCode": true,
+      "isSpecialPrize": true,
+      "bonuspointsCosts": 50,
+      "expirationDate": "<<expirationDate>>",
+      "miniImageId": "id1-mini",
+      "normalImageId": "id1",
+      "bigImageId": "id1-big",
+      "redemptionURL": "www.voucher2.me"
+    },
+    "voucher:3": {
+      "id": "3",
+      "title": "Another Mega Voucher",
+      "shortTitle": "another mega short Title lol",
+      "company": "company lol",
+      "description": "a mega voucher",
+      "isQRCode": false,
+      "isSpecialPrize": true,
+      "bonuspointsCosts": 55,
+      "expirationDate": "<<expirationDateExpired>>",
+      "miniImageId": "id1-mini",
+      "normalImageId": "id1",
+      "bigImageId": "id1-big",
+      "redemptionURL": "www.voucher2.me"
+    },
+    "voucher:4": {
+      "id": "4",
+      "title": "Another Mega Voucher",
+      "shortTitle": "another mega short Title lol",
+      "company": "company lol",
+      "description": "a mega voucher",
+      "isQRCode": false,
+      "isSpecialPrize": true,
+      "bonuspointsCosts": 60,
+      "expirationDate": "<<expirationDate>>",
+      "miniImageId": "id1-mini",
+      "normalImageId": "id1",
+      "bigImageId": "id1-big",
+      "redemptionURL": "www.voucher2.me"
+    },
+    "voucher:5": {
+      "id": "5",
+      "title": "Another Mega Voucher",
+      "shortTitle": "another mega short Title lol",
+      "company": "company lol",
+      "description": "a mega voucher",
+      "isQRCode": false,
+      "isSpecialPrize": true,
+      "expirationDate": "<<expirationDate>>",
+      "miniImageId": "id1-mini",
+      "normalImageId": "id1",
+      "bigImageId": "id1-big",
+      "redemptionURL": "www.voucher2.me"
+    }
+  }
+}

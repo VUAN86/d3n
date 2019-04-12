@@ -1,0 +1,25 @@
+project.group = 'de.ascendro.f4m.service.tombola'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Tombola Service',
+                'Implementation-Version': version,
+                'Main-Class': 'de.ascendro.f4m.service.template.TombolaServiceStartup'
+    }
+}
+
+dependencies {
+    compile project(":f4m-default-service")
+    compile project(":profile-service-api")
+    compile project(":payment-service-api")
+    compile project(":voucher-service-api")
+    compile project(":tombola-service-api")
+    compile project(":event-service-api")
+    compile project(":f4m-aerospike-lib")
+    compile project(":winning-service")
+    compile project(":f4m-analytics-lib")
+
+    testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+}

@@ -1,0 +1,12 @@
+{
+  "message": "tombola/userTombolaList",
+  "seq": 202,
+  "content": {
+    "limit": <<limit>>,
+    "offset": <<offset>>,
+    "dateFrom": "<<dateFrom>>",
+    "dateTo": "<<dateTo>>",
+    "pendingDrawing": true
+  },
+  "ack": null
+}

@@ -1,0 +1,9 @@
+{
+	"message":"friend/groupRemovePlayers",
+	"seq": 1,	
+	"content": {
+		"userIds": ["existing_member 1"],
+		"groupId": "<<groupId>>"
+	},
+	"ack": null
+}

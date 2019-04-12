@@ -1,0 +1,16 @@
+{
+	"message":"payment/insertOrUpdateUser",
+	"seq": 53,	
+	"content": {
+		"tenantId": "Tenant",
+		"profileId": "Profile",
+		"profile": {
+			"person": {
+				"firstName": "Name",
+				"lastName": "Surname",
+				"sex": "M"
+			}
+		}
+	},
+	"ack": null
+}

@@ -1,0 +1,36 @@
+[
+	{
+		"tenantId": "1",
+		"paymentSystemRestUrl": "www.payment.com/rest",
+		"paymentSystemWebUrl": "www.payment.com/web",
+		"apiId": "username",
+		"apiKey": "password",
+		"mainCurrency" : "EUR",
+		"exchangeRates": [
+			{
+				"fromCurrency" : "EUR",
+				"toCurrency" : "CREDIT",
+				"fromAmount" : "2",
+				"toAmount" : "10.00"
+			},
+			{
+				"fromCurrency" : "CREDIT",
+				"toCurrency" : "EUR",
+				"fromAmount" : "10.00",
+				"toAmount" : "5"
+			},
+			{
+				"fromCurrency" : "CREDIT",
+				"toCurrency" : "EUR",
+				"fromAmount" : "25",
+				"toAmount" : "10"
+			},
+			{
+				"fromCurrency" : "BONUS",
+				"toCurrency" : "CREDIT",
+				"fromAmount" : "100",
+				"toAmount" : "1"
+			}
+		]
+	}
+]

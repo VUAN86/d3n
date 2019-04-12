@@ -1,0 +1,10 @@
+{
+	"message":"payment/createJackpot",
+	"seq": 99,	
+	"content": {
+		"tenantId": "tenantId",
+		"multiplayerGameInstanceId": "multiplayer_game_instance_id",
+		"currency": "MONEY"
+	},
+	"ack": null
+}

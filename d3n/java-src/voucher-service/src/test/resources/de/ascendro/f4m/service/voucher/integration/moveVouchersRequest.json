@@ -1,0 +1,9 @@
+{
+	"message": "voucher/moveVouchers",
+	"seq": 1,
+	"content": {
+		"sourceUserId": "<<sourceUserId>>",
+		"targetUserId": "<<targetUserId>>"
+	},
+	"ack": null
+}

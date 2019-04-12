@@ -1,0 +1,10 @@
+{
+	"message":"payment/getTransactionResponse",
+	"error": {
+		"type": "server",
+		"message": "ERR_FATAL_ERROR"
+	},
+	"ack":[53],
+	"seq": 203,
+	"content":null
+}

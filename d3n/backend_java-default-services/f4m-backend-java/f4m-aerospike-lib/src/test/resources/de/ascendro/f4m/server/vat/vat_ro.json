@@ -1,0 +1,15 @@
+{
+  "country" : "RO",
+  "vats": [
+  {
+   "startDate": 1485907200,
+   "endDate": 1512172799,
+   "percent": 10
+  },
+  {
+   "startDate": 1514764800,
+   "endDate": null, 
+   "percent": 15
+  }
+ ]
+}

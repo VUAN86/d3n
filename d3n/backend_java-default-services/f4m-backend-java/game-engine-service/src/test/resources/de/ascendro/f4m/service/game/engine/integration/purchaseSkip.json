@@ -1,0 +1,9 @@
+{   
+   "message": "gameEngine/purchaseSkip",
+    "seq": 201,
+    "content":{
+         "gameInstanceId": "<<gameInstanceId>>",
+         "question": 0
+    },
+	"ack": null
+}

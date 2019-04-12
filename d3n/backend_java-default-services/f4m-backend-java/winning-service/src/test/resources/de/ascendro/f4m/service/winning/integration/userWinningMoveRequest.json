@@ -1,0 +1,19 @@
+{
+	"message":"winning/userWinningMove",
+	"seq": 123,
+	"content": {
+		"sourceUserId": "<<sourceUserId>>",
+		"targetUserId": "<<targetUserId>>"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile": {
+			"userId": "test_user"
+		},
+		"appConfig": {
+			"tenantId": "test_tenant",
+			"appId": "test_app"
+		},
+		"ip": "1.1.1.1"
+	}
+}

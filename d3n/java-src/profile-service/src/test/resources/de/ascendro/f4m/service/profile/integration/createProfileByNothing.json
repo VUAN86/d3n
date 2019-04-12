@@ -1,0 +1,8 @@
+{
+	"message":"profile/createProfile",
+	"seq": 201,	
+	"content": {
+		"any": "any"		
+	},
+	"ack": null
+}

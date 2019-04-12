@@ -1,0 +1,285 @@
+{
+	"tenant": {
+		"id": "1",
+		"name": "Intellex d.o.o.",
+		"address": "Bulevar despoota Stefana 68a",
+		"city": "Beograd",
+		"country": "Serbia",
+		"vat": "SR107324703",
+		"url": "http://www.intellex.rs",
+		"email": "jelena@intellex.rs",
+		"description": "Mobile and web development studio",
+		"phone": "+381693055084",
+		"logoUrl": "24b61cfb-58af-46f3-8919-b64a4a41daff",
+		"currency": "EUR"
+	},
+	"application": {
+		"id": "1",
+		"title": "Working App, don't change!",
+		"status": "active",
+		"description": "This is a test quiz app showcasing Quick Quiz options and the game play options including all needed side menu functions. The game app provides pre-configured games to play. The app further provides the ability to see your game level, game play results and other details as well as being able to manage your profile and your player account. The game history and your game results are always accessible to you.",
+		"versionInfo": "example",
+		"releaseDate": "2017-01-01T01:00:00Z",
+		"configuration": {
+			"logoMediaId": "0347fca9-19ad-49f9-9492-1e223c387320",
+			"backgroundMediaId": "7130de92-7969-4f7a-9eba-2309845190ad",
+			"loadingPageMediaId": "85987715-e5e9-46f8-a6ee-e4db4ed50373",
+			"applicationIconMediaId": "c21b89a3-4c38-42eb-a9dd-2730f8609db1",
+			"backgroundColor": "#9c2626",
+			"gamblingComponent": true,
+			"minimumEntryFee": 1,
+			"maximumEntryFee": 12,
+			"minimumGameLevel": 1,
+			"onlyAnonymous": true,
+			"internationalGames": true,
+			"moneyGames": true,
+			"referalProgram": {
+				"bonuspoints": 10,
+				"credits": 10,
+				"tiering": [{
+					"quantityMin": 1,
+					"credits": 5,
+					"bonuspoints": 500
+				}]
+			},
+			"boxStype": "character",
+			"pushNotification": true,
+			"simpleRegistrationBonusPoints": 110,
+			"simpleRegistrationCredits": 120,
+			"fullRegistrationBonusPoints": 4,
+			"fullRegistrationCredits": 63,
+			"paymentNeeded": false,
+			"menuColors": {},
+			"menuPictures": {},
+			"firstRunMediaIds": ["4c69457d-27b9-4893-a10c-af5b77155557", "6c3534db-4bb1-4f1d-94ed-f688702a3901", "8bc4984c-4732-4bba-ae9b-da74b1472c72", "90bc85e6-a358-41b8-870f-7b7608f1336a"],
+			"privacyStatement": "eeadda",
+			"termsAndConditions": "eeadd",
+			"gameRules": "Asdadaa",
+			"bonuspointsForDailyLogin": 50,
+			"cdnAdvertisement": "http://f4m-nightly-advertisement.s3.amazonaws.com/",
+			"cdnMedia": "http://f4m-nightly-medias.s3.amazonaws.com/",
+			"cdnEncrypted": "http://f4m-nightly-encrypted.s3.amazonaws.com/"
+		},
+		"applicationGameModules": [{
+			"id": 1,
+			"name": "Quick Game",
+			"parentId": null,
+			"key": "gameQuickQuiz"
+		}, {
+			"id": 2,
+			"name": "Duel",
+			"parentId": null,
+			"key": "gameDuel"
+		}],
+		"applicationAnimations": [],
+		"applicationCharacters": [],
+		"regionalSettings": [{
+			"iso": "DE",
+			"name": "Germany",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": true
+			}, {
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "AF",
+			"name": "s",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "GB",
+			"name": "Great Britain",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}, {
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}, {
+				"iso": "es",
+				"name": "Spanish",
+				"isDefault": true
+			}, {
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "AF",
+			"name": "Akk",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}, {
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}, {
+				"iso": "es",
+				"name": "Spanish",
+				"isDefault": true
+			}]
+		}, {
+			"iso": "AS",
+			"name": "Russs",
+			"languages": []
+		}, {
+			"iso": "ES",
+			"name": "Spain",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}, {
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": true
+			}, {
+				"iso": "se",
+				"name": "Swedish",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "RS",
+			"name": "Serbia",
+			"languages": [{
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": true
+			}, {
+				"iso": "ru",
+				"name": "Russian",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "BH",
+			"name": "Bosnia",
+			"languages": [{
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": true
+			}]
+		}, {
+			"iso": "RS",
+			"name": "Ser",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}, {
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}, {
+				"iso": "es",
+				"name": "Spanish",
+				"isDefault": false
+			}, {
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": true
+			}, {
+				"iso": "se",
+				"name": "Swedish",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "TO",
+			"name": "Tet",
+			"languages": []
+		}, {
+			"iso": "KM",
+			"name": "DD",
+			"languages": [{
+				"iso": "de",
+				"name": "Deutsch - German",
+				"isDefault": false
+			}, {
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}, {
+				"iso": "es",
+				"name": "Spanish",
+				"isDefault": false
+			}, {
+				"iso": "sr",
+				"name": "Serbian",
+				"isDefault": true
+			}, {
+				"iso": "se",
+				"name": "Swedish",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485246038456Regional",
+			"languages": [{
+				"iso": "en",
+				"name": "Englisch - English",
+				"isDefault": false
+			}, {
+				"iso": "es",
+				"name": "Spanish",
+				"isDefault": false
+			}]
+		}, {
+			"iso": "RU",
+			"name": "Sibiria",
+			"languages": []
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485154762168Regional",
+			"languages": []
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485155807470Regional",
+			"languages": []
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485155923331Regional",
+			"languages": []
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485175914988Regional",
+			"languages": []
+		}, {
+			"iso": "ET",
+			"name": "MyUniqueItem1485178276423Regional",
+			"languages": []
+		}],
+		"gamesPerType": {
+			"QUIZ24": 2,
+			"DUEL": 1,
+			"LIVE_TOURNAMENT": 0,
+			"USER_TOURNAMENT": 0,
+			"PLAYOFF_TOURNAMENT": 0
+		}
+	},
+	"friendsForMedia": {
+		"name": "friends4media GmbH",
+		"address": "Waffnergasse 8",
+		"city": "93047 Regensburg",
+		"country": "Germany",
+		"vat": "DE295946616",
+		"url": "http://www.f4m.tv/",
+		"email": "kontakt@f4m.tv",
+		"description": "F4M Description Text",
+		"termsAndConditions": "\nTerms and Conditions \n\n ...a very long text in German follows...",
+		"privacyStatement": "Privacy statement is a very long text in German",
+		"gameRules": "F4M Game Rules",
+		"copyright": "F4M Copyright",
+		"phone": "12341234",
+		"logoUrl": "http://www.f4m.tv/"
+	}
+}

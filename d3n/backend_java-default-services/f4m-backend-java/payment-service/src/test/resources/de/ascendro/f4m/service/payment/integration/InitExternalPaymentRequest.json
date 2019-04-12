@@ -1,0 +1,27 @@
+{
+	"message":"payment/initExternalPayment",
+	"seq": 53,	
+	"content": {
+		"currency": "MONEY",
+		"amount": -12.34,
+		"description": "no useful information here",
+		"exchangeRate": 2,
+		"redirectUrlSuccess": "pay.ment/success",
+		"redirectUrlError": "pay.ment/error",
+		"cashoutData": {
+			"beneficiary": "Identified Name",
+			"iban": "DE02120300000000202051",
+			"bic": "BYLADEM1001"
+		}
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "initProfileId",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "expectedTenantId"
+		}
+	}
+}

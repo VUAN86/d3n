@@ -1,0 +1,27 @@
+{
+	"userId": "5555",
+	"roles": ["ANONYMOUS", "COMMUNITY", "REGISTERED"],
+	"handicap": 5.5,
+	"person": {
+		"firstName": "Name",
+		"lastName": "Surname"
+	},
+	"address": {
+		"street": "Test street",
+		"streetNumber": "56A"
+	},
+	"emails": [{
+		"email": "mail1@mail1.com",
+		"verificationStatus": "verified"
+	},{
+		"email": "original@origin.com",
+		"verificationStatus": "notVerified"
+	}],
+	"facebook": "FB-TEST_TOKEN1",
+	"google": null,
+	"devices": [{
+		"deviceType": "TYP1",
+		"screenHeight": 1246
+	}],
+	"tenants": ["tenantId1", "tenantId2"]
+}

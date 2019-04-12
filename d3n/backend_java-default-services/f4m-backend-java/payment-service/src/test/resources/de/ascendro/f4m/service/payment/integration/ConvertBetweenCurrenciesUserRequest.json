@@ -1,0 +1,20 @@
+{
+	"message":"payment/convertBetweenCurrencies",
+	"seq": 189,	
+	"content": {
+		"fromCurrency": "BONUS",
+		"toCurrency": "CREDIT",
+		"amount": 54.32,
+		"description": "Short and very optional description"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "initProfileId",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "initTenantId"
+		}
+	}
+}

@@ -1,0 +1,78 @@
+{
+  "profile:sourceUserId:history:drawMonth:2016-01": {
+    "1": {
+      "tombolaId": "1",
+      "name": "best tombola",
+      "drawDate": "2016-01-12T01:01:01Z",
+      "totalTicketsBought": 100,
+      "totalPrizesWon": 2,
+      "bundles": [
+        {
+          "amount": 100,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ],
+      "prizes": [
+        {
+          "prizeId": "1",
+          "ticketId": 23,
+          "ticketCode": "123123",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+	      "user": {
+	      	"userId": "sourceUserId"
+	      }
+        },
+        {
+          "prizeId": "consolation",
+          "ticketId": 7,
+          "ticketCode": "321321",
+          "name": "Consolation Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123",
+	      "user": {
+	      	"userId": "sourceUserId"
+	      }
+        }
+      ]
+    }
+  },
+  "profile:targetUserId:history:drawMonth:2016-01": {
+    "1": {
+      "tombolaId": "1",
+      "name": "best tombola",
+      "drawDate": "2016-01-12T01:01:01Z",
+      "totalTicketsBought": 50,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 50,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        }
+      ],
+      "prizes": [
+        {
+          "prizeId": "2",
+          "ticketId": 33,
+          "ticketCode": "123123",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+	      "user": {
+	      	"userId": "targetUserId"
+	      }
+        }
+      ]
+    }
+  }
+}

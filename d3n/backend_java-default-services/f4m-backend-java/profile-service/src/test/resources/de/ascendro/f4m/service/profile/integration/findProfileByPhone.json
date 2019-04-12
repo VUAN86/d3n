@@ -1,0 +1,9 @@
+{
+	"message":"profile/findByIdentifier",
+	"seq": 202,	
+	"content": {
+		"identifierType": "PHONE",
+		"identifier": "255689987"
+	},
+	"ack": null
+}

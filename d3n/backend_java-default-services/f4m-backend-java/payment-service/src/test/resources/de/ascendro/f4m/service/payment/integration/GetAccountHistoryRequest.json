@@ -1,0 +1,22 @@
+{
+	"message":"payment/getAccountHistory",
+	"seq": 76,	
+	"content": {
+		"profileId": "searchProfile",
+		"currency": "MONEY",
+		"limit": 6,
+		"startDate": "2016-11-24T00:00:00Z",
+		"endDate": "2016-12-01T00:00:00Z",
+		"typeFilter": "TRANSFER"
+	},
+	"clientInfo":{
+		"profile":{
+			"userId": "searchProfile",
+			"roles": ["ADMIN"]
+		},
+		"appConfig":{
+			"tenantId": "searchTenant"
+		}
+	},
+	"ack": null
+}

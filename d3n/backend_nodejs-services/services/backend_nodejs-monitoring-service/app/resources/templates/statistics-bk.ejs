@@ -1,0 +1,29 @@
+<h4 style="color: <?- environmentStatus === 'OK' ? 'green' : 'red' ?>">ENVIRONMENT STATUS: <?- environmentStatus ?></h4>
+<? for(var sn in environmentStatistics) { ?>
+<h3 style="margin-bottom:0px;"><?- sn ?> instances:</h3>
+    <?
+    for(var i=0; i<environmentStatistics[sn].length; i++) {
+        var inst = environmentStatistics[sn][i];
+        var hearbeatDT = '';
+        if (inst.lastHeartbeatTimestamp) {
+            var d = new Date();
+            d.setTime(inst.lastHeartbeatTimestamp*1000);
+            hearbeatDT = d.toISOString();
+        }
+        ?>
+        URI: <?- inst.uri ?><br />
+        Status: <span style="color: <?- inst.status === 'OK' ? 'green' : 'red' ?>"><?- inst.status ?></span><?- inst.notOkReasons.length ? ' Reasons: ' + inst.notOkReasons.join(', ') : '' ?><br />
+        Uptime: <?- inst.uptime ?> <br />
+        CPU usage: <?- inst.cpuUsage ?> <br />
+        Memory usage: <?- inst.memoryUsage ?> <br />
+        Count GW connections: <?- inst.countGatewayConnections ?><br />
+        Count inbound connections: <?- inst.countConnectionsToService ?><br />
+        Count outbound connections: <?- inst.countConnectionsFromService ?><br />
+        Count sessions: <?- inst.countSessionsToService ?><br />
+        Last Heartbeat: <?- hearbeatDT ? hearbeatDT : '' ?> <br />
+        Databases: <?- JSON.stringify(inst.connectionsToDb) ?>
+        <br /><br />
+        <?
+    }
+    ?>
+<? } ?>

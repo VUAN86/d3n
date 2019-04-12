@@ -1,0 +1,18 @@
+{
+  "achievement:ACHI-1" : {
+    "id":"ACHI-1",
+    "tenantId":"tenantId",
+    "name": "super-achievement",
+    "status": "ACTIVE",
+    "image": "cool.jpg",
+    "timeLimit": false,
+    "timePeriod": null,
+    "reward": true,
+    "bonusPointsReward": 11,
+    "creditReward": 3,
+    "paymentMultiplier": 1.1,
+    "accessRules": ["PRO", "PREMIUM"],
+    "badges": ["1"],
+    "messaging": ["EMAIL", "IN_APP_NOTIFICATION"]
+  }
+}

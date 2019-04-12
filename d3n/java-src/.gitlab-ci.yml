@@ -1,0 +1,88 @@
+variables:
+  CURRENT_BRANCH: $CI_COMMIT_REF_NAME
+
+
+stages:
+  - build
+  - deploy
+  - undeploy # for manifests
+  - cleanup
+
+
+
+
+dapp_version:
+   stage: build
+   script:
+     - dapp -v
+   tags:
+     - dapp
+   when: manual
+
+java_all_services:
+  stage: build
+  script:
+     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN gitlab.dev4m.com:4567
+     - dapp dimg  bp gitlab.dev4m.com:4567/k8s-test-lab/f4m-backend-java
+  tags:
+     - dapp
+  when: manual
+
+promocode_image:
+  stage: build
+  script:
+     - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN gitlab.dev4m.com:4567
+     - dapp dimg bp promocode-service gitlab.dev4m.com:4567/k8s-test-lab/f4m-backend-java
+  tags:
+     - dapp
+  when: manual
+  
+
+promocode_deploy:
+  variables:
+    TOKEN: promocode
+  stage: deploy
+  script:
+    - echo $CURRENT_BRANCH
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - if [ "$(kubectl get namespace $CURRENT_BRANCH --no-headers --output=go-template={{.metadata.name}} 2>>/dev/null)" == "$CURRENT_BRANCH" ]; then echo "Namespace $CURRENT_BRANCH exists. We able to continue!"; else echo "Namespace $CURRENT_BRANCH does not exists"; echo "Creating namespace $CURRENT_BRANCH"; kubectl create ns $CURRENT_BRANCH; fi;
+            #- kubectl create secret docker-registry registry-token --docker-server=${CI_REGISTRY} --docker-username=gitlab-ci-token --docker-password=${CI_BUILD_TOKEN} -n$CURRENT_BRANCH
+    - echo "switching context into $CURRENT_BRANCH"
+    - kubectl config get-contexts
+    - kubectl config set-context $(kubectl config current-context) --namespace=$CURRENT_BRANCH
+    - kubectl config get-contexts
+    - kubectl get secrets -n$CURRENT_BRANCH #--all-namespaces
+    - echo "Creating token for pulling images"
+    - kubectl create secret generic registry-$TOKEN-token --from-file=.dockerconfigjson=/home/ansible/.docker/config.json --type=kubernetes.io/dockerconfigjson
+    - kubectl get secrets -n$CURRENT_BRANCH #--all-namespaces
+    #- kubectl apply -f HELM/manual/rabbitmq/rabbitmq-configmap.yaml
+    - kubectl create configmap f4m-conf --from-file=HELM/manual/promocode-service/conf/f4m.conf
+    - kubectl apply -f HELM/manual/promocode-service/promocode-service-d.yaml
+    - sleep 30s
+    - kubectl delete secret registry-$TOKEN-token
+  tags:
+    - deploy
+  when: manual
+  
+promocode_undeploy:
+  variables:
+    TOKEN: promocode
+  stage: undeploy
+  script:
+   - kubectl config set-context $(kubectl config current-context) --namespace=$CURRENT_BRANCH
+   - kubectl delete cm f4m-conf 
+   - kubectl delete -f HELM/manual/promocode-service/promocode-service-d.yaml
+  # - kubectl delete secret registry-$TOKEN-token --namespace=$CURRENT_BRANCH
+  tags:
+   - deploy
+  when: manual
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

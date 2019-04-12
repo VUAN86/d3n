@@ -1,0 +1,41 @@
+{
+  "profile:sourceUserId:appId:60551c1e-a718-333-80f5-76304dec7eb7:statistics" : {
+    "boughtTicketsNumber": 1234,
+    "winningTicketsNumber": 2,
+    "ticketsBoughtSinceLastWin": 1232,
+    "lastWinDate": "2016-01-12T01:01:01Z"
+  },
+  "profile:targetUserId:appId:60551c1e-a718-333-80f5-76304dec7eb7:statistics" : {
+    "boughtTicketsNumber": 100,
+    "winningTicketsNumber": 2,
+    "ticketsBoughtSinceLastWin": 10,
+    "lastWinDate": "2016-01-11T01:01:01Z"
+  },
+  "profile:sourceUserId:tenantId:60551c1e-a718-444-80f5-76304dec7eb7:statistics" : {
+    "boughtTicketsNumber": 1234,
+    "winningTicketsNumber": 2,
+    "ticketsBoughtSinceLastWin": 1232,
+    "lastWinDate": "2016-01-12T01:01:01Z"
+  },
+  "profile:targetUserId:tenantId:60551c1e-a718-444-80f5-76304dec7eb7:statistics" : {
+    "boughtTicketsNumber": 100,
+    "winningTicketsNumber": 2,
+    "ticketsBoughtSinceLastWin": 10,
+    "lastWinDate": "2016-01-11T01:01:01Z"
+  },
+  "profile:sourceUserId:statistics:appIds" : [
+    "60551c1e-a718-333-80f5-76304dec7eb7"
+  ],
+  "profile:targetUserId:statistics:appIds" : [
+    "60551c1e-a718-333-80f5-76304dec7eb7",
+    "another one"
+  ],
+  "profile:sourceUserId:statistics:tenantIds" : [
+    "60551c1e-a718-444-80f5-76304dec7eb7"
+  ],
+  "profile:targetUserId:statistics:tenantIds" : [
+    "60551c1e-a718-444-80f5-76304dec7eb7",
+    "another one"
+  ]
+
+}

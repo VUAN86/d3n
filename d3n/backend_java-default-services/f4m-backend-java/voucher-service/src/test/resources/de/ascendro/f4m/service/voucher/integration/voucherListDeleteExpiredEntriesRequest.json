@@ -1,0 +1,7 @@
+{
+  "message":"voucher/voucherListDeleteExpiredEntries",
+  "seq": 1,
+  "content": {
+  },
+  "ack": null
+}

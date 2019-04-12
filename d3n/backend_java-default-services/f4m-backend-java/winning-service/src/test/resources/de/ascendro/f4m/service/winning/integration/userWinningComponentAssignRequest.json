@@ -1,0 +1,9 @@
+{
+	"message":"winning/userWinningComponentAssign",
+	"seq": 123,
+	"content": {
+		"gameInstanceId": "<<gameInstanceId>>",
+		"type": "<<type>>"
+	},
+	"ack": null
+}

@@ -1,0 +1,11 @@
+{
+    "message": "event/publish",
+    "seq": 200,
+    "content":{
+     	"topic":"serviceRegistry/unregister",
+     	"notification-content": {
+     		"uri":"wss://fake:8555"
+     	}
+ 	},
+ 	"ack": null
+}

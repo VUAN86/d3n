@@ -1,0 +1,17 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.VoucherCountEvent",
+    "userId": "2546325556891da980b00-b9d0-41a1-b3f5-95c4da33a561",
+    "tenantId": null,
+    "appId": "6",
+    "sessionIp": "192.168.193.55",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "voucherId": 13,
+        "voucherCount": 50
+      }
+    }
+  }
+}

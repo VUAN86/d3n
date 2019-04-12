@@ -1,0 +1,10 @@
+{
+	"message": "serviceRegistry/listResponse",
+	"content": {
+		"services": [
+		]
+	},
+	"seq": 10001,
+	"ack":[125],
+	"error":null
+}

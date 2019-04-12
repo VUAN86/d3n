@@ -1,0 +1,21 @@
+{
+	"message":"payment/getTransactionResponse",
+	"seq": 203,
+	"content": {
+		"id": "transactionId",
+		"fromCurrency": "MONEY",
+		"toCurrency": "BONUS",
+		"type": "TRANSFER",
+		"creationDate": "2017-01-11T14:37:59Z",
+		"tenantId": "tenant",
+		"fromProfileId": "fromProfile",
+		"toProfileId": "toProfile",
+		"amount": 12.34,
+		"paymentDetails": {
+			"appId" : "appId",
+			"additionalInfo" : "no"
+		}
+	},
+	"ack":[53],
+	"error":null
+}

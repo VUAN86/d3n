@@ -1,0 +1,1 @@
+require('./loggerService.test.js');

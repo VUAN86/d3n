@@ -1,0 +1,10 @@
+{
+	"message":"payment/mergeUsers",
+	"seq": 53,	
+	"content": {
+		"tenantId": "Tenant",
+		"fromProfileId": "Profile",
+		"toProfileId": "Profile2"
+	},
+	"ack": null
+}

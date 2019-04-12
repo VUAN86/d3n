@@ -1,0 +1,26 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.PaymentEvent",
+    "userId": "234325547333564b15f79ba-73dd-4a4c-b1ed-8b4a87d99fcc",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "0.0.0.0",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "paymentDetail": "{\"appId\":\"6\",\"gameId\":\"21\",\"gameInstanceId\":\"14891468456074e383fdf-1027-4a4a-a894-590f2b86e1de\",\"additionalInfo\":\"Jackpot winning\"}",
+        "gameId": 21,
+        "creditPaid": 0,
+        "moneyPaid": 0.0,
+        "bonusPointsPaid": 0,
+        "creditPurchased": 0,
+        "moneyCharge": 0.0,
+        "creditGiven": 0,
+        "moneyGiven": 0.0,
+        "bonusPointsGiven": 0,
+        "paymentAmount": 200.5
+      }
+    }
+  }
+}

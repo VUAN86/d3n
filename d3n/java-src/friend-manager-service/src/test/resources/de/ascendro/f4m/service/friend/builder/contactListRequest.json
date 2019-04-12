@@ -1,0 +1,14 @@
+{
+	"message": "friend/contactList",
+	"seq": 123,	
+	"content": {
+		"hasApp": "<<hasApp>>",
+		"hasProfile": "<<hasProfile>>",
+		"hasInvitation": "<<hasInvitation>>",
+		"includeProfileInfo": "<<includeProfileInfo>>",
+		"includeBuddyInfo": "<<includeBuddyInfo>>",
+		"limit": "<<limit>>",
+		"offset": "<<offset>>"
+	},
+	"ack": null
+}

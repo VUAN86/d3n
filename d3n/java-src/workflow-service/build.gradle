@@ -1,0 +1,37 @@
+project.group = "de.ascendro.f4m.service.workflow"
+project.version = "0.0.1-SNAPSHOT"
+
+jar {
+    manifest {
+        attributes "Implementation-Title": "Workflow Service",
+                   "Implementation-Version": version,
+                   "Main-Class": "de.ascendro.f4m.service.workflow.WorkflowServiceStartup"
+    }
+}
+
+dependencies {
+	compile group: "org.jbpm", name: "jbpm-test", version: "${jbpmVersion}"
+	compile group: "org.jbpm", name: "jbpm-runtime-manager", version: "${jbpmVersion}"
+	compile group: "org.jbpm", name: "jbpm-human-task-core", version: "${jbpmVersion}"
+	compile group: "org.jbpm", name: "jbpm-shared-services", version: "${jbpmVersion}"
+	
+	compile group: "org.reflections", name: "reflections", version: "0.9.9"
+	
+	compile group: "mysql", name: "mysql-connector-java", version: "6.0.5"
+		
+	compile project(":f4m-default-service")
+	compile project(":workflow-service-api")
+    compile project(":f4m-aerospike-lib")
+	
+	testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+	testCompile group: "com.h2database", name: "h2", version: "1.4.193"
+}
+
+repositories { 
+	mavenLocal()
+	maven {
+		url "https://repository.jboss.org/nexus/content/groups/public/"
+	}
+	mavenCentral()
+}

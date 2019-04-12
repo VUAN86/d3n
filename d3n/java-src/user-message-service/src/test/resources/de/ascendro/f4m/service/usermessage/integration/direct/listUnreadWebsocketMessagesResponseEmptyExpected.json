@@ -1,0 +1,9 @@
+{
+	"message": "userMessage/listUnreadWebsocketMessagesResponse",
+	"content": {
+		"messages" : [
+		]
+	},
+	"ack":[48],
+	"error":null
+}

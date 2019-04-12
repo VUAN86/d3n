@@ -1,0 +1,8 @@
+{
+	"message": "serviceRegistry/get",
+	"content": {
+		"serviceNamespace": "namespace1"
+	},
+	"seq": 124,
+	"ack": null
+}

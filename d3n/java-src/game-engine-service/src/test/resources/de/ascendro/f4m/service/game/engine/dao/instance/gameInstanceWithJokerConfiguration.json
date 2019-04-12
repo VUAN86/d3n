@@ -1,0 +1,13 @@
+{
+	"game": {
+		"gameId": "-3",
+		"title": "Test Game 1",
+		"description": "Test Game Descr.",
+		"type": "DUEL",
+		"jokerConfiguration": [{
+	        "enabled": true,
+	        "availableCount": 3,
+	        "type": "FIFTY_FIFTY"
+	      }]
+	}
+}

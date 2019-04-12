@@ -1,0 +1,8 @@
+{
+	"message": "resultEngine/calculateMultiplayerResults",
+	"seq": 1,
+	"content": {
+		"multiplayerGameInstanceId": "mpgi1"
+	},
+	"ack": null
+}

@@ -1,0 +1,234 @@
+{
+	"id": "gi3",
+	"tournamentId": "tournamentid",
+	"userId": "testUser3",
+	"userHandicap": 99,
+	"entryFeeAmount": 10.55,
+	"entryFeeCurrency": "MONEY",
+	"numberOfQuestions": 5,
+	"game": {
+		"gameId": "1",
+		"title": "Test Game 1",
+		"pictureId": "pic1",
+		"description": "Test Game Descr.",
+		"assignedPools": ["football", "tenis"],
+		"questionPools": ["football", "euroFootball", "footballHistory", "footballOlympics", "tenis"],
+		"type": "LIVE_TOURNAMENT",
+		"isOffline": false,
+		"tenantId": "t1",
+		"appId": "a1",
+		"isFree": false,
+		"resultConfiguration": {
+			"pointCalculator": true,
+			"alternativeBonusPointsPerCorrectAnswer": 250,
+			"correctAnswerPointCalculationType": "basedOnQuestionCommplexity",
+			"correctAnswerQuestionComplexityGamePoints": [
+				{
+					"level": 1,
+					"points": 5
+				},
+				{
+					"level": 2,
+					"points": 7
+				},
+				{
+					"level": 3,
+					"points": 11
+				},
+				{
+					"level": 4,
+					"points": 13
+				}
+			],
+			"bonusPointsPerGamePointForPaid": 3,
+			"bonusPointsPerCorrectAnswerForUnpaid": 55,
+			"treatPaidLikeUnpaid": false,
+			"tournamentHandicapStructure": [
+				{
+					"handicapRangeId": 1,
+					"handicapFrom": 0,
+					"handicapTo": 50
+				},
+				{
+					"handicapRangeId": 2,
+					"handicapFrom": 51,
+					"handicapTo": 100
+				}
+			]
+		}
+	},
+	"questions": {
+		"0": {
+			"id": "1",
+			"answers": [
+				"a",
+				"b",
+				"c",
+				"d"
+			],
+			"correctAnswers": [
+				"a"
+			],
+			"answerMaxTimes": [
+				50000
+			],
+			"stepCount": 1,
+			"complexity": 2,
+			"questionBlobKeys": ["key1"],
+			"source": "source1"
+		},
+		"1": {
+			"id": "2",
+			"answers": [
+				"a",
+				"b",
+				"c",
+				"d"
+			],
+			"correctAnswers": [
+				"a",
+				"b"
+			],
+			"answerMaxTimes": [
+				50000,
+				45000
+			],
+			"stepCount": 2,
+			"complexity": 4,
+			"questionBlobKeys": ["key2", "key3"],
+			"questionExplanation": "explanation1"
+		},
+		"2": {
+			"id": "3",
+			"answers": [
+				"a",
+				"b",
+				"c",
+				"d"
+			],
+			"correctAnswers": [
+				"a"
+			],
+			"answerMaxTimes": [
+				50000
+			],
+			"stepCount": 1,
+			"complexity": 3,
+			"questionBlobKeys": ["key4"],
+			"questionResolutionText": "resolutionText",
+			"questionResolutionImage": "resolutionImage"
+		},
+		"3": {
+			"id": "4",
+			"answers": [
+				"a",
+				"b",
+				"c",
+				"d"
+			],
+			"correctAnswers": [
+				"c", 
+				"d"
+			],
+			"answerMaxTimes": [
+				50000,
+				10000
+			],
+			"stepCount": 2,
+			"complexity": 3,
+			"questionBlobKeys": ["key5", "key6", "key7"]
+		},
+		"4": {
+			"id": "5",
+			"answers": [
+				"a",
+				"b",
+				"c",
+				"d"
+			],
+			"correctAnswers": [
+				"d"
+			],
+			"answerMaxTimes": [
+				50000
+			],
+			"stepCount": 1,
+			"complexity": 2,
+			"questionBlobKeys": ["key8"]
+		}
+	},
+	"state": {
+		"status": "COMPLETED",
+		"answers": [
+			{
+				"question": 0,
+				"answers": [
+					"a"
+				],
+				"tClientMs": [
+					4000
+				],
+				"tServerMs": [
+					4200
+				],
+				"tPrDelMs": [
+					300
+				]
+			},
+			{
+				"question": 1,
+				"answers": [
+					"a",
+					"b"
+				],
+				"tClientMs": [
+					30000,
+					30000
+				],
+				"tServerMs": [
+					32300,
+					30200
+				],
+				"tPrDelMs": [
+					300,
+					300
+				]
+			},
+			{
+				"question": 2,
+				"answers": [
+					"c"
+				],
+				"tClientMs": [
+					4000
+				],
+				"tServerMs": [
+					4200
+				],
+				"tPrDelMs": [
+					300
+				]
+			},
+			{
+				"question": 3,
+				"answers": [
+					"c",
+					"d"
+				],
+				"tClientMs": [
+					4500,
+					19000
+				],
+				"tServerMs": [
+					5000,
+					20000
+				],
+				"tPrDelMs": [
+					1000,
+					1000
+				]
+			},
+			null
+		]
+	}
+}

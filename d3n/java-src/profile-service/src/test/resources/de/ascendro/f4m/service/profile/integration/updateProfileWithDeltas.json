@@ -1,0 +1,29 @@
+{
+	"message":"profile/updateProfile",
+	"seq": 201,	
+	"content": {
+		"userId":"<<userId>>",
+		"profile":{
+			"address": {
+				"street": "Another street"
+			},
+			"phones": [{
+				"phone": "255689987",
+				"verificationStatus": "notVerified"
+			}],
+			"profilePhotoId": "photoS3Id.jpg",
+			"facebook": "FB-TEST_TOKEN",
+			"facebookIds": [
+				{
+					"facebookUserId": "userId123",
+					"facebookAppId": "appId123"
+				},
+				{
+					"facebookUserId": "userId321",
+					"facebookAppId": "appId321"
+				}
+			]
+		}
+	},
+	"ack": null
+}

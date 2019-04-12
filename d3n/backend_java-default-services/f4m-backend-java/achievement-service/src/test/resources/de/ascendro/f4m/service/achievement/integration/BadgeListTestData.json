@@ -1,0 +1,24 @@
+{
+  "badgeList:60551c1e-a718-444-80f5-76304dec7eb7:GAME": {
+    "BADGE1": {
+      "id": "BADGE1",
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "BADGE2": {
+      "id": "BADGE2",
+      "createdOn": "2017-01-01T01:02:01Z"
+    },
+    "BADGE3": {
+      "id": "BADGE3",
+      "createdOn": "2017-01-01T01:04:01Z"
+    },
+    "BADGE4": {
+      "id": "BADGE4",
+      "createdOn": "2017-01-01T01:03:01Z"
+    },
+    "BADGE5": {
+      "id": "BADGE5",
+      "createdOn": "2017-01-01T01:10:01Z"
+    }
+  }
+}

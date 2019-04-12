@@ -1,0 +1,10 @@
+{
+  "message":"friend/groupListMemberOf",
+  "seq": 1,
+  "content": {
+	"blocked": <<blocked>>,
+  	"limit": <<limit>>,
+  	"offset": <<offset>>
+  },
+  "ack": null
+}

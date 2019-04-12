@@ -1,0 +1,13 @@
+{
+  "message":"friend/groupCreate",
+  "seq": 1,
+  "content": {
+    "name": "<<name>>",
+    "image": "img",
+    "userIds": [
+    	"added_member 1",
+    	"added_member 2"
+    ]
+  },
+  "ack": null
+}

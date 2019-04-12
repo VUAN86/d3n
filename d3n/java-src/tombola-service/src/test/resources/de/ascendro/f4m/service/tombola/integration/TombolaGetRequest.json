@@ -1,0 +1,8 @@
+{
+  "message": "tombola/tombolaGet",
+  "seq": 202,
+  "content": {
+    "tombolaId": "1"
+  },
+  "ack": null
+}

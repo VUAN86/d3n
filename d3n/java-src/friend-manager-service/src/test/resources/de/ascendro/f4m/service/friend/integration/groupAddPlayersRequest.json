@@ -1,0 +1,9 @@
+{
+	"message":"friend/groupAddPlayers",
+	"seq": 1,	
+	"content": {
+		"userIds": ["existing_member 1", "added_member 1", "added_member 2"],
+		"groupId": "<<groupId>>"
+	},
+	"ack": null
+}

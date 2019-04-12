@@ -1,0 +1,21 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.InviteEvent",
+    "userId": "5346332442925e1b585e6-eaa3-438b-b209-bc580c23gaa9",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "52.58.235.105",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "friendsInvited": 1,
+        "bonusInvite": true,
+        "invitedFromFriends": false,
+        "friendsInvitedToo": false,
+        "friendsBlocked": 1,
+        "friendsUnblocked": 0
+      }
+    }
+  }
+}

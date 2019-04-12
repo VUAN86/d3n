@@ -1,0 +1,22 @@
+{
+"badge:1" : {
+	"id":"1",
+    "tenantId":"11",
+    "name": "super-achievement",
+    "type": "COMMUNITY",
+    "status": "ACTIVE",
+    "period": "TEMPORARY",
+    "temporaryTime": "3weeks",
+    "image": "cool.jpg",
+    "reward": true,
+    "bonusPointsReward": 4,
+    "creditReward": 1,
+    "paymentMultiplier": 1.05,
+    "accessRules": ["PRO", "PREMIUM"],
+    "rules": [ {"rule": "aaaa", "level": 30}, {"rule": "bbbb", "level":10}],
+    "battleRules": ["performer-badge", "new-player"],
+    "messaging": ["EMAIL", "IN_APP_NOTIFICATION"],
+    "uniquePerUser": true,
+    "createdOn": "2017-01-01T01:03:01Z"
+}
+}

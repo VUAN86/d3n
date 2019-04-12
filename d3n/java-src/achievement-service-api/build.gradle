@@ -1,0 +1,14 @@
+project.group = 'de.ascendro.f4m.service.achievement'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Achievements Service API',
+                   'Implementation-Version': version
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service-api")
+	compile project(":f4m-achievement-lib")
+}

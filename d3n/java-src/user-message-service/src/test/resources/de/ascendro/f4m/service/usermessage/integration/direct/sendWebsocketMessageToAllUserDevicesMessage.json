@@ -1,0 +1,11 @@
+{
+	"message" : "userMessage/sendWebsocketMessageToAllUserDevices",
+	"seq": 49,
+	"content" : {
+		"userId" : "17",
+		"message" : "Direct message test content",
+		"timeout" : 1234567890123465,
+		"type" : "TEXT"
+	},
+	"ack": null
+}

@@ -1,0 +1,11 @@
+{
+	"message": "friend/playerList",
+	"seq": 123,	
+	"content": {
+		"searchTerm": "<<searchTerm>>",
+		"favorite": false,
+		"limit": 100,
+		"offset": 0
+	},
+	"ack": null
+}

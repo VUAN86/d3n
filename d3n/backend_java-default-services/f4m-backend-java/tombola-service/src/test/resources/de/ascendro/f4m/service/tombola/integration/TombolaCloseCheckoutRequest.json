@@ -1,0 +1,17 @@
+{
+  "message": "tombola/tombolaCloseCheckout",
+  "seq": 202,
+  "content": {
+    "tombolaId": "1"
+  },
+  "ack": null,
+  "clientInfo":{
+    "profile":{
+      "userId": "a2fdfd8b-174c-4a80-9d2e-94cde52386d5",
+      "roles": ["ADMIN"]
+    },
+    "appConfig":{
+      "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7"
+    }
+  }
+}

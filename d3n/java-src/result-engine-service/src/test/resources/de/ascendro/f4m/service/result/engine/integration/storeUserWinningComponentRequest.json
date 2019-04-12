@@ -1,0 +1,10 @@
+{
+	"message": "resultEngine/storeUserWinningComponent",
+	"seq": 1,
+	"content": {
+		"gameInstanceId": "gi1",
+		"userWinningComponentId": "uwc1",
+		"paid": true
+	},
+	"ack": null
+}

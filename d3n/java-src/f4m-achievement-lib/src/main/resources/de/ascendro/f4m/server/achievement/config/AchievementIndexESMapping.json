@@ -1,0 +1,42 @@
+{
+	"mappings": {
+		"_default_": {
+			"dynamic_templates": [{
+				"raw": {
+					"match_mapping_type": "string",
+					"mapping": {
+						"type": "string",
+						"fields": {
+							"raw": {
+								"type": "string",
+								"index": "not_analyzed"
+							}
+						}
+					}
+				}
+			}]
+		}
+	},
+	"settings": {
+		"analysis": {
+			"filter": {
+				"autocomplete_filter": {
+					"type": "edge_ngram",
+					"min_gram": 3,
+					"max_gram": 20
+				}
+			},
+			"analyzer": {
+				"autocomplete": {
+					"type": "custom",
+					"tokenizer": "standard",
+					"filter": [
+						"asciifolding",
+						"lowercase",
+						"autocomplete_filter"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "userBadge:1:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:progress": {
+      "userBadge": {
+        "badgeId": "1",
+        "userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+        "wonCount": "2",
+        "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+        "rules": [
+          {
+            "rule": "Played a number of games",
+            "level": "1000"
+          },
+          {
+            "rule": "Won a number of games",
+            "level": "10"
+          }
+        ],
+        "battleRules": [
+          "6453-8cd1-44a3",
+          "6453-8cd1-44c3"
+        ]
+      },
+      "progress:0": 2500,
+      "progress:1": 33
+    },
+    "userBadge:1:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:0": {
+      "userBadge": {
+        "badgeId": "1",
+        "userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+        "wonCount": "2",
+        "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+        "rules": [
+          {
+            "rule": "Played a number of games",
+            "level": "1000"
+          },
+          {
+            "rule": "Won a number of games",
+            "level": "10"
+          }
+        ],
+        "battleRules": [
+          "6453-8cd1-44a3",
+          "6453-8cd1-44c3"
+        ]
+      },
+      "progress:0": 5,
+      "progress:1": 3
+    },
+    "userBadge:1:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:1": {
+      "userBadge": {
+        "badgeId": "1",
+        "userId": "a0fdfd8b-174c-4a80-9d2e-94cde52386d5",
+        "wonCount": "2",
+        "tenantId": "60551c1e-a718-444-80f5-76304dec7eb7",
+        "rules": [
+          {
+            "rule": "Played a number of games",
+            "level": "1000"
+          },
+          {
+            "rule": "Won a number of games",
+            "level": "10"
+          }
+        ],
+        "battleRules": [
+          "6453-8cd1-44a3",
+          "6453-8cd1-44c3"
+        ]
+      },
+      "progress:0": 5,
+      "progress:1": 3
+    }
+  }
+]

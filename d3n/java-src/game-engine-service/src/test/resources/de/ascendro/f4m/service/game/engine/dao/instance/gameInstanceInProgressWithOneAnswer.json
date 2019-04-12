@@ -1,0 +1,177 @@
+{
+	"game": {
+		"gameId": "-3",
+		"title": "Test Game 1",
+		"description": "Test Game Descr.",
+		"type": "DUEL",
+		"numberOfQuestions": 3,
+		"handicap": 5.6,
+		"isFree": true,
+		"isOffline": false,
+		"playingRegions": ["en", "de", "fr"],
+		"startDateTime": "2017-04-17T06:42:22.946Z",
+		"endDateTime": "2018-02-21T06:42:22.946Z",
+		"instantAnswerFeedback": true,
+		"entryFeeDecidedByPlayer": false,
+		"userCanOverridePools": false,
+		"timeToAcceptInvites": 5,
+		"resultConfiguration": {},
+		"jokerConfiguration": null,
+		"pictureId": "pic1",
+		"assignedPools": ["-1"],
+		"questionPools": ["football", "euroFootball", "footballHistory", "footballOlympics", "tenis"],
+		"questionTypes": ["-1"],
+		"amountOfQuestions": [100],
+		"questionTypeSpread": "PERCENTAGE",
+		"complexityStructure": [40, 30, 20, 5, 5],
+		"complexitySpread": "PERCENTAGE",
+		"questionTypeUsage": "RANDOM",
+		"questionSelection": "RANDOM_PER_PLAYER",
+		"questionOverwriteUsage": "onlyOnce",
+		"winningComponents": [
+			{
+				"winningComponentId": "f62b60fb-99c4-4f64-903d-c2dd84c2f377",
+				"isPaid": false,
+				"rightAnswerPercentage": 60
+			},
+			{
+				"winningComponentId": "2ba31d9e-a8ca-43b1-9aed-6f4c6dab038f",
+				"isPaid": false,
+				"rightAnswerPercentage": 60
+			},
+			{
+				"winningComponentId": "13dc8273-7333-4acf-9d85-2e554ee4c34b",
+				"isPaid": false,
+				"rightAnswerPercentage": 60
+			},
+			{
+				"winningComponentId": "64fb9ec0-45ff-438a-a821-c116a171c423",
+				"isPaid": true,
+				"amount": 4.0,
+				"currency": "BONUS",
+				"rightAnswerPercentage": 60
+			},
+			{
+				"winningComponentId": "c151e7ce-3e26-49e5-9c4d-87e7236f645a",
+				"isPaid": true,
+				"amount": 12.0,
+				"currency": "BONUS",
+				"rightAnswerPercentage": 60
+			},
+			{
+				"winningComponentId": "a656f439-e2f2-4041-8c64-ce4e1b43534c",
+				"isPaid": true,
+				"amount": 115.0,
+				"currency": "BONUS",
+				"rightAnswerPercentage": 60
+			}
+		],
+		"voucherIds": ["75fe88f7-de88-4002-8098-ef57b4bda118", "a963bd0d-606f-4798-87ba-56f06d4593e9", "2a9b5988-a766-41e6-a6c3-726942d2a41e"]
+	},
+	"state": {
+		"answers": [{
+			"question": 0,
+			"tStepStartMs": [1493289423326],
+			"answers": ["aaaa"],
+			"tClientMs": [90],
+			"tPrDelMs": [null],
+			"tAnswerReceiveMs": [1493289432284],
+			"tServerMs": [8958]
+		}, {
+			"question": 1,
+			"tStepStartMs": [1493289432301]
+		}],
+		"currentQuestionStep": {
+			"question": 1,
+			"step": 0,
+			"stepCount": 1
+		},
+		"status": "IN_PROGRESS",
+		"entryFeeTransactionId": null,
+		"refundable": false
+	},
+	"userId": "14854173637035880a268-ae4c-4dbe-bc26-b77279a9dc21",
+	"tenantId": "1",
+	"appId": "1",
+	"userIp": "159.148.5.32",
+	"mgiId": "1493289399278a82020c5-3286-43d1-ba6e-d091ca9bb075",
+	"trainingMode": false,
+	"tournamentId": null,
+	"numberOfQuestions": 3,
+	"questionPoolIds": ["-1"],
+	"id": "14932893993000828d611-a065-49f7-a940-cfcddb1cdc7d",
+	"userLanguage": "en",
+	"userHandicap": 27.5,
+	"questions": {
+		"0": {
+			"id": "-5",
+			"correctAnswers": ["aaaa"],
+			"answers": ["aaaa", "bbbb", "cccc", "dddd"],
+			"answerMaxTimes": [60000],
+			"stepCount": 1,
+			"questionBlobKeys": ["b3a9d21f-a86f-488d-a835-1e2fc75cd565"],
+			"decryptionKeys": ["8cb2f53fedb85e99978d0de594d24943f7c75c04df35752932cb2a5f54c9314209b446dbb838d5b7a4b291ffc7507fcc43031093ba6f8723c6332b10a5f02bd5d38390037ab2701b26a49f4ffa2c1715dd7997206cd2eaba7834241e61ea153ff1918214c181f2336b76f97e1cd64ba85ee10ca14a56f0c0861f17fcaebe9333"],
+			"type": "-1",
+			"complexity": 3,
+			"language": "en",
+			"poolId": "-1",
+			"multiIndex": {
+				"poolId": "-1",
+				"type": "-1",
+				"complexity": 3,
+				"index": {
+					"en": 4,
+					"de": 4,
+					"fr": 4
+				}
+			}
+		},
+		"1": {
+			"id": "-4",
+			"correctAnswers": ["aaaa"],
+			"answers": ["aaaa", "bbbb", "cccc", "dddd"],
+			"answerMaxTimes": [60000],
+			"stepCount": 1,
+			"questionBlobKeys": ["b3a9d21f-a86f-488d-a835-1e2fc75cd564"],
+			"decryptionKeys": ["de9aa30c0ddb1122b57ed3a0b4eaec2d9babcd49dab37034f3229d0640150dbe3ff7b68779f963852cf93636d270b7c00efd51236a48ce2d941b2a2e8a84788161570e33e9ef987b37e94d3a715aaed29b7d95e3a0f54575691c9cc4586492bbb967ae98a56b776a5407f2a3239e5335f21eaa492b22ba08027a61ed78b6242d"],
+			"type": "-1",
+			"complexity": 4,
+			"language": "en",
+			"poolId": "-1",
+			"multiIndex": {
+				"poolId": "-1",
+				"type": "-1",
+				"complexity": 4,
+				"index": {
+					"en": 3,
+					"de": 3,
+					"fr": 3
+				}
+			}
+		},
+		"2": {
+			"id": "-3",
+			"correctAnswers": ["aaaa"],
+			"answers": ["aaaa", "bbbb", "cccc", "dddd"],
+			"answerMaxTimes": [60000],
+			"stepCount": 1,
+			"questionBlobKeys": ["b3a9d21f-a86f-488d-a835-1e2fc75cd563"],
+			"decryptionKeys": ["08cbac7dfdd6a8cdc0c4c69332f238ef6d3e5e64129c0a7e422cb51aa0e10dc2e61b24fc16d6d6eb04e63e75a5737967048594104731c9e5b6c6e27ca9953f05a8d0a756355d44d10da845d391591ba31e0586e48b07abd15eb245b7dbd49f4e632fcd14f3e78ef6565a59c20c942fc34ac8a4fa68d37e13f9c2ce0e8aaff1e2"],
+			"type": "-1",
+			"complexity": 5,
+			"language": "en",
+			"poolId": "-1",
+			"multiIndex": {
+				"poolId": "-1",
+				"type": "-1",
+				"complexity": 5,
+				"index": {
+					"en": 2,
+					"de": 2,
+					"fr": 2
+				}
+			}
+		}
+	},
+	"startDateTime": "2017-04-27T10:36:59.184Z"
+}

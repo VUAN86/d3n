@@ -1,0 +1,9 @@
+{
+	"message": "friend/buddyLeaderboardList",
+	"seq": 123,	
+	"content": {
+		"limit": 100,
+		"offset": 0
+	},
+	"ack": null
+}

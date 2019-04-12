@@ -1,0 +1,10 @@
+{
+    "message": "gameSelection/inviteRandomUserToGame",
+    "seq": 300,
+    "content": {
+    	"gameId": "game_id_3",
+    	"type": "DUEL"
+    },
+	"ack": null,
+	"clientId": "b0fd1c1e-a718-11e6-80f5-76304dec7eb7"
+}

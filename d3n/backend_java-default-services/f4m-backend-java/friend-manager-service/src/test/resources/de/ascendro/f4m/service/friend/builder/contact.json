@@ -1,0 +1,11 @@
+{
+	"contactOwnerId": "<<ownerId>>",
+	"contactId": "<<contactId>>",
+	"contactFirstName": "<<firstName>>",
+	"contactLastName": "<<lastName>>",
+	"contactPhoneNumbers": "<<phoneNumbers>>",
+	"contactEmails": "<<emails>>",
+	"sentInvitationTexts": "<<sentInvitationTexts>>",
+	"contactUserId": "<<userId>>",
+	"contactTenantIds": "<<tenantIds>>"
+}

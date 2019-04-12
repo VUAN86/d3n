@@ -1,0 +1,18 @@
+{
+  "message" : "userMessage/sendUserPush",
+  "seq": 47,
+  "content" : {
+    "userId" : "17",
+    "appIds" : ["60551c1e-a718-333-80f5-76304dec7eb7"],
+    "message" : "email.template.header",
+    "parameters" : [
+      "John"
+    ],
+    "type" : "GAME_END",
+    "payload" : {},
+    "timeout" : 1234567890123465,
+    "language" : "auto",
+    "scheduledDateTime" : "2019-01-01T01:01:01Z"
+  },
+  "ack": null
+}

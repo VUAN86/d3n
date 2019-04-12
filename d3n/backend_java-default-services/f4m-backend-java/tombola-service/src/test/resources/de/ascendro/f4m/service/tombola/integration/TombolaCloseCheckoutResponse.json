@@ -1,0 +1,8 @@
+{
+  "message": "tombola/tombolaCloseCheckoutResponse",
+  "seq": 203,
+  "content": {
+  },
+  "ack":[202],
+  "error":null
+}

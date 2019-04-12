@@ -1,0 +1,11 @@
+{
+	"message":"friend/groupListPlayers",
+	"seq": 1,	
+	"content": {
+		"groupId": "<<groupId>>",
+		"includeProfileInfo": <<includeProfileInfo>>,
+		"limit": <<limit>>,
+		"offset": <<offset>>
+	},
+	"ack": null
+}

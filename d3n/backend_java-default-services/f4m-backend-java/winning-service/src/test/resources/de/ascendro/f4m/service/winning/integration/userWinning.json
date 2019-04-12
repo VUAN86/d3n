@@ -1,0 +1,10 @@
+{
+	"userWinningId": "<<userWinningId>>",
+	"title": "<<title>>",
+	"type": "<<type>>",
+	"amount": "<<amount>>",
+	"currency": "<<currency>>",
+	"obtainDate": "<<obtainDate>>",
+	"details": "<<details>>",
+	"imageId": "<<imageId>>"
+}

@@ -1,0 +1,10 @@
+{
+    "message": "gameSelection/receiveGameStartNotifications",
+    "seq": 200,
+    "content":{
+		"multiplayerGameInstanceId": "{multiplayerGameInstanceId}",
+    	"receive": "{receive}"
+ 	},
+ 	"ack": null,
+ 	"clientId": "b0fd1c1e-a718-11e6-80f5-76304dec7eb7"
+}

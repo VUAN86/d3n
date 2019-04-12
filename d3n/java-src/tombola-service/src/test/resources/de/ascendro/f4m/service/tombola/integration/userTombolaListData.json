@@ -1,0 +1,108 @@
+{
+  "profile:a0fdfd8b-174c-4a80-9d2e-94cde52386d5:history:drawMonth:2017-01": {
+    "1": {
+      "tombolaId": "1",
+      "name": "best tombola",
+      "drawDate": "2017-01-11T01:01:01Z",
+      "isPending":false,
+      "totalTicketsBought": 153,
+      "totalPrizesWon": 1,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        },
+        {
+          "amount": 100,
+          "price": 900,
+          "currency": "MONEY",
+          "imageId": "abcd",
+          "purchaseDate": "2016-01-11T01:01:02Z"
+        }
+      ],
+      "prizes": [
+        {
+          "prizeId": "1",
+          "ticketId": 23,
+          "ticketCode": "123123",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        },
+        {
+          "prizeId": "consolation",
+          "ticketId": 7,
+          "ticketCode": "321321",
+          "name": "Consolation Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        }
+      ]
+    },
+    "2": {
+      "tombolaId": "2",
+      "name": "worst tombola",
+      "drawDate": "2017-01-15T01:01:01Z",
+      "isPending":false,
+      "totalTicketsBought": 15,
+      "totalPrizesWon": 3,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc",
+          "purchaseDate": "2016-01-11T01:01:01Z"
+        },
+        {
+          "amount": 100,
+          "price": 900,
+          "currency": "MONEY",
+          "imageId": "abcd",
+          "purchaseDate": "2016-01-11T01:01:02Z"
+        },
+        {
+          "amount": 50,
+          "price": 900,
+          "currency": "MONEY",
+          "imageId": "abcd",
+          "purchaseDate": "2016-01-11T01:01:02Z"
+        }
+      ],
+      "prizes": [
+        {
+          "prizeId": "1",
+          "ticketId": 23,
+          "ticketCode": "123123",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        },
+        {
+          "prizeId": "2",
+          "ticketId": 7,
+          "ticketCode": "321321",
+          "name": "Second Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        },
+        {
+          "prizeId": "consolation",
+          "ticketId": 7,
+          "ticketCode": "321321",
+          "name": "Consolation Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        }
+      ]
+    }
+  }
+}

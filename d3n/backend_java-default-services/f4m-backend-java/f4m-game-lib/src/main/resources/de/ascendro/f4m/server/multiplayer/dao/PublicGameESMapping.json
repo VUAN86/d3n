@@ -1,0 +1,20 @@
+{
+	"properties": {
+		"expiryDateTime": {
+			"type": "date",
+			"fields": {
+				"raw": {
+					"type": "date"
+				}
+			}
+		},
+		"playDateTime": {
+			"type": "date",
+			"fields": {
+				"raw": {
+					"type": "date"
+				}
+			}
+		}
+	}
+}

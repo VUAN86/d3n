@@ -1,0 +1,19 @@
+{
+	"message": "userMessage/listUnreadWebsocketMessagesResponse",
+	"content": {
+		"messages" : [
+			{ 
+				"messageId" : "mockedDirectMessageId",
+				"message" : "{\"type\":\"PAYMENT_SUCCESS\",\"transactionId\":\"123456\",\"amount\":17,\"currency\":\"EUR\",\"text\":\"We are happy to inform you that your payment transaction of 17 EUR has been successfully completed. Now you should see the changed values in your player account overview. Happy playing.\"}",
+				"payload" : {
+					"transactionId" : "123456",
+					"amount" : 17,
+					"currency" : "EUR"
+				},
+				"type" : "PAYMENT_SUCCESS"
+			 }
+		]
+	},
+	"ack":[48],
+	"error":null
+}

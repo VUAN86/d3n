@@ -1,0 +1,23 @@
+<form class="form-inline">
+    <button type="button" class="btn btn-warning" ng-click="$ctrl.changeTime(-($ctrl.stepTime * 10));"><span class="glyphicon glyphicon-fast-backward"></span></button>
+    <button type="button" class="btn btn-warning" ng-click="$ctrl.changeTime(-$ctrl.stepTime);"><span class="glyphicon glyphicon-step-backward"></span></button>
+    <button type="button" class="btn btn-success" ng-click="$ctrl.startTime();" ng-disabled="($ctrl.intervalTimerRunning===true)" ng-class="{disabled: ($ctrl.intervalTimerRunning===true)}"><span class="glyphicon glyphicon-play"></span></button>
+    <button type="button" class="btn btn-danger" ng-click="$ctrl.stopTime();" ng-disabled="($ctrl.intervalTimerRunning!==true)" ng-class="{disabled: ($ctrl.intervalTimerRunning!==true)}"><span class="glyphicon glyphicon-pause"></span></button>
+    <button type="button" class="btn btn-warning" ng-click="$ctrl.changeTime($ctrl.stepTime);"><span class="glyphicon glyphicon-step-forward"></span></button>
+    <button type="button" class="btn btn-warning" ng-click="$ctrl.changeTime($ctrl.stepTime * 10);"><span class="glyphicon glyphicon-fast-forward"></span></button>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="number" class="form-control" ng-model="$ctrl.customTime" ng-change="$ctrl.changeTime($ctrl.customTime)" >
+            <div class="input-group-addon">{{$ctrl.customTimeString}}</div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="number" class="form-control" ng-model="$ctrl.stepTime" >
+            <div class="input-group-addon">ms</div>
+        </div>
+    </div>
+    <div class="checkbox">
+        <input type="checkbox" ng-model="$ctrl.liveUpdates" ng-click="$ctrl.toggleLiveUpdates();"> Live Updates
+    </div>
+</form>

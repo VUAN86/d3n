@@ -1,0 +1,36 @@
+project.group = 'de.ascendro.f4m.spark.analytics'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Spark Analytics Application',
+                'Implementation-Version': version
+    }
+}
+
+dependencies {
+    compile project(":f4m-analytics-lib")
+
+    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.1.0'
+    compile group: 'org.apache.spark', name: 'spark-sql_2.11', version: '2.1.0'
+    compile group: 'org.apache.spark', name: 'spark-streaming_2.11', version: '2.1.0'
+    compile group: 'org.apache.bahir', name: 'spark-sql-streaming-mqtt_2.11', version: '2.1.0'
+
+    compile group: 'org.apache.spark', name: 'spark-hive-thriftserver_2.11', version: '2.1.0'
+    compile group: 'org.apache.spark', name: 'spark-hive_2.11', version: '2.1.0'
+
+    testCompile group: 'org.scala-lang.modules', name: 'scala-xml_2.11', version: '1.0.6'
+    testCompile group: 'org.scala-lang', name: 'scala-library', version: '2.11.8'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+}

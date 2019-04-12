@@ -1,0 +1,8 @@
+{
+	"message": "auth/getPublicKeyResponse",
+	"content": {
+	},
+	"clientId": "testClientId",
+	"seq": 1,
+	"ack": []
+}

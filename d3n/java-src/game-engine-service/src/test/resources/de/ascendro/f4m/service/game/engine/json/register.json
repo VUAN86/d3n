@@ -1,0 +1,10 @@
+{   
+   "message": "gameEngine/register",
+    "seq": 589,
+    "content":{
+         "gameId": "<<gameId>>",
+         "mgiId": "<<mgiId>>",
+		 "singlePlayerGameConfig":"<<singlePlayerGameConfig>>"
+     },
+	 "ack": null
+}

@@ -1,0 +1,9 @@
+{
+  "message":"advertisement/advertisementHasBeenShown",
+  "seq": 1,
+  "content": {
+    "advertisementBlobKey": "blobKey",
+    "gameId": "1"
+  },
+  "ack": null
+}

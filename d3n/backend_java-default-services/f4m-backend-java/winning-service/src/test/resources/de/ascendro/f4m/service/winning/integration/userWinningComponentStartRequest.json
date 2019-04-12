@@ -1,0 +1,8 @@
+{
+	"message":"winning/userWinningComponentStart",
+	"seq": 123,
+	"content": {
+		"userWinningComponentId": "<<userWinningComponentId>>"
+	},
+	"ack": null
+}

@@ -1,0 +1,13 @@
+{
+	"message": "event/notifySubscriber",
+	"seq": 1,
+	"content":{
+		"subscription": 100,
+		"topic": "profile/merge-user",
+		"notification-content": {
+			"sourceUserId": "<<sourceUserId>>",
+			"targetUserId": "<<targetUserId>>"
+		}
+	},
+	"ack": null
+}

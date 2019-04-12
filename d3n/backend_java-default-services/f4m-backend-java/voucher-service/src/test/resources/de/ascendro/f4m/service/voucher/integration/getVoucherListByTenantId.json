@@ -1,0 +1,9 @@
+{
+  "message":"voucher/voucherList",
+  "seq": 1,
+  "content": {
+    "limit": 100,
+    "offset": 0
+  },
+  "ack": null
+}

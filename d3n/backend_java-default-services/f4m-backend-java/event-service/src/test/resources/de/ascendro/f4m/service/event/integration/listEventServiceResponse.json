@@ -1,0 +1,16 @@
+{
+   "message": "serviceRegistry/listResponse",
+   "seq": 125,
+   "content": {
+   		"services": [
+         {
+            "serviceName": "{actuallyAnyName}",
+            "uri": "{uri}",
+            "serviceNamespaces": [
+            	"someNamespace"
+            ]
+         }
+      ]      
+   },
+   "ack": null
+}

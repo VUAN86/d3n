@@ -1,0 +1,9 @@
+{
+  "message": "tombola/tombolaBuy",
+  "seq": 202,
+  "content": {
+    "tombolaId": "<<TOMBOLAID>>",
+    "tickets": 10
+  },
+  "ack": null
+}

@@ -1,0 +1,20 @@
+project.group = 'de.ascendro.f4m.service.achievement'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Achievement Service',
+                'Implementation-Version': version,
+                'Main-Class': 'de.ascendro.f4m.service.achievement.AchievementServiceStartup'
+    }
+}
+
+dependencies {
+    compile project(":f4m-default-service")
+    compile project(":achievement-service-api")
+    compile project(":f4m-achievement-lib")
+    compile project(":f4m-aerospike-lib")
+
+    testCompile project(":f4m-test-lib")
+    testCompile project(":f4m-aerospike-test-lib")
+}

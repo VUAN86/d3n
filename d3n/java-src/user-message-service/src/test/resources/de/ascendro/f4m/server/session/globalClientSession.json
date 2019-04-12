@@ -1,0 +1,35 @@
+{
+	"clientId1" : { 
+		"clientId" : "clientId1", 
+		"gatewayURL" : "url1",
+		"timestamp" : "111"
+	},	
+	"clientId2" : { 
+		"clientId" : "clientId2", 
+		"gatewayURL" : "url2",
+		"appConfig" : {
+			"appId": "GAME-APP-8268573934",
+			"deviceUUID": "ID1",
+			"device": {
+				"deviceType": "TYP1",
+				"screenHeight": 1246
+			},
+			"tenantId":"TID-7898989"
+		},
+		"timestamp" : "113"
+	},	
+	"clientId3" : { 
+		"clientId" : "clientId3", 
+		"gatewayURL" : "url3",
+		"appConfig" : {
+			"appId": "GAME-APP-8268573000",
+			"deviceUUID": "ID10",
+			"device": {
+				"deviceType": "TYP1",
+				"screenHeight": 1246
+			},
+			"tenantId":"TID-7898000"
+		},
+		"timestamp" : "112"
+	}
+}

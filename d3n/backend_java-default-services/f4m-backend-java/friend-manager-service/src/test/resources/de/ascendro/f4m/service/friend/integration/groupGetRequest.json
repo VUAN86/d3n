@@ -1,0 +1,8 @@
+{
+  "message":"friend/groupGet",
+  "seq": 1,
+  "content": {
+    "groupId" : "<<groupId>>"
+  },
+  "ack": null
+}

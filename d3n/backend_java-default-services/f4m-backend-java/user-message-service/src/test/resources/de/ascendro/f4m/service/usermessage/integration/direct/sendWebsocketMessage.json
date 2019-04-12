@@ -1,0 +1,20 @@
+{
+	"message" : "userMessage/sendWebsocketMessage",
+	"seq": 47,
+	"content" : {
+		"userId" : "17",
+		"message" : "payment.system.payment.success.push",
+		"parameters" : [
+			"123456", "17", "EUR"
+		], 
+		"type" : "PAYMENT_SUCCESS",
+		"payload" : {
+			"transactionId" : "123456",
+			"amount" : 17,
+			"currency" : "EUR"
+		},
+		"timeout" : 1234567890123465,
+		"language" : "auto"
+	},
+	"ack": null
+}

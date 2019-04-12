@@ -1,0 +1,34 @@
+{
+  "achievementList:TENANT1": {
+    "ACHIEVEMENT1": {
+      "id": "ACHIEVEMENT_X1",
+      "tenantId": "TENANT1",
+      "badges": [ ],
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "ACHIEVEMENT2": {
+      "id": "ACHIEVEMENT_X2",
+      "tenantId": "TENANT1",
+      "badges": [ ],
+      "createdOn": "2017-01-01T01:02:01Z"
+    },
+    "ACHIEVEMENT3": {
+      "id": "ACHIEVEMENT_X3",
+      "tenantId": "TENANT1",
+      "badges": [ "BADGE_B1"],
+      "createdOn": "2017-01-01T01:04:01Z"
+    },
+    "ACHIEVEMENT4": {
+      "id": "ACHIEVEMENT_X4",
+      "tenantId": "TENANT1",
+      "badges": [ ],
+      "createdOn": "2017-01-01T01:03:01Z"
+    },
+    "ACHIEVEMENT5": {
+      "id": "ACHIEVEMENT_X5",
+      "tenantId": "TENANT1",
+      "badges": [ "BADGE_B4", "BADGE_B1"],
+      "createdOn": "2017-01-01T01:10:01Z"
+    }
+  }
+}

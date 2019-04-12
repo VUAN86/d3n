@@ -1,0 +1,8 @@
+{
+	"message": "friend/contactRemoveInvitation",
+	"seq": 123,	
+	"content": {
+		"contactIds": "<<contactIds>>"
+	},
+	"ack": null
+}

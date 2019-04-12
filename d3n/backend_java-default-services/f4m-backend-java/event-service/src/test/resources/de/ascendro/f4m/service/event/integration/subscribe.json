@@ -1,0 +1,8 @@
+{
+	"message": "event/subscribe",
+	"seq": 100,
+	"content": {
+		"topic": "Game/ABC"
+	},
+	"ack": null
+}

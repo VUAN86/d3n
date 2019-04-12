@@ -1,0 +1,46 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.PlayerGameEndEvent",
+    "userId": "2334432433564b15f79ba-73dd-4a4c-b1ed-8b4a87d99bcc",
+    "tenantId": "t1",
+    "appId": "6",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "gameId": 14,
+        "totalQuestions": 7,
+        "skippedQuestions": 0,
+        "totalCorrectQuestions": 3,
+        "totalIncorrectQuestions": 4,
+        "playedWithFriend": false,
+        "playedWithPublic": false,
+        "paidComponent": false,
+        "freeComponent": true,
+        "paidComponentSkipped": false,
+        "averageAnswerSpeed": 3385,
+        "newAppPlayer": false,
+        "newGamePlayer": true,
+        "playerHandicap": 2.6,
+        "questions": [
+          {
+            "questionId": 3,
+            "answerCorrect": true,
+            "answerSpeed": 12050
+          },
+          {
+            "questionId": 4,
+            "answerCorrect": false,
+            "answerSpeed": 1050
+          },
+          {
+            "questionId": 5,
+            "answerCorrect": false,
+            "answerSpeed": 3133
+          }
+        ]
+      }
+    }
+  }
+}

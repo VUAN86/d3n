@@ -1,0 +1,18 @@
+project.group = 'de.ascendro.f4m.f4m-elastic-lib'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'F4M Libraries for Elasticsearch',
+		'Implementation-Version': version
+	}
+}
+
+dependencies {
+	compile project(":profile-service-api")
+	compile project(":friend-manager-service-api")
+	compile project(":registry-service-api")
+	compile group: 'org.elasticsearch.client', name: 'rest', version: '5.1.2'
+	
+	testCompile project(":f4m-test-lib")
+}

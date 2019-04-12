@@ -1,0 +1,7 @@
+{
+	"message":"friend/resync",
+	"seq": 1,	
+	"ack": null,
+	"content": {
+	}
+}

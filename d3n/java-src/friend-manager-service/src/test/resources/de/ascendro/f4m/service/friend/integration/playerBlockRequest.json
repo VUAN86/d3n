@@ -1,0 +1,8 @@
+{
+	"message": "friend/playerBlock",
+	"seq": 123,	
+	"content": {
+		"userIds": "<<userIds>>"
+	},
+	"ack": null
+}

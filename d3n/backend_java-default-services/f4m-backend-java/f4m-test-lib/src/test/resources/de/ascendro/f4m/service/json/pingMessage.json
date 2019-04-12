@@ -1,0 +1,25 @@
+{
+	"message": "test/ping",
+	"content": {
+		"ping": "PING-124"
+	},
+	"clientId": "CLIENT-1",
+	"seq": 5,
+	"timestamp": 123456789,
+	"clientInfo": {
+	  	"profile":{
+		    "userId": "userId-1",
+		    "language": "en",
+		    "handicap": 5.7,
+		    "roles": ["ANONYMOUS", "REGISTERED"],
+		    "emails": ["mail@mail.de", "mail@mail.eu"],
+		    "phones": ["+42"]
+	    },
+	    "appConfig":{
+		    "appId": "appId-1",
+		    "tenantId": "tenantId-1",
+		    "deviceUUID": "deviceUUID-1"
+	    },
+	    "ip":"127.0.0.1"
+	}
+}

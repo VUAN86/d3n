@@ -1,0 +1,25 @@
+project.group = 'de.ascendro.f4m.service.game.selection'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+	manifest {
+		attributes 'Implementation-Title': 'Game Selection Service',
+		'Implementation-Version': version,
+		'Main-Class': 'de.ascendro.f4m.service.game.selection.GameSelectionServiceStartup'
+	}
+}
+
+dependencies {
+	compile project(":f4m-default-service")
+	compile project(":f4m-aerospike-lib")
+	compile project(":game-selection-service-api")
+	compile project(":payment-service-api")
+	compile project(":friend-manager-service-api")
+	compile project(":user-message-service-api")
+	compile project(":f4m-game-lib")
+	compile project(":result-engine-service-api")
+	compile project(":f4m-analytics-lib")
+
+	testCompile project(":f4m-test-lib")
+	testCompile project(":f4m-aerospike-test-lib")
+}

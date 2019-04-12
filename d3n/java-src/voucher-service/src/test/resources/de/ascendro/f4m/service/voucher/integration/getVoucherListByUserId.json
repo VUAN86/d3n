@@ -1,0 +1,10 @@
+{
+  "message":"voucher/userVoucherListByUser",
+  "seq": 1,
+  "content": {
+    "userId": "<<userId>>",
+    "limit": 100,
+    "offset": 0
+  },
+  "ack": null
+}

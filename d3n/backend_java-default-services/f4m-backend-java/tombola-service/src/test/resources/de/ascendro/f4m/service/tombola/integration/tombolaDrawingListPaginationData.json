@@ -1,0 +1,141 @@
+{
+  "appId:60551c1e-a718-333-80f5-76304dec7eb7:drawDate:2017-01-13": {
+    "111": {
+      "tombolaId": "111",
+      "name": "tombola to be ignored",
+      "drawDate": "2017-01-13T00:01:01Z",
+      "totalTicketsNumber": 153,
+      "imageId": "tombola1",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    },
+    "1": {
+      "tombolaId": "1",
+      "name": "best tombola",
+      "drawDate": "2017-01-13T02:01:01Z",
+      "totalTicketsNumber": 153,
+      "imageId": "tombola1",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    },
+    "2": {
+      "tombolaId": "2",
+      "name": "worst tombola",
+      "drawDate": "2017-01-13T03:01:01Z",
+      "totalTicketsNumber": 0,
+      "imageId": "tombola2",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    }
+  },
+  "appId:60551c1e-a718-333-80f5-76304dec7eb7:drawDate:2017-01-14": {
+    "3": {
+      "tombolaId": "3",
+      "name": "best tombola",
+      "drawDate": "2017-01-14T01:01:01Z",
+      "totalTicketsNumber": 153,
+      "imageId": "tombola1",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    }
+  },
+  "appId:60551c1e-a718-333-80f5-76304dec7eb7:drawDate:2017-01-15": {
+    "4": {
+      "tombolaId": "4",
+      "name": "worst tombola",
+      "drawDate": "2017-01-15T02:01:01Z",
+      "totalTicketsNumber": 0,
+      "imageId": "tombola2",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    },
+    "5": {
+      "tombolaId": "5",
+      "name": "worst tombola",
+      "drawDate": "2017-01-15T03:01:00Z",
+      "totalTicketsNumber": 0,
+      "imageId": "tombola2",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    },
+    "222": {
+      "tombolaId": "222",
+      "name": "tombola to be ignored",
+      "drawDate": "2017-01-15T04:01:01Z",
+      "totalTicketsNumber": 153,
+      "imageId": "tombola1",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        }
+      ]
+    }
+  }
+}

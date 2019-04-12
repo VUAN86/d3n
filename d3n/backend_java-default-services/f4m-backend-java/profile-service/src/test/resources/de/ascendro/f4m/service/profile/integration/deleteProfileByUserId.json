@@ -1,0 +1,8 @@
+{
+	"message":"profile/deleteProfile",
+	"seq": 201,	
+	"content": {
+		"userId": "<<userId>>"
+	},
+	"ack": null
+}

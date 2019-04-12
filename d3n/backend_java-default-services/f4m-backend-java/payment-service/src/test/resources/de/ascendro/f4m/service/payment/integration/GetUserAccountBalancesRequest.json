@@ -1,0 +1,16 @@
+{
+	"message":"payment/getUserAccountBalances",
+	"seq": 91,	
+	"content": {
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "searchProfile",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "searchTenant"
+		}
+	}
+}

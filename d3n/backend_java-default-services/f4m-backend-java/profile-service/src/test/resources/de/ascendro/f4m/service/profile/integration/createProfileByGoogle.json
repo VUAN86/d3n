@@ -1,0 +1,8 @@
+{
+	"message":"profile/createProfile",
+	"seq": 201,	
+	"content": {
+		"google": "G_TEST_TOKEN"	
+	},
+	"ack": null
+}

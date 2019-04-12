@@ -1,0 +1,34 @@
+project.group = 'de.ascendro.f4m.payment'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Payment Service',
+                   'Implementation-Version': version,
+                   'Main-Class': 'de.ascendro.f4m.service.payment.PaymentServiceStartup'
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service")
+	compile project(":payment-service-api")
+	compile project(":profile-service-api")
+	compile project(":f4m-aerospike-lib")
+	compile project(":f4m-analytics-lib")
+	compile project(":f4m-game-lib")
+	compile project(":user-message-service-api")
+	compile group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '2.24'
+	compile group: 'org.glassfish.jersey.media', name: 'jersey-media-json-jackson', version: '2.24'
+	compile group: 'org.bouncycastle', name: 'bcprov-jdk16', version: '1.46'
+    compile 'com.google.apis:google-api-services-androidpublisher:v2-rev71-1.23.0'
+
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile project(":f4m-test-lib")
+	testCompile project(":f4m-aerospike-test-lib")
+	testCompile([group: 'io.github.benas', name: 'random-beans', version: '3.4.0']) {
+		exclude group: 'com.fasterxml.jackson.core', module: 'jackson-databind'
+	}
+	testCompile 'org.assertj:assertj-core:3.8.0'
+	testCompile group: 'org.glassfish.jersey.test-framework', name: 'jersey-test-framework-core', version: '2.24'
+	testCompile group: 'org.glassfish.jersey.test-framework.providers', name: 'jersey-test-framework-provider-inmemory', version: '2.24'
+}

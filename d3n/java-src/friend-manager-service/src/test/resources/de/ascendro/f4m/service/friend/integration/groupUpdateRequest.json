@@ -1,0 +1,11 @@
+{
+  "message":"friend/groupUpdate",
+  "seq": 1,
+  "content": {
+    "groupId" : "<<groupId>>",
+    "name" : "<<name>>",
+    "image": "img",
+    "userIdsToRemove" : ["userid-123", "added_member 1"]
+  },
+  "ack": null
+}

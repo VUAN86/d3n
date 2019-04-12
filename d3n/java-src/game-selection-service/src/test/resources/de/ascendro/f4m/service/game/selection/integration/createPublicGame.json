@@ -1,0 +1,8 @@
+{
+    "message": "gameSelection/createPublicGame",
+    "seq": 300,
+    "content": {
+    	"customGameConfig": "<<multiplayerGameParameters>>"
+    },
+	"ack": null
+}

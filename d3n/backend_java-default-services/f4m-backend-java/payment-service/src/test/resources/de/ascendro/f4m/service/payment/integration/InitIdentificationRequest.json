@@ -1,0 +1,17 @@
+{
+	"message":"payment/initIdentification",
+	"seq": 16,	
+	"content": {
+		"method": "POSTIDENT"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile":{
+			"userId": "initProfileId",
+			"roles": ["anyRole"]
+		},
+		"appConfig":{
+			"tenantId": "initTenantId"
+		}
+	}
+}

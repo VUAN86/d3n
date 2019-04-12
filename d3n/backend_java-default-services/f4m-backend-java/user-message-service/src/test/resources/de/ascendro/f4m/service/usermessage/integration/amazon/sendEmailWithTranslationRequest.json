@@ -1,0 +1,27 @@
+{
+  "message" : "userMessage/sendEmail",
+  "seq": 42,
+  "content" : {
+    "userId" : "17",
+    "subject" : "workorder.assign.subject",
+    "subjectParameters" : [
+      "CategorySubject"
+    ],
+    "message" : "workorder.assign.message",
+    "address" : "test@gmail.com",
+    "parameters" : [
+      "CategoryContents"
+    ],
+    "language" : "en"
+  },
+  "clientInfo": {
+    "appConfig":{
+      "appId": "appId-1",
+      "tenantId": "tenant-1"
+    },
+    "profile":{
+    	"roles": ["any_role"]
+    }
+  },
+  "ack": null
+}

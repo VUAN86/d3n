@@ -1,0 +1,16 @@
+project.group = 'de.ascendro.f4m.f4m-onesignal-lib'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'F4M Libraries for OneSignal',
+        'Implementation-Version': version
+    }
+}
+
+dependencies {
+    compile project(":profile-service-api")
+    compile project(":f4m-aerospike-lib")
+    compile group: 'com.currencyfair', name: 'onesignal', version: '1.0.9'
+    testCompile project(":f4m-test-lib")
+}

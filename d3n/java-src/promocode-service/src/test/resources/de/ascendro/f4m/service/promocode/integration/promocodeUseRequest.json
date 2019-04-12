@@ -1,0 +1,8 @@
+{
+  "message":"promocode/promocodeUse",
+  "seq": 1,
+  "content": {
+    "code": "<<CODE>>"
+  },
+  "ack": null
+}

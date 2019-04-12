@@ -1,0 +1,19 @@
+{
+	"message" : "userMessage/sendUserPush",
+	"seq": 46,
+	"content" : {
+		"userId" : "17",
+		"appIds" : ["60551c1e-a718-333-80f5-76304dec7eb7"],
+		"message" : "mobile push to all user''s devices {0}",
+		"parameters": [
+			"test"
+		],
+		"payload" : {
+			"transactionId" : "123456",
+			"amount" : 17,
+			"currency" : "EUR"
+		},
+		"scheduledDateTime" : "2019-01-01T01:01:01Z"
+	},
+	"ack": null
+}

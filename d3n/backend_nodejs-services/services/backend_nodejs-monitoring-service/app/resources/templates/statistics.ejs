@@ -1,0 +1,81 @@
+<div style="display:none" id="new-relics-status"><?- environmentStatus ?></div>
+<div class="page-header">
+    <h1>
+        F4M
+        <select id="environment" style="text-transform: capitalize" onchange="document.location='/?env=' + $('#environment').val()">
+            <? for(var i=0; i<environments.length; i++) { var env = environments[i]; ?>
+            <option value="<?- env ?>"<?- (env === environment ? ' selected="selected"' : '') ?>><?- env ?></option>
+            <? } ?>
+        </select>
+        Environment Status <small><span class="label label-<?- (environmentStatus === 'OK' ? 'success' : 'danger') ?>"><?- environmentStatus ?></span> </small>
+    </h1>
+</div>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <?
+    // order
+    var services = [];
+    for(var sn in environmentStatistics) { 
+        services.push(sn);
+    }
+    services.sort();
+    
+    for(var idx=0; idx<services.length; idx++) {
+    var sn = services[idx];
+    var cntOk = 0;
+    var cntNotOk = 0;
+    for(var i=0; i<environmentStatistics[sn].length; i++) {
+        var inst = environmentStatistics[sn][i];
+        if (inst.status === 'OK') {
+            cntOk++;
+        }
+        if (inst.status === 'NOK') {
+            cntNotOk++;
+        }
+    }
+    var serviceOk = (cntNotOk === 0 && environmentStatistics[sn].length);
+    ?>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="heading-<?- sn ?>">
+            <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-<?- sn ?>" aria-expanded="false" aria-controls="collapse-<?- sn ?>">
+                    <span class="glyphicon glyphicon-plus bg-<?- (serviceOk ? 'success' : 'danger') ?>"></span> <span class="capitalize"><?- sn ?></span> instances: <?- cntOk ?> OK <?- cntNotOk ?> NOK
+                </a>
+            </h4>
+        </div>
+        <div id="collapse-<?- sn ?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-<?- sn ?>">
+            <div class="panel-body">
+                <?
+                for(var i=0; i<environmentStatistics[sn].length; i++) {
+                var inst = environmentStatistics[sn][i];
+                var hearbeatDT = '';
+                if (inst.lastHeartbeatTimestamp) {
+                    var d = new Date();
+                    d.setTime(inst.lastHeartbeatTimestamp*1000);
+                    hearbeatDT = d.toISOString();
+                }
+                ?>
+                <div class="panel-body-item">
+                    <ul class="list-group">
+                        <li class="list-group-item">URI: <i><?- inst.uri ?></i></li>
+                        <li class="list-group-item">Status: <span class="label label-<?- (inst.status === 'OK' ? 'success' : 'danger') ?>"><?- inst.status ?></span> <?- inst.notOkReasons.length ? ' Reasons: ' + inst.notOkReasons.join(', ') : '' ?></li>
+                        <li class="list-group-item">Uptime: <b><?- inst.uptime ?></b></li>
+                        <li class="list-group-item">CPU usage: <b><?- inst.cpuUsage ?></b></li>
+                        <li class="list-group-item">Memory usage:<b><?- inst.memoryUsage ?></b></li>
+                        <li class="list-group-item">Count GW connections: <span class="badge"><?- inst.countGatewayConnections ?></span></li>
+                        <li class="list-group-item">Count inbound connections: <span class="badge"><?- inst.countConnectionsToService ?></span></li>
+                        <li class="list-group-item">Count outbound connections: <span class="badge"><?- inst.countConnectionsFromService ?></span></li>
+                        <li class="list-group-item">Count sessions: <span class="badge"><?- inst.countSessionsToService ?></span></li>
+                        <li class="list-group-item">Last Heartbeat: <i><?- hearbeatDT ? hearbeatDT : '' ?></i></li>
+                        <li class="list-group-item">Databases: <i><?- JSON.stringify(inst.connectionsToDb) ?></i></li>
+                    </ul>
+                </div>
+                <?
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+    <? } ?>
+</div>
+

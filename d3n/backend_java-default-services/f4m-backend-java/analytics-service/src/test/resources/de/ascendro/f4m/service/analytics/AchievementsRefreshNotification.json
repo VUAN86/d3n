@@ -1,0 +1,11 @@
+{
+    "message": "event/notifySubscriber",
+    "seq": 200,
+    "content":{
+    	"subscription": 100,
+     	"topic": "analytics.achievements.refresh",
+     	"notification-content": {
+     	}
+ 	},
+ 	"ack": null
+}

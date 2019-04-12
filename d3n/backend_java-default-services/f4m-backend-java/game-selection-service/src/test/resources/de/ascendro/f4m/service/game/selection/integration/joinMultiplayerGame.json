@@ -1,0 +1,8 @@
+{
+    "message": "gameSelection/joinMultiplayerGame",
+    "seq": 123,
+    "content": {
+    	"multiplayerGameInstanceId": "<<mgiId>>"
+    },
+	"ack": null
+}

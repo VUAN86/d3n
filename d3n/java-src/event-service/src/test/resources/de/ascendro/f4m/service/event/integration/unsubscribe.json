@@ -1,0 +1,8 @@
+{
+	"message": "event/unsubscribe",
+	"seq": 100,
+	"content":{
+		"subscription": {subscription}       
+    },
+    "ack": null
+}

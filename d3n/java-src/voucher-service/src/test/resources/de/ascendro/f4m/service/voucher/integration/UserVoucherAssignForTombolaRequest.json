@@ -1,0 +1,20 @@
+{
+	"message":"voucher/userVoucherAssignForTombola",
+	"seq": 1,
+	"content": {
+		"userId": "<<userId>>",
+		"voucherId": "<<voucherId>>",
+		"tombolaId": "<<tombolaId>>",
+		"tombolaName": "<<tombolaName>>"
+	},
+	"clientInfo": {
+	    "appConfig":{
+		    "appId": "appId-1",
+		    "tenantId": "tenantId-1"
+	    },
+	    "profile":{
+	    	"roles": ["any_role"]
+	    }
+	},
+	"ack": null
+}

@@ -1,0 +1,13 @@
+project.group = 'de.ascendro.f4m.service.usermessage'
+project.version = '0.0.1-SNAPSHOT'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'User Message Service API',
+                   'Implementation-Version': version
+    }
+}
+
+dependencies {	
+	compile project(":f4m-default-service-api")
+}

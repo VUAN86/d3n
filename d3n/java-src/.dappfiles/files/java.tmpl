@@ -1,0 +1,8 @@
+{{ $_ := set . "java_dir" "/storage/java/f4m-backend-default-services/f4m-backend-java" }}
+{{ $_ := set . "schemas_dir" "/storage/java/f4m-backend-api-schemas" }}
+{{ $_ := set . "baseimage" "openjdk:8u191-jdk-alpine3.8" }}
+{{ $_ := set . "repo_schemas_name" "git@gitlab.dev4m.com:k8s-test-lab/backend_api-schemas.git" }}
+{{ $_ := set . "repo_schemas_branch" "rabbit-introduction" }}
+{{ $_ := set . "repo_schemas_dir" "/" }}
+
+

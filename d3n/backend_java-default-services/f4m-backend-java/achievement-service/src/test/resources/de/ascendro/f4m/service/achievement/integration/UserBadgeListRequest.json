@@ -1,0 +1,12 @@
+{
+  "message":"achievement/userBadgeList",
+  "seq": 1,
+  "content": {
+    "limit": 10,
+    "offset": 0,
+    "type" : "GAME",
+    "dateFrom": "2017-01-01T00:01:01Z",
+    "dateTo": "2017-01-02T01:01:01Z"
+  },
+  "ack": null
+}

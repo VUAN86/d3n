@@ -1,0 +1,10 @@
+{
+	"message": "userMessage/sendWebsocketMessageResponse",
+	"content": {
+		"messageId" : "mockedDirectMessageId"
+	},
+	"ack":[47],
+	"clientInfo":{"profile":{},"appConfig":{}},
+	"clientId":"b1fd1c1e-a718-11e6-80f5-76304dec7eb7",
+	"error":null
+}

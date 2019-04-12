@@ -1,0 +1,9 @@
+{   
+   "message": "gameEngine/startGame",
+    "seq": 200,
+    "content":{
+         "gameInstanceId": "<<gameInstanceId>>",
+         "userLanguage": "<<userLanguage>>"
+     },
+	"ack": null
+}

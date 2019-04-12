@@ -1,0 +1,12 @@
+{
+    "message": "gameSelection/invitationList",
+    "seq": 400,
+    "content": {
+    	"states": ["<<states>>"],
+		"limit": "<<limit>>",
+		"offset": "<<offset>>",
+		"orderBy": ["<<orderBy>>"],
+		"searchBy": "<<searchBy>>"
+	},
+	"ack": null
+}

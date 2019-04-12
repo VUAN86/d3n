@@ -1,0 +1,19 @@
+{
+	"message":"voucher/userVoucherAssign",
+	"seq": 1,
+	"content": {
+		"userId": "<<userId>>",
+		"voucherId": "<<voucherId>>",
+		"gameInstanceId": "<<gameInstanceId>>"
+	},
+	"clientInfo": {
+	    "appConfig":{
+		    "appId": "appId-1",
+		    "tenantId": "tenantId-1"
+	    },
+	    "profile":{
+	    	"roles": ["any_role"]
+	    }
+	},
+	"ack": null
+}

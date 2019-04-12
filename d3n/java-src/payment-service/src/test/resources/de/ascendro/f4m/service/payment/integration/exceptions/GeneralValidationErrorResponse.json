@@ -1,0 +1,10 @@
+{
+	"message":"error",
+	"error" : {
+		"type":"validation",
+		"message":"ERR_VALIDATION_FAILED"
+	},
+	"content":null,
+	"ack":null,
+	"seq":null
+}

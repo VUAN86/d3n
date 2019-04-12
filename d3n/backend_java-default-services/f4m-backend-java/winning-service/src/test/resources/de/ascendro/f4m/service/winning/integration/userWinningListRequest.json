@@ -1,0 +1,20 @@
+{
+	"message":"winning/userWinningList",
+	"seq": 123,
+	"content": {
+		"limit": "<<limit>>",
+		"offset": "<<offset>>",
+		"orderBy": [
+			{
+				"field": "obtainDate",
+				"direction": "asc"
+			},
+			{
+				"field": "type",
+				"direction": "desc"
+			}
+		],
+		"searchBy": {}
+	},
+	"ack": null
+}

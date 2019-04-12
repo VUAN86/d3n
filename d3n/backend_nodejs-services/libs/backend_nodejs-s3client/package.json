@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-s3client",
+  "version": "0.0.2",
+  "description": "Node.JS Amazon S3 Client Library",
+  "main": "index.js",
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "scripts": {
+    "test": "../../node_modules/.bin/istanbul cover --report cobertura --report lcov ../../node_modules/mocha/bin/_mocha app/test/unit/index.js -- --reporter mocha-sonar-generic-test-coverage --reporter-options mochaFile=./unit/test-results.xml --timeout=20000",
+    "test-no-reporting": "../../node_modules/.bin/mocha app/test/unit/test-no-reporting.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"voucherId":"11",
+		"userVoucherId": "0"
+	},
+	{
+		"voucherId":"11",
+		"userVoucherId": "1"
+	},
+	{
+		"voucherId":"11",
+		"userVoucherId": "2"
+	},
+	{
+		"voucherId":"11",
+		"userVoucherId": "3"
+	}
+]

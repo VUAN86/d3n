@@ -1,0 +1,244 @@
+{
+  "appId:60551c1e-a718-333-80f5-76304dec7eb7": {
+    "1": {
+      "id": "1",
+      "name": "Mega Tombola",
+      "description": "Another mega tombola lol",
+      "winningRules": "There are no rules!",
+      "imageId": "abc123",
+      "startDate": "2016-01-11T01:01:01Z",
+      "endDate": "2016-01-12T01:01:01Z",
+      "status": "ACTIVE",
+      "payoutTarget": "TARGET_DATE",
+      "targetDate": "2016-01-12T01:01:01Z",
+      "percentOfTicketsAmount": 80,
+      "applicationsIds": [
+        "60551c1e-a718-333-80f5-76304dec7eb7",
+        "asd1233",
+        "dsf23"
+      ],
+      "regionalSettingsIds": [
+        "adsf",
+        "asd3",
+        "dsf"
+      ],
+      "totalTicketsAmount": 123456,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc"
+        },
+        {
+          "amount": 100,
+          "price": 900,
+          "currency": "MONEY",
+          "imageId": "abcd"
+        }
+      ],
+      "prizes": [
+        {
+          "id": "1",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+          "draws": 2
+        },
+        {
+          "id": "consolation",
+          "name": "Consolation Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123",
+          "draws": 1
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "name": "Second Mega Tombola",
+      "description": "Another mega tombola lol",
+      "winningRules": "There are no rules!",
+      "imageId": "abc123",
+      "startDate": "2016-01-11T01:01:01Z",
+      "endDate": "2016-01-12T01:01:01Z",
+      "status": "ACTIVE",
+      "payoutTarget": "TARGET_DATE",
+      "targetDate": "2016-01-12T01:01:01Z",
+      "percentOfTicketsAmount": 80,
+      "applicationsIds": [
+        "60551c1e-a718-333-80f5-76304dec7eb7",
+        "asd1233",
+        "dsf23"
+      ],
+      "regionalSettingsIds": [
+        "adsf",
+        "asd3",
+        "dsf"
+      ],
+      "totalTicketsAmount": 123456,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc"
+        },
+        {
+          "amount": 100,
+          "price": 900,
+          "currency": "MONEY",
+          "imageId": "abcd"
+        },
+        {
+          "amount": 150,
+          "price": 500,
+          "currency": "MONEY",
+          "imageId": "abcd"
+        }
+      ],
+      "prizes": [
+        {
+          "id": "1",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+          "draws": 2
+        },
+        {
+          "id": "2",
+          "name": "Second Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "prizeId": "voucherid123",
+          "draws": 1
+        },
+        {
+          "id": "consolation",
+          "name": "Consolation Prize",
+          "type": "VOUCHER",
+          "imageId": "abcd_3",
+          "prizeId": "voucherid1234",
+          "draws": 1
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "name": "Third Mega Tombola",
+      "description": "Another mega tombola lol",
+      "winningRules": "There are no rules!",
+      "imageId": "abc123",
+      "startDate": "2016-01-11T01:01:01Z",
+      "endDate": "2016-01-12T01:01:01Z",
+      "status": "ACTIVE",
+      "payoutTarget": "TARGET_DATE",
+      "targetDate": "2016-01-12T01:01:01Z",
+      "percentOfTicketsAmount": 80,
+      "applicationsIds": [
+        "60551c1e-a718-333-80f5-76304dec7eb7"
+      ],
+      "regionalSettingsIds": [
+        "adsf"
+      ],
+      "totalTicketsAmount": 123456,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc"
+        }
+      ],
+      "prizes": [
+        {
+          "id": "1",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+          "draws": 2
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "name": "Fourth Mega Tombola",
+      "description": "Another mega tombola lol",
+      "winningRules": "There are no rules!",
+      "imageId": "abc123",
+      "startDate": "2016-01-11T01:01:01Z",
+      "endDate": "2016-01-12T01:01:01Z",
+      "status": "ACTIVE",
+      "payoutTarget": "TARGET_DATE",
+      "targetDate": "2016-01-12T01:01:01Z",
+      "percentOfTicketsAmount": 80,
+      "applicationsIds": [
+        "60551c1e-a718-333-80f5-76304dec7eb7"
+      ],
+      "regionalSettingsIds": [
+        "adsf"
+      ],
+      "totalTicketsAmount": 123456,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc"
+        }
+      ],
+      "prizes": [
+        {
+          "id": "1",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+          "draws": 2
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "name": "Fifth Mega Tombola",
+      "description": "Another mega tombola lol",
+      "winningRules": "There are no rules!",
+      "imageId": "abc123",
+      "startDate": "2016-01-11T01:01:01Z",
+      "endDate": "2016-01-12T01:01:01Z",
+      "status": "ACTIVE",
+      "payoutTarget": "TARGET_DATE",
+      "targetDate": "2016-01-12T01:01:01Z",
+      "percentOfTicketsAmount": 80,
+      "applicationsIds": [
+        "60551c1e-a718-333-80f5-76304dec7eb7"
+      ],
+      "regionalSettingsIds": [
+        "adsf"
+      ],
+      "totalTicketsAmount": 123456,
+      "bundles": [
+        {
+          "amount": 10,
+          "price": 100,
+          "currency": "MONEY",
+          "imageId": "abc"
+        }
+      ],
+      "prizes": [
+        {
+          "id": "1",
+          "name": "First Prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc",
+          "draws": 2
+        }
+      ]
+    }
+  }
+}

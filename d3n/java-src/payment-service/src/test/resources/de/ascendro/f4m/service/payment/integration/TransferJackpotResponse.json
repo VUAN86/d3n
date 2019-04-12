@@ -1,0 +1,9 @@
+{
+	"message":"payment/transferJackpotResponse",
+	"seq": 97,
+	"content": {
+		"transactionId": "transaction_id_value"
+	},
+	"ack":[96],
+	"error":null
+}

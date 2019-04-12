@@ -1,0 +1,28 @@
+{{- include "files/java.tmpl" . }}
+
+dimg: promocode-service
+from: {{ .baseimage }}
+ansible:
+   beforeInstall:
+   - apk:
+       name: "{{`{{ item }}`}}"
+       update_cache: no
+     with_items:
+        - bash
+
+        
+import:
+- artifact: java_service_build
+  add: {{ .java_dir }}
+  includePaths:
+  - promocode-service
+  - conf
+  excludePaths:
+  - .gitkeep
+  - build.gradle
+  after: install
+  
+docker:
+  WORKDIR: {{ .java_dir }}/promocode-service/target/libs
+  ENTRYPOINT: ["/usr/bin/java"]
+  CMD: ["-Dlog4j.configurationFile=file:///storage/java/f4m-backend-default-services/f4m-backend-java/conf/log4j2.xml", "-Djavax.net.ssl.trustStore=/storage/java/f4m-backend-default-services/f4m-backend-java/conf/keystore.jks", "-Djavax.net.ssl.trustStorePassword=f4mkey", "-Djavax.net.ssl.keyStore=/storage/java/f4m-backend-default-services/f4m-backend-java/conf/keystore.jks", "-Djavax.net.ssl.keyStorePassword=f4mkey", "-Df4m.conf=/storage/f4m.conf", "-cp", 'promocode-service-0.0.1-SNAPSHOT.jar:lib/*', de.ascendro.f4m.service.promocode.PromocodeServiceStartup]

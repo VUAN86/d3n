@@ -1,0 +1,8 @@
+{
+	"message":"voucher/userVoucherUse",
+	"seq": 1,	
+	"content": {
+		"userVoucherId": "<<userVoucherId>>"
+	},
+	"ack": null
+}

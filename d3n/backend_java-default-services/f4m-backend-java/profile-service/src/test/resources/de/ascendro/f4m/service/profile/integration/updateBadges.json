@@ -1,0 +1,11 @@
+{
+	"message":"profile/updateProfileBlob",
+	"seq": 123,	
+	"content": {
+		"userId": "555",
+		"name": "badges",
+		"value": [{"id": 1,"code":"bestPlayer", "title":"Best player badge"},
+			{"id": 2,"code":"firstPlace", "title":"First place badge"}]		
+	},
+	"ack": null
+}

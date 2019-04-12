@@ -1,0 +1,70 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+  <title>Node Authentication</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <style>
+    body     { padding-top:80px; word-wrap:break-word; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="page-header text-center">
+    <h1><span class="fa fa-anchor"></span> Profile Page</h1>
+    <a href="/" class="btn btn-default btn-sm">Home</a>
+    <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+  </div>
+
+  <div class="row">
+
+    <div class="col">
+      <div class="well">
+          <h3><span class="fa fa-user"></span> Received JWT</h3>
+
+		  <div class="alert alert-success">
+
+			  <p>
+				<strong>JWT</strong>: <%= user.token %><br>
+			  </p>
+			  <p>
+				<strong>JWT Header: Algorythm</strong>: <%= user.header.alg %>
+			  </p>
+			  <p>
+				<strong>JWT Header: Type</strong>: <%= user.header.typ %>
+			  </p>
+
+          </div>
+
+		  <div class="alert alert-info">
+
+			  <%if (user.payload) { %>
+			  <p>
+				  <strong>JWT Payload: User ID</strong>: <%= user.payload.userid %><br>
+			  </p>
+			  <p>
+				  <strong>JWT Payload: User Roles</strong>: <%= user.payload.roles.join() %><br>
+			  </p>
+			  <% } %>
+			  <p>
+				<strong>JWT Payload: Issued At</strong>: <%= user.payload.iat %>
+			  </p>
+			  <p>
+				<strong>JWT Payload: Expired In</strong>: <%= user.payload.exp %>
+			  </p>
+			  <p>
+				<strong>JWT Payload: Issuer</strong>: <%= user.payload.iss %>
+			  </p>
+
+          </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</body>
+</html>

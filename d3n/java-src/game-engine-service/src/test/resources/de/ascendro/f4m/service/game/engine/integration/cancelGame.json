@@ -1,0 +1,8 @@
+{   
+   "message": "gameEngine/cancelGame",
+    "seq": 987313,
+    "content":{
+         "gameInstanceId": "<<gameInstanceId>>"
+    },
+	"ack": null
+}

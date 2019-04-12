@@ -1,0 +1,25 @@
+{
+	"message":"profile/findListByIdentifiers",
+	"seq": 202,	
+	"content": {
+		"identifiers": [
+          {
+              "identifierType": "PHONE",
+              "identifier": "25678956"
+          },
+          {
+            "identifierType": "PHONE",
+            "identifier": "255689988"
+          },
+          {
+            "identifierType": "PHONE",
+            "identifier": "255689989"
+          },
+          {
+            "identifierType": "EMAIL",
+            "identifier": "test@mail.com"
+          }
+		]
+	},
+	"ack": null
+}

@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-shop-service",
+  "version": "0.0.1",
+  "description": "Node.JS Shop Factory MicroService",
+  "main": "index.js",
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "scripts": {
+    "start": "node index.js --build",
+    "fake": "node index.js --build-fake",
+    "test": "../../node_modules/.bin/istanbul cover --report cobertura --report lcov ../../node_modules/mocha/bin/_mocha app/test/unit/index.js -- --reporter mocha-sonar-generic-test-coverage --reporter-options mochaFile=./unit/test-results.xml --timeout=5000",
+    "test-no-reporting": "../../node_modules/.bin/mocha app/test/unit/test-no-reporting.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

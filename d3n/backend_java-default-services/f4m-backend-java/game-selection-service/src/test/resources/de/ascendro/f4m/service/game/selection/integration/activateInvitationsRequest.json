@@ -1,0 +1,8 @@
+{
+    "message": "gameSelection/activateInvitations",
+    "seq": 400,
+    "content": {
+    	"mgiId": "<<mgiId>>"
+	},
+	"ack": null
+}

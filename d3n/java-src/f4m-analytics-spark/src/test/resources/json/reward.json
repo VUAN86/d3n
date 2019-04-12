@@ -1,0 +1,26 @@
+{
+  "value": {
+    "eventTimestamp": 1490219445,
+    "eventType": "de.ascendro.f4m.server.analytics.model.RewardEvent",
+    "userId": "1489132260280106bbb98-e88c-428a-aa35-aa17bef35cc4",
+    "tenantId": "t1",
+    "appId": "2",
+    "sessionIp": "5.2.193.26",
+    "countryCode": "DE",
+    "eventData": {
+      "jsonObject": {
+        "gameId": 14,
+        "voucherId": 4,
+        "voucherWon": true,
+        "superPrizeWon": false,
+        "bonusPointsWon": 500,
+        "creditWon": 0,
+        "moneyWon": 0.0,
+        "freeWinningComponentsPlayed": true,
+        "paidWinningComponentsPlayed": false,
+        "tombolaId": 7,
+        "gameInstanceId": "1489079199969a3897882-f7e0-41e6-a564-6422e99bb809"
+      }
+    }
+  }
+}

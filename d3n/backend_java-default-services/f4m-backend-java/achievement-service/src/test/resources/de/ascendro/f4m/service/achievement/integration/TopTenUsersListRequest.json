@@ -1,0 +1,11 @@
+{
+  "message":"achievement/topUsersList",
+  "seq": 1,
+  "content": {
+    "limit": 10,
+    "offset": 0,
+    "badgeType" : "<<BADGE_TYPE>>",
+    "friendsOnly": <<FRIENDS_ONLY>>
+  },
+  "ack": null
+}

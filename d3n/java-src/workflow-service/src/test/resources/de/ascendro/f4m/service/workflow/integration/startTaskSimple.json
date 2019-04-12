@@ -1,0 +1,10 @@
+{
+	"message":"workflow/start",
+	"seq": 201,	
+	"content": {
+		"taskId":"1",
+		"taskType":"SplitFlowProcess",
+		"description":"lorem ipsum"
+	},
+	"ack": null
+}

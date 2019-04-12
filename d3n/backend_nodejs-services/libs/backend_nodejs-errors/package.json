@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-errors",
+  "version": "0.0.1",
+  "description": "Node.JS error codes",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/f4m/backend_nodejs-errors.git#development"
+  },
+  "private": true,  
+  "author": "Ascendro",
+  "license": "Ascendro",
+  "dependencies": {
+  },
+  
+  "devDependencies": {
+  }
+  
+}

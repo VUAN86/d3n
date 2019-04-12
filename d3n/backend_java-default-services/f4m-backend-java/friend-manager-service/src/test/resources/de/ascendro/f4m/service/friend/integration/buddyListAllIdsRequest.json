@@ -1,0 +1,10 @@
+{
+	"message": "friend/buddyListAllIds",
+	"seq": 123,	
+	"content": {
+		"userId": "<<userId>>",
+		"includedRelationTypes": "<<includedRelationTypes>>",
+		"excludedRelationTypes": "<<excludedRelationTypes>>"
+	},
+	"ack": null
+}

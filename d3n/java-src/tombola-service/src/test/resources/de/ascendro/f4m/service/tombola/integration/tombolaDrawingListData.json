@@ -1,0 +1,90 @@
+{
+  "appId:60551c1e-a718-333-80f5-76304dec7eb7:drawDate:2017-01-14": {
+    "1": {
+      "tombolaId": "1",
+      "name": "best tombola",
+      "drawDate": "2017-01-11T01:01:01Z",
+      "totalTicketsNumber": 153,
+      "imageId": "tombola1",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        },
+        {
+          "prizeId": "1",
+          "ticketId": 150,
+          "userId": "userid321fdsf",
+          "ticketCode": "123123",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        },
+        {
+          "prizeId": "2",
+          "ticketId": 153,
+          "userId": "userid321fdsf",
+          "ticketCode": "123123",
+          "name": "Second prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        },
+        {
+          "prizeId": "consolation",
+          "ticketId": 33,
+          "userId": "adsfasdf",
+          "ticketCode": "4434343",
+          "name": "Consolation prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        }]
+    },
+    "2": {
+      "tombolaId": "2",
+      "name": "worst tombola",
+      "drawDate": "2017-01-11T01:01:01Z",
+      "totalTicketsNumber": 0,
+      "imageId": "tombola2",
+      "winners": [
+        {
+          "prizeId": "1",
+          "ticketId": 12,
+          "userId": "userid1235adf",
+          "ticketCode": "123000",
+          "name": "First prize",
+          "type": "BONUS",
+          "amount": 1000,
+          "imageId": "abc"
+        },
+        {
+          "prizeId": "2",
+          "ticketId": 153,
+          "userId": "userid321fdsf",
+          "ticketCode": "123123",
+          "name": "Second prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        },
+        {
+          "prizeId": "consolation",
+          "ticketId": 33,
+          "userId": "adsfasdf",
+          "ticketCode": "4434343",
+          "name": "Consolation prize",
+          "type": "VOUCHER",
+          "imageId": "abcd",
+          "voucherId": "voucherid123"
+        }]
+    }
+  }
+}

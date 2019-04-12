@@ -1,0 +1,19 @@
+{
+	"message":"winning/userWinningGet",
+	"seq": 123,
+	"content": {
+		"userWinningId": "<<userWinningId>>"
+	},
+	"ack": null,
+	"clientInfo":{
+		"profile": {
+			"userId": "test_user",
+			"roles": ["any_role"]
+		},
+		"appConfig": {
+			"tenantId": "test_tenant",
+			"appId": "60551c1e-a718-333-80f5-76304dec7eb7"
+		},
+		"ip": "1.1.1.1"
+	}
+}

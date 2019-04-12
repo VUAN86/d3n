@@ -1,0 +1,9 @@
+{
+	"message":"friend/playerIsGroupMember",
+	"seq": 1,	
+	"content": {
+		"userId": "<<userId>>",
+		"groupId": "<<groupId>>"
+	},
+	"ack": null
+}

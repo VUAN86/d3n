@@ -1,0 +1,12 @@
+{
+    "message": "event/publish",
+    "seq": 200,
+    "content":{
+     	"topic":"{topic}",
+     	"notification-content": {
+     		"score": 100,
+     		"status": 898
+     	}
+ 	},
+ 	"ack": null
+}

@@ -1,0 +1,10 @@
+{
+	"message":"payment/initExternalPaymentResponse",
+	"seq": 203,
+	"content": {
+		"transactionId": "54321",
+		"paymentToken": "C3F10AD7CE4CC89213B0AFECEA296938.sbg-vm- fe02"
+	},
+	"ack":[53],
+	"error":null
+}

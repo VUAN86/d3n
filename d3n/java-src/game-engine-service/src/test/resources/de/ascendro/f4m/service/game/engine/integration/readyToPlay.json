@@ -1,0 +1,8 @@
+{   
+   "message": "gameEngine/readyToPlay",
+    "seq": 201,
+    "content":{
+         "gameInstanceId": "<<gameInstanceId>>"
+    },
+	"ack": null
+}

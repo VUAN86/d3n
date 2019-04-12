@@ -1,0 +1,9 @@
+{
+  "message": "tombola/tombolaList",
+  "seq": 202,
+  "content": {
+    "limit": <<limit>>,
+    "offset": <<offset>>
+  },
+  "ack": null
+}

@@ -1,0 +1,8 @@
+{
+  "message":"friend/groupLeave",
+  "seq": 1,
+  "content": {
+    "groupId": <<groupId>>
+  },
+  "ack": null
+}

@@ -1,0 +1,45 @@
+{
+  "badgeList:TENANT1:GAME": {
+    "BADGE1": {
+      "id": "BADGE_B1",
+      "tenantId": "TENANT1",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:01:01Z"
+    },
+    "BADGE2": {
+      "id": "BADGE_B2",
+      "tenantId": "TENANT1",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:02:01Z"
+    },
+    "BADGE3": {
+      "id": "BADGE_B3",
+      "tenantId": "TENANT1",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:04:01Z"
+    },
+    "BADGE4": {
+      "id": "BADGE_B4",
+      "tenantId": "TENANT1",
+      "rules" : [
+      	{"rule" : "RULE_GAME_PLAYED",
+      	 "level" : 100	
+      	},
+      	{"rule" : "RULE_GAME_WON_GAMES",
+      	 "level" : 25	
+      	}
+      ],
+      "createdOn": "2017-01-01T01:03:01Z"
+    },
+    "BADGE5": {
+      "id": "BADGE_B5",
+      "tenantId": "TENANT1",
+      "rules" : [
+      ],
+      "createdOn": "2017-01-01T01:10:01Z"
+    }
+  }
+}

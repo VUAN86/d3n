@@ -1,0 +1,8 @@
+{
+	"message" : "userMessage/cancelUserPush",
+	"seq": 47,
+	"content" : {
+		"notificationIds" : ["notification-abc", "notification-123"]
+	},
+	"ack": null
+}

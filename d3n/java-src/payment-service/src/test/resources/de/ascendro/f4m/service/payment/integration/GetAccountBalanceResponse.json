@@ -1,0 +1,10 @@
+{
+	"message":"payment/getAccountBalanceResponse",
+	"seq": 1515313,
+	"content": {
+		"amount": 12.34,		
+		"currency": "MONEY"
+	},
+	"ack":[91],
+	"error":null
+}

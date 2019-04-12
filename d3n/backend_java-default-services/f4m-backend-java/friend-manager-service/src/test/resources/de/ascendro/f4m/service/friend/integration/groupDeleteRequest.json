@@ -1,0 +1,8 @@
+{
+  "message":"friend/groupDelete",
+  "seq": 1,
+  "content": {
+    "groupId" : "<<groupId>>"
+  },
+  "ack": null
+}
